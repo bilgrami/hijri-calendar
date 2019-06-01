@@ -1,4 +1,8 @@
 {
-    "python.pythonPath": "C:\\Program Files\\Python37\\python.exe",
-    "workbench.colorTheme": "Solarized Dark"
+    //"python.pythonPath": "{workspaceFolder}/.virtualenvs/myproject_env/Scripts/python",
+    "workbench.colorTheme": "Solarized Dark",
+    "python.pythonPath": "${workspaceFolder}/.virtualenvs/myproject_env/Scripts/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+   
 }

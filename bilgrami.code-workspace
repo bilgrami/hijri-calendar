@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "S:\\Code\\projects\\hijri-calendar"
+		}
+	],
+	"settings": {
+		"python.envFile": "${workspaceFolder}/.virtualenvs"
+	}
+}
