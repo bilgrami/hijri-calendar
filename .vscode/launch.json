@@ -35,12 +35,13 @@
             "name": "Python: Django",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/manage.py",
+            "program": "${workspaceFolder}/project/hijri_calendar_project/manage.py",
             "console": "integratedTerminal",
             "args": [
                 "runserver",
                 "--noreload",
-                "--nothreading"
+                "--nothreading",
+                "5000"
             ],
             "django": true
         },

@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"python.envFile": "${workspaceFolder}/.virtualenvs"
+		"python.envFile": "${workspaceFolder}/.virtualenvs",
+		"workbench.colorTheme": "Monokai Dimmed"
 	}
 }

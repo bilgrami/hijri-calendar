@@ -1,4 +1,4 @@
 # Pillow
-# mysqlclient
 Django
 psycopg2
+envs
