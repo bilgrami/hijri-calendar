@@ -3,15 +3,21 @@ version: '3'
 services:
   db:
     image: postgres
-    env_file: .env
+    env_file: ./config/db.env
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    
   web:
     image: bilgrami/hijri-calendar:latest
+    env_file: ./config/web.env
     volumes:
-      # - ./project/hijri_calendar_project:/usr/local/project/hijri_calendar_project
       - ${HOST_PROJECT_FOLDER}:${TARGET_PROJECT_FOLDER}
     ports:
       - "5000:5000"
     depends_on:
       - db
-  redis:
-    image: "redis:alpine"
+
+  # redis:
+  #   image: "redis:alpine"
+volumes:
+  postgres:
