@@ -39,7 +39,7 @@
             "console": "integratedTerminal",
             "args": [
                 "runserver",
-                "--noreload",
+                //"--noreload",
                 "--nothreading",
                 "5000"
             ],
