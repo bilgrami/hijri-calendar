@@ -1,0 +1,14 @@
+version: "2"
+services:
+  django:
+    container_name: django_server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: bilgrami/hijri-calendar:latest
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/project
+    ports:
+      - "8000:8000"
