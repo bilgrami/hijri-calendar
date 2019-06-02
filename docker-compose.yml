@@ -1,14 +1,13 @@
-version: "2"
+version: '3'
+
 services:
-  django:
-    container_name: django_server
-    build:
-      context: .
-      dockerfile: Dockerfile
+  db:
+    image: postgres
+  web:
     image: bilgrami/hijri-calendar:latest
-    stdin_open: true
-    tty: true
-    volumes:
-      - .:/project
     ports:
-      - "8000:8000"
+      - "5000:5000"
+    depends_on:
+      - db
+  redis:
+    image: "redis:alpine"

@@ -14,6 +14,26 @@
                 "panel": "new"
             },
             "problemMatcher": []
-        }
+        },
+        {
+            "label": "Docker - Build and Run",
+            "type": "shell",
+            "command": "docker build --rm -f 'Dockerfile' -t bilgrami/hijri-calendar:latest .; docker run --rm -it -p 5000:5000/tcp bilgrami/hijri-calendar:latest",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+        },
+            {
+                "label": "Docker-Compose - run and launch bash to web",
+                "type": "shell",
+                "command": "docker build --rm -f 'Dockerfile' -t bilgrami/hijri-calendar:latest .; docker-compose up -d; docker-compose exec web bash;",
+                "group": "build",
+                "presentation": {
+                    "reveal": "always",
+                    "panel": "new"
+                },
+        },
     ]
 }
