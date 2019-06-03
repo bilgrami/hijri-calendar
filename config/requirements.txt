@@ -2,3 +2,8 @@
 Django
 psycopg2
 envs
+django-extensions
+ipython
+tornado
+pyzmq
+jupyter
