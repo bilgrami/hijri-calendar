@@ -82,7 +82,6 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -104,4 +103,4 @@ venv.bak/
 .mypy_cache/
 .vscode/bilgrami-hijri-calendar.code-workspace
 .virtualenvs/
-
+docs/notes.txt
