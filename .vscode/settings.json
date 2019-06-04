@@ -4,5 +4,10 @@
     "python.pythonPath": "${workspaceFolder}/.virtualenvs/myproject_env/Scripts/python",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
+    "appService.zipIgnorePattern": [
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "",
+    "appService.deploySubpath": "",
    
 }

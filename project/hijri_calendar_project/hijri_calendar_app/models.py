@@ -2,11 +2,11 @@ from django.db import models
 
 # Create your models here.
 class DataFile(models.Model):
-    FileName = models.CharField(max_length = 30, unique = True),
+    FileName = models.CharField(max_length = 30, unique = True)
     FileType= models.CharField(max_length = 20)
 
     def __str__(self):
-        return f"{self.FileName}"
+        return f"{self.FileName}.{self.FileType}"
 
 class HijriCalendar(models.Model):
     Islamic_month_choices = [

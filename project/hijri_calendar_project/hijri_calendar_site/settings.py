@@ -33,6 +33,7 @@ CSRF_TRUSTED_ORIGINS = ALLOWED_HOSTS
 # Application definition
 
 INSTALLED_APPS = [
+    'hijri_calendar_app.apps.HijriCalendarWebsiteConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,8 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
-    'hijri_calendar_app.apps.HijriCalendarWebsiteConfig',
-]
+ ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
+
 ]
 
 ROOT_URLCONF = 'hijri_calendar_site.urls'
@@ -126,6 +126,7 @@ USE_TZ = True
 STATIC_URL = env('STATIC_URL','/static/')
 
 NOTEBOOK_ARGUMENTS = [
+    #'--notebook-dir', 'notebooks',
     # exposes IP and port
     '--ip=0.0.0.0',
     '--port=8888',
@@ -133,3 +134,9 @@ NOTEBOOK_ARGUMENTS = [
     # disables the browser
     '--no-browser',
  ]
+
+def print_settings():
+    from django.conf import settings
+    print (f"You are using [{settings.DATABASES['default']['NAME']}] as your default database");
+
+print_settings()

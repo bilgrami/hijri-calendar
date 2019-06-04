@@ -16,9 +16,9 @@
             "problemMatcher": []
         },
         {
-            "label": "Docker-Compose - bash shell into web ",
+            "label": "Docker-Compose - web - bash shell",
             "type": "shell",
-            "command": "docker-compose exec web bash;",
+            "command": "docker-compose exec web bash",
             "group": "build",
             "presentation": {
                 "reveal": "always",
@@ -27,7 +27,7 @@
             "problemMatcher": []
         },
         {
-            "label": "Docker-Compose - bash shell into db ",
+            "label": "Docker-Compose - db - bash shell",
             "type": "shell",
             "command": "docker-compose exec db bash;",
             "group": "build",
@@ -38,7 +38,7 @@
             "problemMatcher": []
         },
         {
-            "label": "Docker-Compose - check web logs",
+            "label": "Docker-Compose - web - check logs",
             "type": "shell",
             "command": "docker logs -t -f hijri-calendar_web_1",
             "group": "build",
@@ -49,9 +49,9 @@
             "problemMatcher": []
         },
         {
-            "label": "Docker-Compose - start notebook on web",
+            "label": "Docker-Compose - web - start notebook server",
             "type": "shell",
-            "command": "docker-compose exec web bash -c python ./hijri_calendar_project/manage.py shell_plus --notebook ",
+            "command": "docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && python manage.py shell_plus --notebook'",
             "group": "build",
             "presentation": {
                 "reveal": "always",
@@ -59,7 +59,17 @@
             },
             "problemMatcher": []
         },
-
+        {
+            "label": "Docker-Compose - web - make migrations",
+            "type": "shell",
+            "command": "docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && python manage.py makemigrations && python manage.py migrate'",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
         
     ]
 }
