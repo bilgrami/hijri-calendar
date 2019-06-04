@@ -47,7 +47,18 @@
                 "panel": "new"
             },
             "problemMatcher": []
-        }
+        },
+        {
+            "label": "Docker-Compose - start notebook on web",
+            "type": "shell",
+            "command": "docker-compose exec web bash -c python ./hijri_calendar_project/manage.py shell_plus --notebook ",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
 
         
     ]
