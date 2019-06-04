@@ -13,9 +13,10 @@ services:
     volumes:
       - ${HOST_PROJECT_FOLDER}:${TARGET_PROJECT_FOLDER}
     ports:
-      - "5000:5000"
+      - "${SERVER_PORT}:${SERVER_PORT}"
+      - "${iPYTHON_NOTEBOOK_PORT}:${iPYTHON_NOTEBOOK_PORT}"
     depends_on:
-      - db
+       - db
 
   # redis:
   #   image: "redis:alpine"
