@@ -5,6 +5,9 @@ class DataFile(models.Model):
     FileName = models.CharField(max_length = 30, unique = True),
     FileType= models.CharField(max_length = 20)
 
+    def __str__(self):
+        return f"{self.FileName}"
+
 class HijriCalendar(models.Model):
     Islamic_month_choices = [
         (1, 'MUHARRAM'),
@@ -22,11 +25,21 @@ class HijriCalendar(models.Model):
     ]
 
     dateValue = models.DateField("Gregorian Date", unique = True)
-    dataFile =  models.ForeignKey(DataFile, on_delete = models.CASCADE)
-
     lunarDay = models.CharField("Lunar Day", max_length = 30)
     lunarMonth = models.CharField("Lunar Month", max_length = 2, choices = Islamic_month_choices)
     lunarYear = models.CharField("Lunar Year", max_length = 30)
     day = models.SmallIntegerField("Gregorian Day")
     month = models.CharField("Gregorian Month", max_length = 9)
     year = models.SmallIntegerField("Gregorian Year", )
+
+    dataFile =  models.ForeignKey(DataFile, on_delete = models.CASCADE)
+
+    class Meta:
+        get_latest_by = "dateValue"
+        ordering = ["-dateValue"]
+        unique_together = ("lunarYear", "lunarMonth", "lunarDay")
+        verbose_name = "hijri islamic calendar"
+
+    def __str__(self):
+        date_value = self.dateValue.strftime("%Y-%m-%d")
+        return f"Date is {date_value} which is {self.lunarDay} of {self.lunarMonth} on {self.lunarYear} Hijri"
