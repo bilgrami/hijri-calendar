@@ -7,7 +7,18 @@
         {
             "label": "Docker-Compose - build and run",
             "type": "shell",
-            "command": "docker build --rm -f 'Dockerfile' -t bilgrami/hijri-calendar:latest .; docker-compose up;",
+            "command": "docker build --rm -f 'Dockerfile' -t bilgrami/hijricalendar:latest .; docker-compose up;",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Docker-Compose - build and push to docker repo",
+            "type": "shell",
+            "command": "docker build --rm -f 'Dockerfile' -t bilgrami/hijricalendar:latest .; docker push bilgrami/hijricalendar:latest;",
             "group": "build",
             "presentation": {
                 "reveal": "always",
@@ -60,9 +71,9 @@
             "problemMatcher": []
         },
         {
-            "label": "Docker-Compose - web - make migrations",
+            "label": "Docker-Compose - web - run django shell_plus",
             "type": "shell",
-            "command": "docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && python manage.py makemigrations && python manage.py migrate'",
+            "command": "docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && python manage.py shell_plus'",
             "group": "build",
             "presentation": {
                 "reveal": "always",
@@ -70,6 +81,29 @@
             },
             "problemMatcher": []
         },
+        {
+            "label": "Docker-Compose - web - run initialization script",
+            "type": "shell",
+            "command": "docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project/shell_scripts && chmod +x init_script.sh && ./init_script.sh'",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Docker-Compose - web - start notebook server",
+            "type": "shell",
+            "command": "docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && python manage.py shell_plus --notebook'",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        
         
     ]
 }

@@ -20,3 +20,22 @@ def comments(request, comment_id, **kwargs):
 
 def paged_comments(request, page_number, **kwargs):
     return HttpResponse(_get_date() + "You want to see comments on page number " + page_number + '. Arguments: ' + _get_kwargs(**kwargs))
+
+from .models import DataFile, HijriCalendar
+from rest_framework import viewsets
+from .serializers import  DataFileSerializer, HijriCalendarSerializer 
+
+class DataFileViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows users to be viewed or edited.
+    """
+    queryset = DataFile.objects.all().order_by('FileName')
+    serializer_class = DataFileSerializer
+
+
+class HijriCalendarViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows groups to be viewed or edited.
+    """
+    queryset = HijriCalendar.objects.all().order_by('-dateValue')
+    serializer_class = HijriCalendarSerializer

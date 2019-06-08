@@ -16,11 +16,20 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from django.urls import re_path
+from rest_framework import routers
+
+from hijri_calendar_app import views
+
+router = routers.DefaultRouter()
+router.register(r'datafiles', views.DataFileViewSet)
+router.register(r'calendar', views.HijriCalendarViewSet)
 
 urlpatterns = [
     path('web/<str:name>', include('hijri_calendar_app.urls')),
     # re_path(r'comments/(?:page-(?P<page_number>\d+)/)?$', include('hijri_calendar_app.urls')),  # good
     path('comments/', include('hijri_calendar_app.urls')),  # good
+    path('', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 
     path('admin/', admin.site.urls),
 ]

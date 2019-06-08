@@ -5,3 +5,4 @@ envs
 django-extensions
 ipython
 jupyter
+djangorestframework

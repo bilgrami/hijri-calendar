@@ -26,7 +26,7 @@ SECRET_KEY = '!r71&*14evg0slrxi+lqkrl5uq%&-oz5=y@=6^7ck&wglssv_@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG',False,var_type='boolean')
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost']
+ALLOWED_HOSTS = ['0.0.0.0','127.0.0.1','localhost','mooncal.azurewebsites.net']
 CSRF_TRUSTED_ORIGINS = ALLOWED_HOSTS
 
 
@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
+    'rest_framework',
+
  ]
 
 MIDDLEWARE = [
@@ -140,3 +142,8 @@ def print_settings():
     print (f"You are using [{settings.DATABASES['default']['NAME']}] as your default database");
 
 print_settings()
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10
+}

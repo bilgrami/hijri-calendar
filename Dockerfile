@@ -1,5 +1,5 @@
 FROM bilgrami/python-base:latest
-LABEL Name=hijri_calendar Version=0.0.1 maintainer="Syed Bilgrami <bilgrami@gmail.com>"
+LABEL Name=hijricalendar Version=0.0.1 maintainer="Syed Bilgrami <bilgrami@gmail.com>"
 
 
 ARG PROJECT_ROOT=/usr/local/project
@@ -17,9 +17,9 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 # install python packages
 WORKDIR $PROJECT_ROOT
-COPY /config/requirements.txt $CONFIG_ROOT/requirements.txt
+COPY requirements.txt requirements.txt
 RUN  python -m pip install --upgrade pip && \
-     pip install -r $CONFIG_ROOT/requirements.txt; 
+     pip install -r requirements.txt; 
 ADD ./project $PROJECT_ROOT 
 
 
