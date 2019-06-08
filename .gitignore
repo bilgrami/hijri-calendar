@@ -104,4 +104,4 @@ venv.bak/
 .vscode/bilgrami-hijri-calendar.code-workspace
 .virtualenvs/
 docs/notes.txt
-docker-compose-azure.yml
+# docker-compose-azure.yml
