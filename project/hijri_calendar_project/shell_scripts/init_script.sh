@@ -8,7 +8,7 @@ ADMIN_EMAIL="$ADMIN_EMAIL";
 ADMIN_PASSWD="$ADMIN_PASSWD";
 
 echo    email=$ADMIN_EMAIL
-
+ 
 __script="
 from django.contrib.auth.models import User;
 if (User.objects.filter(username = '$ADMIN_USER')): 
@@ -18,4 +18,4 @@ else:
 "
 echo "$__script" | python ../manage.py shell
 echo finished!
-echo -----------------------------------------
+echo ----------------------------------------- 
