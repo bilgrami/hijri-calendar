@@ -6,3 +6,4 @@ django-extensions
 ipython
 jupyter
 djangorestframework
+flake8

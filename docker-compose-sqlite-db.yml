@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+      - "8888:8888"
+    environment:
+      - "SECRET_KEY=!r71&*14evg0slrxi+lqkrl5uq%&-oz5:y@:6^7ck&wglssv_@;"
+      - "HOST_PROJECT_FOLDER=./project/hijri_calendar_project"
+      - "TARGET_PROJECT_FOLDER=/usr/local/project/hijri_calendar_project"
+      - "STATIC_URL=/static/"
+      - "DEBUG=True"
+      - "SERVER_PORT=5000"
+      - "iPYTHON_NOTEBOOK_PORT=8888"
+      - "PROJECT_ROOT=/usr/local/project"
+      - "CONFIG_ROOT=/usr/local/project/config"
+      - "VIRTUAL_ENV=/usr/local/project/.virtualenvs/myproject_env"
+      - "ADMIN_USER=bilgrami"
+      - "ADMIN_PASSWD=admin!23"
+      - "ADMIN_EMAIL=bilgrami@gmail.com"

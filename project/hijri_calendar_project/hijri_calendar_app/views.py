@@ -1,29 +1,64 @@
-from django.shortcuts import render
-import datetime
-
-# Create your views here.
-from django.http import HttpResponse
-
-def _get_date():
-    now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    prefix = "[{}] - ".format(now)
-    return prefix
-
-def _get_kwargs(**kwargs):
-    return ', '.join("{}={}".format(key, value) for key, value in kwargs.items())
-
-def index(request, name = 'world'):
-    return HttpResponse(_get_date() + "Hello " + name + "! You're at the Hijri Calendar App index.")
-
-def comments(request, comment_id, **kwargs):
-    return HttpResponse(_get_date() + "You want to see comment #" + comment_id + '. Arguments: ' + _get_kwargs(**kwargs))
-
-def paged_comments(request, page_number, **kwargs):
-    return HttpResponse(_get_date() + "You want to see comments on page number " + page_number + '. Arguments: ' + _get_kwargs(**kwargs))
-
-from .models import DataFile, HijriCalendar
 from rest_framework import viewsets
-from .serializers import  DataFileSerializer, HijriCalendarSerializer 
+from .serializers import (
+  DataFileSerializer,
+  HijriCalendarSerializer
+)
+from .models import DataFile, HijriCalendar
+
+from django.shortcuts import render
+from django.views.generic import TemplateView
+
+
+class HomePageView(TemplateView):
+    template_name = "index.html"
+    
+
+class AboutPageView(TemplateView):
+    template_name = "about.html"
+
+
+# Add this view
+class DataPageView(TemplateView):
+    def get(self, request, **kwargs):
+        context = {
+            'data': [
+                {
+                    'name': 'Celeb 1',
+                    'worth': '3567892'
+                },
+                {
+                    'name': 'Celeb 2',
+                    'worth': '23000000'
+                },
+                {
+                    'name': 'Celeb 3',
+                    'worth': '1000007'
+                },
+                {
+                    'name': 'Celeb 4',
+                    'worth': '456789'
+                },
+                {
+                    'name': 'Celeb 5',
+                    'worth': '7890000'
+                },
+                {
+                    'name': 'Celeb 6',
+                    'worth': '12000456'
+                },
+                {
+                    'name': 'Celeb 7',
+                    'worth': '896000'
+                },
+                {
+                    'name': 'Celeb 8',
+                    'worth': '670000'
+                }
+            ]
+        }
+
+        return render(request, 'data.html', context)
+
 
 class DataFileViewSet(viewsets.ModelViewSet):
     """
