@@ -17,6 +17,6 @@ services:
       - "PROJECT_ROOT=/usr/local/project"
       - "CONFIG_ROOT=/usr/local/project/config"
       - "VIRTUAL_ENV=/usr/local/project/.virtualenvs/myproject_env"
-      - "ADMIN_USER=bilgrami"
+      - "ADMIN_USER=admin"
       - "ADMIN_PASSWD=admin!23"
-      - "ADMIN_EMAIL=bilgrami@gmail.com"
+      - "ADMIN_EMAIL=admin_user@gmail.com"
