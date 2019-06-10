@@ -171,15 +171,15 @@ def print_settings():
     if DEBUG:
         from django.conf import settings
         message = (
-            f"You are using [{settings.DATABASES['default']['ENGINE']}]"
-            f"as your database engine"
-            f"You are using [{settings.DATABASES['default']['NAME']}]"
-            f"as your default database"
+            f"You are using [{settings.DATABASES['default']['ENGINE']}] "
+            f"as your database engine\n"
+            f"You are using [{settings.DATABASES['default']['NAME']}] "
+            f"as your default database\n"
             )
         print(message)
 
 
-print_settings()
+# print_settings()
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': (
