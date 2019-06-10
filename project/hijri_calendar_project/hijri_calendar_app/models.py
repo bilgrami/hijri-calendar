@@ -43,7 +43,8 @@ class HijriCalendar(models.Model):
 
     dateValue = models.DateField("Gregorian Date", unique=True)
     lunarDay = models.CharField("Lunar Day", max_length=30)
-    lunarMonthLabel = models.CharField("Lunar Month Label", max_length=20, default=None)
+    lunarMonthLabel = models.CharField("Lunar Month Label",
+                                       max_length=20, default=None)
     lunarMonth = models.SmallIntegerField(
         "Lunar Month",
         choices=Islamic_month_choices
