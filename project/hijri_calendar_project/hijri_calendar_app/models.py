@@ -4,6 +4,7 @@ from django.db import models
 class DataFile(models.Model):
     FileName = models.CharField(max_length=30, unique=True)
     FileType = models.CharField(max_length=20)
+    DateLoaded = models.DateField("File Load Date", default=None)
 
     def __str__(self):
         return f"{self.FileName}.{self.FileType}"
@@ -25,16 +26,35 @@ class HijriCalendar(models.Model):
         (12, 'Zilhij')
     ]
 
+    month_choices = [
+        (1, 'January'),
+        (2, 'February'),
+        (3, 'March'),
+        (4, 'April'),
+        (5, 'May'),
+        (6, 'June'),
+        (7, 'July'),
+        (8, 'August'),
+        (9, 'September'),
+        (10, 'October'),
+        (11, 'Novemeber'),
+        (12, 'December')
+    ]
+
     dateValue = models.DateField("Gregorian Date", unique=True)
     lunarDay = models.CharField("Lunar Day", max_length=30)
-    lunarMonth = models.CharField(
+    lunarMonthLabel = models.CharField("Lunar Month Label", max_length=20, default=None)
+    lunarMonth = models.SmallIntegerField(
         "Lunar Month",
-        max_length=2,
         choices=Islamic_month_choices
         )
-    lunarYear = models.CharField("Lunar Year", max_length=30)
+    lunarYear = models.SmallIntegerField("Lunar Year")
     day = models.SmallIntegerField("Gregorian Day")
-    month = models.CharField("Gregorian Month", max_length=9)
+    monthLabel = models.CharField("Month Label", max_length=20, default=None)
+    month = models.SmallIntegerField(
+        "Gregorian Month",
+        choices=month_choices
+    )
     year = models.SmallIntegerField("Gregorian Year", )
 
     dataFile = models.ForeignKey(DataFile, on_delete=models.CASCADE)
@@ -43,11 +63,11 @@ class HijriCalendar(models.Model):
         get_latest_by = "dateValue"
         ordering = ["-dateValue"]
         unique_together = ("lunarYear", "lunarMonth", "lunarDay")
-        verbose_name = "hijri islamic calendar"
+        verbose_name = "Hijri Islamic Calendar"
 
     def __str__(self):
         date_value = self.dateValue.strftime("%Y-%m-%d")
         return (
-            f"Date is {date_value} which is {self.lunarDay} of "
-            f"{self.lunarMonth} on {self.lunarYear} Hijri"
+            f"{date_value} {self.lunarDay} "
+            f"{self.lunarMonth} {self.lunarYear} Hijri"
         )
