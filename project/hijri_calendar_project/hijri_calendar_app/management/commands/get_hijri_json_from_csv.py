@@ -8,7 +8,7 @@ class Command(BaseCommand):
   Usage:
   python manage.py get_hijri_json_from_csv '../data/source/Y2019-hijri_calendar.csv' > ./hijri_calendar_app/fixtures/hijri_calendar_Y2019.json
   python manage.py loaddata hijri_calendar_Y2019
-  
+
   python manage.py get_hijri_json_from_csv '../data/source/Y2020-hijri_calendar.csv' > ./hijri_calendar_app/fixtures/hijri_calendar_Y2020.json
   python manage.py loaddata hijri_calendar_Y2020
 
@@ -32,6 +32,7 @@ class Command(BaseCommand):
     total_lines = 0
     with open(file_full_path) as csvfile:
       total_lines = sum(1 for line in csvfile)
+    total_data_rows = total_lines - 1  # totallines minus header
 
     result = '[\n' # {}
     with open(file_full_path) as csvfile:
@@ -59,11 +60,12 @@ class Command(BaseCommand):
           }
         }
         result += str(d)
-        # get rid of last comma
-        if rid < total_lines - 1: # totallines minus header
-          result += ',\n'
-        else:
-          result += '\n'
+
+        # skip comma for last row
+        if rid < total_data_rows:
+          result += ','
+
+        result += '\n'
 
 
     result += ']\n'
