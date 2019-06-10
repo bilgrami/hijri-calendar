@@ -1,0 +1,16 @@
+[
+    {
+        "model": "hijri_calendar_app.hijricalendar",
+        "pk": 1,
+        "fields": {
+            "dateValue": "2019-06-01",
+            "lunarDay": "1",
+            "lunarMonth": 2,
+            "lunarYear": 1440,
+            "day": 1,
+            "month": 6,
+            "year": 1976,
+            "dataFile": 1
+        }
+    }
+]
