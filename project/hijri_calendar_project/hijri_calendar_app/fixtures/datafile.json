@@ -3,18 +3,22 @@
         "model": "hijri_calendar_app.datafile",
         "pk": 1,
         "fields": {
-            "FileName": "Y2019-hijri_calendar",
-            "FileType": "json",
-            "DateLoaded" : "2019-06-09"
+            "file_name": "Y2019-hijri_calendar",
+            "file_type": "json",
+            "date_loaded" : "2019-06-09",
+            "created" : "2019-06-11",
+            "updated" : "2019-06-09"
         }
     },
     {
         "model": "hijri_calendar_app.datafile",
         "pk": 2,
         "fields": {
-            "FileName": "Y2020-hijri_calendar",
-            "FileType": "json",
-            "DateLoaded" : "2019-06-09"
+            "file_name": "Y2020-hijri_calendar",
+            "file_type": "json",
+            "date_loaded" : "2019-06-09",
+            "created" : "2019-06-11",
+            "updated" : "2019-06-09"
         }
     }
 

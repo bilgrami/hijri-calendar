@@ -64,7 +64,7 @@ class DataFileViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
-    queryset = DataFile.objects.all().order_by('FileName')
+    queryset = DataFile.objects.all().order_by('file_name')
     serializer_class = DataFileSerializer
 
 
@@ -72,5 +72,5 @@ class HijriCalendarViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows groups to be viewed or edited.
     """
-    queryset = HijriCalendar.objects.all().order_by('-dateValue')
+    queryset = HijriCalendar.objects.all().order_by('-date_value')
     serializer_class = HijriCalendarSerializer

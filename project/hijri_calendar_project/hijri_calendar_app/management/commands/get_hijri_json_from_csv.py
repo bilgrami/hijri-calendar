@@ -2,6 +2,7 @@ from django.core.management.base import BaseCommand, CommandError
 import json
 import csv
 import os
+from django.utils import timezone
 
 
 class Command(BaseCommand):
@@ -53,17 +54,19 @@ class Command(BaseCommand):
                     "model": "hijri_calendar_app.hijricalendar",
                     "pk": row[0],
                     "fields": {
-                        "dateValue": row[8] + "-" + row[7].zfill(2) + "-"
+                        "date_value": row[8] + "-" + row[7].zfill(2) + "-"
                         + row[5].zfill(2),
-                        "lunarDay": int(row[1]),
-                        "lunarMonth": int(row[2]),
-                        "lunarMonthLabel": row[3],
-                        "lunarYear": int(row[4]),
+                        "lunar_day": int(row[1]),
+                        "lunar_month": int(row[2]),
+                        "lunar_month_label": row[3],
+                        "lunar_year": int(row[4]),
                         "day": int(row[5]),
-                        "monthLabel": row[6],
+                        "month_label": row[6],
                         "month": int(row[7]),
                         "year": int(row[8]),
-                        "dataFile": int(row[9]),
+                        "data_file": int(row[9]),
+                        "created": str(timezone.now()),
+                        "updated": str(timezone.now()),
                         }
                         }
                 result += str(d)
