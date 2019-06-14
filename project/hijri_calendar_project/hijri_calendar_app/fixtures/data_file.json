@@ -1,9 +1,8 @@
 [
     {
         "model": "hijri_calendar_app.datafile",
-        "pk": 1,
+        "pk": "Y2019-hijri_calendar.json",
         "fields": {
-            "file_name": "Y2019-hijri_calendar",
             "file_type": "json",
             "date_loaded" : "2019-06-12 22:31:48",
             "created" : "2019-06-12 22:31:48",
@@ -12,9 +11,8 @@
     },
     {
         "model": "hijri_calendar_app.datafile",
-        "pk": 2,
+        "pk": "Y2020-hijri_calendar.json",
         "fields": {
-            "file_name": "Y2020-hijri_calendar",
             "file_type": "json",
             "date_loaded" : "2019-06-12 22:31:48",
             "created" : "2019-06-12 22:31:48",

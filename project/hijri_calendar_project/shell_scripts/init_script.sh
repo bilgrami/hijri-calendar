@@ -22,8 +22,8 @@ echo "$__script" | python manage.py shell
 echo finished!
 echo ----------------------------------------- 
 
-# python manage.py migrate --fake hijri_calendar_app zero
-# python manage.py migrate
+python manage.py migrate --fake hijri_calendar_app zero
+python manage.py migrate
 python manage.py loaddata data_file
 
 python manage.py get_hijri_json_from_csv \
