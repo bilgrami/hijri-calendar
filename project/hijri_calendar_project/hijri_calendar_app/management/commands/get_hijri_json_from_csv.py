@@ -7,6 +7,12 @@ from django.utils import timezone
 
 class Command(BaseCommand):
     """
+    pre-requisite:
+    python manage.py makemigrations
+    python manage.py migrate --fake hijri_calendar_app zero
+    python manage.py migrate
+    python manage.py loaddata data_file
+
     Usage:
     python manage.py get_hijri_json_from_csv \
     '../data/source/Y2019-hijri_calendar.csv' > \
@@ -56,14 +62,16 @@ class Command(BaseCommand):
                     "fields": {
                         "date_value": row[8] + "-" + row[7].zfill(2) + "-"
                         + row[5].zfill(2),
-                        "lunar_day": int(row[1]),
-                        "lunar_month": int(row[2]),
-                        "lunar_month_label": row[3],
-                        "lunar_year": int(row[4]),
                         "day": int(row[5]),
-                        "month_label": row[6],
                         "month": int(row[7]),
                         "year": int(row[8]),
+                        "month_name": row[6],
+                        "hijri_date_value": row[4] + "-" + row[2].zfill(2)
+                        + "-" + row[1].zfill(2),
+                        "hijri_day": int(row[1]),
+                        "hijri_month": int(row[2]),
+                        "hijri_year": int(row[4]),
+                        "hijri_month_name": row[3],
                         "data_file": int(row[9]),
                         "created": str(timezone.now()),
                         "updated": str(timezone.now()),

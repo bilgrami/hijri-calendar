@@ -1,4 +1,4 @@
-pk,LunarDay,LunarMonth,LunarMonthLabel,LunarYear,Day,monthLabel,month,Year,dataFile
+pk,LunarDay,LunarMonth,LunarMonthName,LunarYear,Day,monthName,month,Year,dataFile
 1,1,10,Shawwal,1440,5,June,6,2019,1
 2,2,10,Shawwal,1440,6,June,6,2019,1
 3,3,10,Shawwal,1440,7,June,6,2019,1

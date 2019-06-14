@@ -4,17 +4,18 @@
         "pk": "1",
         "fields": {
             "date_value": "2019-06-05",
-            "lunar_day": 1,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 5,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-01",
+            "hijri_day": 1,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.649984+00:00",
-            "updated": "2019-06-12 22:33:01.650043+00:00"
+            "created": "2019-06-14 00:35:11.777142+00:00",
+            "updated": "2019-06-14 00:35:11.777199+00:00"
         }
     },
     {
@@ -22,17 +23,18 @@
         "pk": "2",
         "fields": {
             "date_value": "2019-06-06",
-            "lunar_day": 2,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 6,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-02",
+            "hijri_day": 2,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650105+00:00",
-            "updated": "2019-06-12 22:33:01.650121+00:00"
+            "created": "2019-06-14 00:35:11.777267+00:00",
+            "updated": "2019-06-14 00:35:11.777286+00:00"
         }
     },
     {
@@ -40,17 +42,18 @@
         "pk": "3",
         "fields": {
             "date_value": "2019-06-07",
-            "lunar_day": 3,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 7,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-03",
+            "hijri_day": 3,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650163+00:00",
-            "updated": "2019-06-12 22:33:01.650178+00:00"
+            "created": "2019-06-14 00:35:11.777332+00:00",
+            "updated": "2019-06-14 00:35:11.777348+00:00"
         }
     },
     {
@@ -58,17 +61,18 @@
         "pk": "4",
         "fields": {
             "date_value": "2019-06-08",
-            "lunar_day": 4,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 8,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-04",
+            "hijri_day": 4,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650215+00:00",
-            "updated": "2019-06-12 22:33:01.650229+00:00"
+            "created": "2019-06-14 00:35:11.777391+00:00",
+            "updated": "2019-06-14 00:35:11.777406+00:00"
         }
     },
     {
@@ -76,17 +80,18 @@
         "pk": "5",
         "fields": {
             "date_value": "2019-06-09",
-            "lunar_day": 5,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 9,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-05",
+            "hijri_day": 5,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650266+00:00",
-            "updated": "2019-06-12 22:33:01.650280+00:00"
+            "created": "2019-06-14 00:35:11.777447+00:00",
+            "updated": "2019-06-14 00:35:11.777462+00:00"
         }
     },
     {
@@ -94,17 +99,18 @@
         "pk": "6",
         "fields": {
             "date_value": "2019-06-10",
-            "lunar_day": 6,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 10,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-06",
+            "hijri_day": 6,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650324+00:00",
-            "updated": "2019-06-12 22:33:01.650339+00:00"
+            "created": "2019-06-14 00:35:11.777501+00:00",
+            "updated": "2019-06-14 00:35:11.777515+00:00"
         }
     },
     {
@@ -112,17 +118,18 @@
         "pk": "7",
         "fields": {
             "date_value": "2019-06-11",
-            "lunar_day": 7,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 11,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-07",
+            "hijri_day": 7,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650375+00:00",
-            "updated": "2019-06-12 22:33:01.650438+00:00"
+            "created": "2019-06-14 00:35:11.777555+00:00",
+            "updated": "2019-06-14 00:35:11.777569+00:00"
         }
     },
     {
@@ -130,17 +137,18 @@
         "pk": "8",
         "fields": {
             "date_value": "2019-06-12",
-            "lunar_day": 8,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 12,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-08",
+            "hijri_day": 8,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650537+00:00",
-            "updated": "2019-06-12 22:33:01.650555+00:00"
+            "created": "2019-06-14 00:35:11.777608+00:00",
+            "updated": "2019-06-14 00:35:11.777622+00:00"
         }
     },
     {
@@ -148,17 +156,18 @@
         "pk": "9",
         "fields": {
             "date_value": "2019-06-13",
-            "lunar_day": 9,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 13,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-09",
+            "hijri_day": 9,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650594+00:00",
-            "updated": "2019-06-12 22:33:01.650608+00:00"
+            "created": "2019-06-14 00:35:11.777670+00:00",
+            "updated": "2019-06-14 00:35:11.777685+00:00"
         }
     },
     {
@@ -166,17 +175,18 @@
         "pk": "10",
         "fields": {
             "date_value": "2019-06-14",
-            "lunar_day": 10,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 14,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-10",
+            "hijri_day": 10,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650645+00:00",
-            "updated": "2019-06-12 22:33:01.650660+00:00"
+            "created": "2019-06-14 00:35:11.777725+00:00",
+            "updated": "2019-06-14 00:35:11.777740+00:00"
         }
     },
     {
@@ -184,17 +194,18 @@
         "pk": "11",
         "fields": {
             "date_value": "2019-06-15",
-            "lunar_day": 11,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 15,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-11",
+            "hijri_day": 11,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650697+00:00",
-            "updated": "2019-06-12 22:33:01.650711+00:00"
+            "created": "2019-06-14 00:35:11.777779+00:00",
+            "updated": "2019-06-14 00:35:11.777793+00:00"
         }
     },
     {
@@ -202,17 +213,18 @@
         "pk": "12",
         "fields": {
             "date_value": "2019-06-16",
-            "lunar_day": 12,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 16,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-12",
+            "hijri_day": 12,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650748+00:00",
-            "updated": "2019-06-12 22:33:01.650762+00:00"
+            "created": "2019-06-14 00:35:11.777904+00:00",
+            "updated": "2019-06-14 00:35:11.777926+00:00"
         }
     },
     {
@@ -220,17 +232,18 @@
         "pk": "13",
         "fields": {
             "date_value": "2019-06-17",
-            "lunar_day": 13,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 17,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-13",
+            "hijri_day": 13,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650798+00:00",
-            "updated": "2019-06-12 22:33:01.650812+00:00"
+            "created": "2019-06-14 00:35:11.777968+00:00",
+            "updated": "2019-06-14 00:35:11.777983+00:00"
         }
     },
     {
@@ -238,17 +251,18 @@
         "pk": "14",
         "fields": {
             "date_value": "2019-06-18",
-            "lunar_day": 14,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 18,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-14",
+            "hijri_day": 14,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650847+00:00",
-            "updated": "2019-06-12 22:33:01.650861+00:00"
+            "created": "2019-06-14 00:35:11.778022+00:00",
+            "updated": "2019-06-14 00:35:11.778036+00:00"
         }
     },
     {
@@ -256,17 +270,18 @@
         "pk": "15",
         "fields": {
             "date_value": "2019-06-19",
-            "lunar_day": 15,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 19,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-15",
+            "hijri_day": 15,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650896+00:00",
-            "updated": "2019-06-12 22:33:01.650910+00:00"
+            "created": "2019-06-14 00:35:11.778074+00:00",
+            "updated": "2019-06-14 00:35:11.778089+00:00"
         }
     },
     {
@@ -274,17 +289,18 @@
         "pk": "16",
         "fields": {
             "date_value": "2019-06-20",
-            "lunar_day": 16,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 20,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-16",
+            "hijri_day": 16,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650946+00:00",
-            "updated": "2019-06-12 22:33:01.650960+00:00"
+            "created": "2019-06-14 00:35:11.778127+00:00",
+            "updated": "2019-06-14 00:35:11.778141+00:00"
         }
     },
     {
@@ -292,17 +308,18 @@
         "pk": "17",
         "fields": {
             "date_value": "2019-06-21",
-            "lunar_day": 17,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 21,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-17",
+            "hijri_day": 17,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.650995+00:00",
-            "updated": "2019-06-12 22:33:01.651009+00:00"
+            "created": "2019-06-14 00:35:11.778180+00:00",
+            "updated": "2019-06-14 00:35:11.778194+00:00"
         }
     },
     {
@@ -310,17 +327,18 @@
         "pk": "18",
         "fields": {
             "date_value": "2019-06-22",
-            "lunar_day": 18,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 22,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-18",
+            "hijri_day": 18,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651044+00:00",
-            "updated": "2019-06-12 22:33:01.651058+00:00"
+            "created": "2019-06-14 00:35:11.778232+00:00",
+            "updated": "2019-06-14 00:35:11.778247+00:00"
         }
     },
     {
@@ -328,17 +346,18 @@
         "pk": "19",
         "fields": {
             "date_value": "2019-06-23",
-            "lunar_day": 19,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 23,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-19",
+            "hijri_day": 19,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651101+00:00",
-            "updated": "2019-06-12 22:33:01.651115+00:00"
+            "created": "2019-06-14 00:35:11.778285+00:00",
+            "updated": "2019-06-14 00:35:11.778299+00:00"
         }
     },
     {
@@ -346,17 +365,18 @@
         "pk": "20",
         "fields": {
             "date_value": "2019-06-24",
-            "lunar_day": 20,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 24,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-20",
+            "hijri_day": 20,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651151+00:00",
-            "updated": "2019-06-12 22:33:01.651165+00:00"
+            "created": "2019-06-14 00:35:11.778346+00:00",
+            "updated": "2019-06-14 00:35:11.778362+00:00"
         }
     },
     {
@@ -364,17 +384,18 @@
         "pk": "21",
         "fields": {
             "date_value": "2019-06-25",
-            "lunar_day": 21,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 25,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-21",
+            "hijri_day": 21,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651215+00:00",
-            "updated": "2019-06-12 22:33:01.651230+00:00"
+            "created": "2019-06-14 00:35:11.778400+00:00",
+            "updated": "2019-06-14 00:35:11.778414+00:00"
         }
     },
     {
@@ -382,17 +403,18 @@
         "pk": "22",
         "fields": {
             "date_value": "2019-06-26",
-            "lunar_day": 22,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 26,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-22",
+            "hijri_day": 22,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651267+00:00",
-            "updated": "2019-06-12 22:33:01.651280+00:00"
+            "created": "2019-06-14 00:35:11.778452+00:00",
+            "updated": "2019-06-14 00:35:11.778466+00:00"
         }
     },
     {
@@ -400,17 +422,18 @@
         "pk": "23",
         "fields": {
             "date_value": "2019-06-27",
-            "lunar_day": 23,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 27,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-23",
+            "hijri_day": 23,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651316+00:00",
-            "updated": "2019-06-12 22:33:01.651330+00:00"
+            "created": "2019-06-14 00:35:11.778516+00:00",
+            "updated": "2019-06-14 00:35:11.778531+00:00"
         }
     },
     {
@@ -418,17 +441,18 @@
         "pk": "24",
         "fields": {
             "date_value": "2019-06-28",
-            "lunar_day": 24,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 28,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-24",
+            "hijri_day": 24,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651473+00:00",
-            "updated": "2019-06-12 22:33:01.651527+00:00"
+            "created": "2019-06-14 00:35:11.778570+00:00",
+            "updated": "2019-06-14 00:35:11.778585+00:00"
         }
     },
     {
@@ -436,17 +460,18 @@
         "pk": "25",
         "fields": {
             "date_value": "2019-06-29",
-            "lunar_day": 25,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 29,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-25",
+            "hijri_day": 25,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651574+00:00",
-            "updated": "2019-06-12 22:33:01.651590+00:00"
+            "created": "2019-06-14 00:35:11.778623+00:00",
+            "updated": "2019-06-14 00:35:11.778637+00:00"
         }
     },
     {
@@ -454,17 +479,18 @@
         "pk": "26",
         "fields": {
             "date_value": "2019-06-30",
-            "lunar_day": 26,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 30,
-            "month_label": "June",
             "month": 6,
             "year": 2019,
+            "month_name": "June",
+            "hijri_date_value": "1440-10-26",
+            "hijri_day": 26,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651626+00:00",
-            "updated": "2019-06-12 22:33:01.651640+00:00"
+            "created": "2019-06-14 00:35:11.778675+00:00",
+            "updated": "2019-06-14 00:35:11.778924+00:00"
         }
     },
     {
@@ -472,17 +498,18 @@
         "pk": "27",
         "fields": {
             "date_value": "2019-07-01",
-            "lunar_day": 27,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 1,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-10-27",
+            "hijri_day": 27,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651682+00:00",
-            "updated": "2019-06-12 22:33:01.651697+00:00"
+            "created": "2019-06-14 00:35:11.778986+00:00",
+            "updated": "2019-06-14 00:35:11.779003+00:00"
         }
     },
     {
@@ -490,17 +517,18 @@
         "pk": "28",
         "fields": {
             "date_value": "2019-07-02",
-            "lunar_day": 28,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 2,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-10-28",
+            "hijri_day": 28,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651733+00:00",
-            "updated": "2019-06-12 22:33:01.651747+00:00"
+            "created": "2019-06-14 00:35:11.779044+00:00",
+            "updated": "2019-06-14 00:35:11.779058+00:00"
         }
     },
     {
@@ -508,17 +536,18 @@
         "pk": "29",
         "fields": {
             "date_value": "2019-07-03",
-            "lunar_day": 29,
-            "lunar_month": 10,
-            "lunar_month_label": "Shawwal",
-            "lunar_year": 1440,
             "day": 3,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-10-29",
+            "hijri_day": 29,
+            "hijri_month": 10,
+            "hijri_year": 1440,
+            "hijri_month_name": "Shawwal",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651783+00:00",
-            "updated": "2019-06-12 22:33:01.651797+00:00"
+            "created": "2019-06-14 00:35:11.779107+00:00",
+            "updated": "2019-06-14 00:35:11.779122+00:00"
         }
     },
     {
@@ -526,17 +555,18 @@
         "pk": "30",
         "fields": {
             "date_value": "2019-07-04",
-            "lunar_day": 1,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 4,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-01",
+            "hijri_day": 1,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651832+00:00",
-            "updated": "2019-06-12 22:33:01.651845+00:00"
+            "created": "2019-06-14 00:35:11.779162+00:00",
+            "updated": "2019-06-14 00:35:11.779176+00:00"
         }
     },
     {
@@ -544,17 +574,18 @@
         "pk": "31",
         "fields": {
             "date_value": "2019-07-05",
-            "lunar_day": 2,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 5,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-02",
+            "hijri_day": 2,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651881+00:00",
-            "updated": "2019-06-12 22:33:01.651895+00:00"
+            "created": "2019-06-14 00:35:11.779216+00:00",
+            "updated": "2019-06-14 00:35:11.779230+00:00"
         }
     },
     {
@@ -562,17 +593,18 @@
         "pk": "32",
         "fields": {
             "date_value": "2019-07-06",
-            "lunar_day": 3,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 6,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-03",
+            "hijri_day": 3,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651939+00:00",
-            "updated": "2019-06-12 22:33:01.651954+00:00"
+            "created": "2019-06-14 00:35:11.779269+00:00",
+            "updated": "2019-06-14 00:35:11.779283+00:00"
         }
     },
     {
@@ -580,17 +612,18 @@
         "pk": "33",
         "fields": {
             "date_value": "2019-07-07",
-            "lunar_day": 4,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 7,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-04",
+            "hijri_day": 4,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.651989+00:00",
-            "updated": "2019-06-12 22:33:01.652003+00:00"
+            "created": "2019-06-14 00:35:11.779322+00:00",
+            "updated": "2019-06-14 00:35:11.779336+00:00"
         }
     },
     {
@@ -598,17 +631,18 @@
         "pk": "34",
         "fields": {
             "date_value": "2019-07-08",
-            "lunar_day": 5,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 8,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-05",
+            "hijri_day": 5,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.652039+00:00",
-            "updated": "2019-06-12 22:33:01.652052+00:00"
+            "created": "2019-06-14 00:35:11.779375+00:00",
+            "updated": "2019-06-14 00:35:11.779389+00:00"
         }
     },
     {
@@ -616,17 +650,18 @@
         "pk": "35",
         "fields": {
             "date_value": "2019-07-09",
-            "lunar_day": 6,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 9,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-06",
+            "hijri_day": 6,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.652087+00:00",
-            "updated": "2019-06-12 22:33:01.652101+00:00"
+            "created": "2019-06-14 00:35:11.779429+00:00",
+            "updated": "2019-06-14 00:35:11.779443+00:00"
         }
     },
     {
@@ -634,17 +669,18 @@
         "pk": "36",
         "fields": {
             "date_value": "2019-07-10",
-            "lunar_day": 7,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 10,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-07",
+            "hijri_day": 7,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.652144+00:00",
-            "updated": "2019-06-12 22:33:01.652159+00:00"
+            "created": "2019-06-14 00:35:11.779482+00:00",
+            "updated": "2019-06-14 00:35:11.779496+00:00"
         }
     },
     {
@@ -652,17 +688,18 @@
         "pk": "37",
         "fields": {
             "date_value": "2019-07-11",
-            "lunar_day": 8,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 11,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-08",
+            "hijri_day": 8,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.652194+00:00",
-            "updated": "2019-06-12 22:33:01.652208+00:00"
+            "created": "2019-06-14 00:35:11.779535+00:00",
+            "updated": "2019-06-14 00:35:11.779549+00:00"
         }
     },
     {
@@ -670,17 +707,18 @@
         "pk": "38",
         "fields": {
             "date_value": "2019-07-12",
-            "lunar_day": 9,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 12,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-09",
+            "hijri_day": 9,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.652251+00:00",
-            "updated": "2019-06-12 22:33:01.652265+00:00"
+            "created": "2019-06-14 00:35:11.779588+00:00",
+            "updated": "2019-06-14 00:35:11.779602+00:00"
         }
     },
     {
@@ -688,17 +726,18 @@
         "pk": "39",
         "fields": {
             "date_value": "2019-07-13",
-            "lunar_day": 10,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 13,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-10",
+            "hijri_day": 10,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.652300+00:00",
-            "updated": "2019-06-12 22:33:01.652314+00:00"
+            "created": "2019-06-14 00:35:11.779646+00:00",
+            "updated": "2019-06-14 00:35:11.779661+00:00"
         }
     },
     {
@@ -706,17 +745,18 @@
         "pk": "40",
         "fields": {
             "date_value": "2019-07-14",
-            "lunar_day": 11,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 14,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-11",
+            "hijri_day": 11,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.652350+00:00",
-            "updated": "2019-06-12 22:33:01.652364+00:00"
+            "created": "2019-06-14 00:35:11.779700+00:00",
+            "updated": "2019-06-14 00:35:11.779714+00:00"
         }
     },
     {
@@ -724,17 +764,18 @@
         "pk": "41",
         "fields": {
             "date_value": "2019-07-15",
-            "lunar_day": 12,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 15,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-12",
+            "hijri_day": 12,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.652449+00:00",
-            "updated": "2019-06-12 22:33:01.652512+00:00"
+            "created": "2019-06-14 00:35:11.779753+00:00",
+            "updated": "2019-06-14 00:35:11.779767+00:00"
         }
     },
     {
@@ -742,17 +783,18 @@
         "pk": "42",
         "fields": {
             "date_value": "2019-07-16",
-            "lunar_day": 13,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 16,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-13",
+            "hijri_day": 13,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.652603+00:00",
-            "updated": "2019-06-12 22:33:01.652621+00:00"
+            "created": "2019-06-14 00:35:11.779805+00:00",
+            "updated": "2019-06-14 00:35:11.779865+00:00"
         }
     },
     {
@@ -760,17 +802,18 @@
         "pk": "43",
         "fields": {
             "date_value": "2019-07-17",
-            "lunar_day": 14,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 17,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-14",
+            "hijri_day": 14,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.652668+00:00",
-            "updated": "2019-06-12 22:33:01.652683+00:00"
+            "created": "2019-06-14 00:35:11.779934+00:00",
+            "updated": "2019-06-14 00:35:11.779950+00:00"
         }
     },
     {
@@ -778,17 +821,18 @@
         "pk": "44",
         "fields": {
             "date_value": "2019-07-18",
-            "lunar_day": 15,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 18,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-15",
+            "hijri_day": 15,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.652720+00:00",
-            "updated": "2019-06-12 22:33:01.652734+00:00"
+            "created": "2019-06-14 00:35:11.779991+00:00",
+            "updated": "2019-06-14 00:35:11.780005+00:00"
         }
     },
     {
@@ -796,17 +840,18 @@
         "pk": "45",
         "fields": {
             "date_value": "2019-07-19",
-            "lunar_day": 16,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 19,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-16",
+            "hijri_day": 16,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.652820+00:00",
-            "updated": "2019-06-12 22:33:01.652853+00:00"
+            "created": "2019-06-14 00:35:11.780045+00:00",
+            "updated": "2019-06-14 00:35:11.780059+00:00"
         }
     },
     {
@@ -814,17 +859,18 @@
         "pk": "46",
         "fields": {
             "date_value": "2019-07-20",
-            "lunar_day": 17,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 20,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-17",
+            "hijri_day": 17,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.652924+00:00",
-            "updated": "2019-06-12 22:33:01.652947+00:00"
+            "created": "2019-06-14 00:35:11.780098+00:00",
+            "updated": "2019-06-14 00:35:11.780112+00:00"
         }
     },
     {
@@ -832,17 +878,18 @@
         "pk": "47",
         "fields": {
             "date_value": "2019-07-21",
-            "lunar_day": 18,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 21,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-18",
+            "hijri_day": 18,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.653011+00:00",
-            "updated": "2019-06-12 22:33:01.653044+00:00"
+            "created": "2019-06-14 00:35:11.780150+00:00",
+            "updated": "2019-06-14 00:35:11.780164+00:00"
         }
     },
     {
@@ -850,17 +897,18 @@
         "pk": "48",
         "fields": {
             "date_value": "2019-07-22",
-            "lunar_day": 19,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 22,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-19",
+            "hijri_day": 19,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.653092+00:00",
-            "updated": "2019-06-12 22:33:01.653122+00:00"
+            "created": "2019-06-14 00:35:11.780202+00:00",
+            "updated": "2019-06-14 00:35:11.780216+00:00"
         }
     },
     {
@@ -868,17 +916,18 @@
         "pk": "49",
         "fields": {
             "date_value": "2019-07-23",
-            "lunar_day": 20,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 23,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-20",
+            "hijri_day": 20,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.653210+00:00",
-            "updated": "2019-06-12 22:33:01.653242+00:00"
+            "created": "2019-06-14 00:35:11.780255+00:00",
+            "updated": "2019-06-14 00:35:11.780269+00:00"
         }
     },
     {
@@ -886,17 +935,18 @@
         "pk": "50",
         "fields": {
             "date_value": "2019-07-24",
-            "lunar_day": 21,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 24,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-21",
+            "hijri_day": 21,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.653317+00:00",
-            "updated": "2019-06-12 22:33:01.653346+00:00"
+            "created": "2019-06-14 00:35:11.780316+00:00",
+            "updated": "2019-06-14 00:35:11.780331+00:00"
         }
     },
     {
@@ -904,17 +954,18 @@
         "pk": "51",
         "fields": {
             "date_value": "2019-07-25",
-            "lunar_day": 22,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 25,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-22",
+            "hijri_day": 22,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.653523+00:00",
-            "updated": "2019-06-12 22:33:01.653568+00:00"
+            "created": "2019-06-14 00:35:11.780370+00:00",
+            "updated": "2019-06-14 00:35:11.780385+00:00"
         }
     },
     {
@@ -922,17 +973,18 @@
         "pk": "52",
         "fields": {
             "date_value": "2019-07-26",
-            "lunar_day": 23,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 26,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-23",
+            "hijri_day": 23,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.653648+00:00",
-            "updated": "2019-06-12 22:33:01.653708+00:00"
+            "created": "2019-06-14 00:35:11.780423+00:00",
+            "updated": "2019-06-14 00:35:11.780438+00:00"
         }
     },
     {
@@ -940,17 +992,18 @@
         "pk": "53",
         "fields": {
             "date_value": "2019-07-27",
-            "lunar_day": 24,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 27,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-24",
+            "hijri_day": 24,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.653802+00:00",
-            "updated": "2019-06-12 22:33:01.653834+00:00"
+            "created": "2019-06-14 00:35:11.780476+00:00",
+            "updated": "2019-06-14 00:35:11.780490+00:00"
         }
     },
     {
@@ -958,17 +1011,18 @@
         "pk": "54",
         "fields": {
             "date_value": "2019-07-28",
-            "lunar_day": 25,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 28,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-25",
+            "hijri_day": 25,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.653909+00:00",
-            "updated": "2019-06-12 22:33:01.653967+00:00"
+            "created": "2019-06-14 00:35:11.780556+00:00",
+            "updated": "2019-06-14 00:35:11.780573+00:00"
         }
     },
     {
@@ -976,17 +1030,18 @@
         "pk": "55",
         "fields": {
             "date_value": "2019-07-29",
-            "lunar_day": 26,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 29,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-26",
+            "hijri_day": 26,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.654075+00:00",
-            "updated": "2019-06-12 22:33:01.654107+00:00"
+            "created": "2019-06-14 00:35:11.780613+00:00",
+            "updated": "2019-06-14 00:35:11.780627+00:00"
         }
     },
     {
@@ -994,17 +1049,18 @@
         "pk": "56",
         "fields": {
             "date_value": "2019-07-30",
-            "lunar_day": 27,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 30,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-27",
+            "hijri_day": 27,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.654209+00:00",
-            "updated": "2019-06-12 22:33:01.654246+00:00"
+            "created": "2019-06-14 00:35:11.780666+00:00",
+            "updated": "2019-06-14 00:35:11.780680+00:00"
         }
     },
     {
@@ -1012,17 +1068,18 @@
         "pk": "57",
         "fields": {
             "date_value": "2019-07-31",
-            "lunar_day": 28,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 31,
-            "month_label": "July",
             "month": 7,
             "year": 2019,
+            "month_name": "July",
+            "hijri_date_value": "1440-11-28",
+            "hijri_day": 28,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.654334+00:00",
-            "updated": "2019-06-12 22:33:01.654364+00:00"
+            "created": "2019-06-14 00:35:11.780719+00:00",
+            "updated": "2019-06-14 00:35:11.780733+00:00"
         }
     },
     {
@@ -1030,17 +1087,18 @@
         "pk": "58",
         "fields": {
             "date_value": "2019-08-01",
-            "lunar_day": 29,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 1,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-11-29",
+            "hijri_day": 29,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.654542+00:00",
-            "updated": "2019-06-12 22:33:01.654585+00:00"
+            "created": "2019-06-14 00:35:11.780772+00:00",
+            "updated": "2019-06-14 00:35:11.780786+00:00"
         }
     },
     {
@@ -1048,17 +1106,18 @@
         "pk": "59",
         "fields": {
             "date_value": "2019-08-02",
-            "lunar_day": 30,
-            "lunar_month": 11,
-            "lunar_month_label": "Ziquad",
-            "lunar_year": 1440,
             "day": 2,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-11-30",
+            "hijri_day": 30,
+            "hijri_month": 11,
+            "hijri_year": 1440,
+            "hijri_month_name": "Ziquad",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.654667+00:00",
-            "updated": "2019-06-12 22:33:01.654705+00:00"
+            "created": "2019-06-14 00:35:11.780873+00:00",
+            "updated": "2019-06-14 00:35:11.780903+00:00"
         }
     },
     {
@@ -1066,17 +1125,18 @@
         "pk": "60",
         "fields": {
             "date_value": "2019-08-03",
-            "lunar_day": 1,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 3,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-01",
+            "hijri_day": 1,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.654820+00:00",
-            "updated": "2019-06-12 22:33:01.654851+00:00"
+            "created": "2019-06-14 00:35:11.780962+00:00",
+            "updated": "2019-06-14 00:35:11.780979+00:00"
         }
     },
     {
@@ -1084,17 +1144,18 @@
         "pk": "61",
         "fields": {
             "date_value": "2019-08-04",
-            "lunar_day": 2,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 4,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-02",
+            "hijri_day": 2,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.654928+00:00",
-            "updated": "2019-06-12 22:33:01.654985+00:00"
+            "created": "2019-06-14 00:35:11.781021+00:00",
+            "updated": "2019-06-14 00:35:11.781035+00:00"
         }
     },
     {
@@ -1102,17 +1163,18 @@
         "pk": "62",
         "fields": {
             "date_value": "2019-08-05",
-            "lunar_day": 3,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 5,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-03",
+            "hijri_day": 3,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.655079+00:00",
-            "updated": "2019-06-12 22:33:01.655110+00:00"
+            "created": "2019-06-14 00:35:11.781075+00:00",
+            "updated": "2019-06-14 00:35:11.781089+00:00"
         }
     },
     {
@@ -1120,17 +1182,18 @@
         "pk": "63",
         "fields": {
             "date_value": "2019-08-06",
-            "lunar_day": 4,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 6,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-04",
+            "hijri_day": 4,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.655186+00:00",
-            "updated": "2019-06-12 22:33:01.655243+00:00"
+            "created": "2019-06-14 00:35:11.781128+00:00",
+            "updated": "2019-06-14 00:35:11.781143+00:00"
         }
     },
     {
@@ -1138,17 +1201,18 @@
         "pk": "64",
         "fields": {
             "date_value": "2019-08-07",
-            "lunar_day": 5,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 7,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-05",
+            "hijri_day": 5,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.655335+00:00",
-            "updated": "2019-06-12 22:33:01.655366+00:00"
+            "created": "2019-06-14 00:35:11.781181+00:00",
+            "updated": "2019-06-14 00:35:11.781196+00:00"
         }
     },
     {
@@ -1156,17 +1220,18 @@
         "pk": "65",
         "fields": {
             "date_value": "2019-08-08",
-            "lunar_day": 6,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 8,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-06",
+            "hijri_day": 6,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.655534+00:00",
-            "updated": "2019-06-12 22:33:01.655588+00:00"
+            "created": "2019-06-14 00:35:11.781234+00:00",
+            "updated": "2019-06-14 00:35:11.781249+00:00"
         }
     },
     {
@@ -1174,17 +1239,18 @@
         "pk": "66",
         "fields": {
             "date_value": "2019-08-09",
-            "lunar_day": 7,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 9,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-07",
+            "hijri_day": 7,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.655681+00:00",
-            "updated": "2019-06-12 22:33:01.655713+00:00"
+            "created": "2019-06-14 00:35:11.781287+00:00",
+            "updated": "2019-06-14 00:35:11.781301+00:00"
         }
     },
     {
@@ -1192,17 +1258,18 @@
         "pk": "67",
         "fields": {
             "date_value": "2019-08-10",
-            "lunar_day": 8,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 10,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-08",
+            "hijri_day": 8,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.655836+00:00",
-            "updated": "2019-06-12 22:33:01.655868+00:00"
+            "created": "2019-06-14 00:35:11.781340+00:00",
+            "updated": "2019-06-14 00:35:11.781354+00:00"
         }
     },
     {
@@ -1210,17 +1277,18 @@
         "pk": "68",
         "fields": {
             "date_value": "2019-08-11",
-            "lunar_day": 9,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 11,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-09",
+            "hijri_day": 9,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.655944+00:00",
-            "updated": "2019-06-12 22:33:01.655977+00:00"
+            "created": "2019-06-14 00:35:11.781394+00:00",
+            "updated": "2019-06-14 00:35:11.781408+00:00"
         }
     },
     {
@@ -1228,17 +1296,18 @@
         "pk": "69",
         "fields": {
             "date_value": "2019-08-12",
-            "lunar_day": 10,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 12,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-10",
+            "hijri_day": 10,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.656093+00:00",
-            "updated": "2019-06-12 22:33:01.656126+00:00"
+            "created": "2019-06-14 00:35:11.781448+00:00",
+            "updated": "2019-06-14 00:35:11.781462+00:00"
         }
     },
     {
@@ -1246,17 +1315,18 @@
         "pk": "70",
         "fields": {
             "date_value": "2019-08-13",
-            "lunar_day": 11,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 13,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-11",
+            "hijri_day": 11,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.656203+00:00",
-            "updated": "2019-06-12 22:33:01.656248+00:00"
+            "created": "2019-06-14 00:35:11.781512+00:00",
+            "updated": "2019-06-14 00:35:11.781528+00:00"
         }
     },
     {
@@ -1264,17 +1334,18 @@
         "pk": "71",
         "fields": {
             "date_value": "2019-08-14",
-            "lunar_day": 12,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 14,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-12",
+            "hijri_day": 12,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.656354+00:00",
-            "updated": "2019-06-12 22:33:01.656385+00:00"
+            "created": "2019-06-14 00:35:11.781567+00:00",
+            "updated": "2019-06-14 00:35:11.781581+00:00"
         }
     },
     {
@@ -1282,17 +1353,18 @@
         "pk": "72",
         "fields": {
             "date_value": "2019-08-15",
-            "lunar_day": 13,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 15,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-13",
+            "hijri_day": 13,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.656536+00:00",
-            "updated": "2019-06-12 22:33:01.656591+00:00"
+            "created": "2019-06-14 00:35:11.781620+00:00",
+            "updated": "2019-06-14 00:35:11.781634+00:00"
         }
     },
     {
@@ -1300,17 +1372,18 @@
         "pk": "73",
         "fields": {
             "date_value": "2019-08-16",
-            "lunar_day": 14,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 16,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-14",
+            "hijri_day": 14,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.656682+00:00",
-            "updated": "2019-06-12 22:33:01.656713+00:00"
+            "created": "2019-06-14 00:35:11.781673+00:00",
+            "updated": "2019-06-14 00:35:11.781687+00:00"
         }
     },
     {
@@ -1318,17 +1391,18 @@
         "pk": "74",
         "fields": {
             "date_value": "2019-08-17",
-            "lunar_day": 15,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 17,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-15",
+            "hijri_day": 15,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.656815+00:00",
-            "updated": "2019-06-12 22:33:01.656861+00:00"
+            "created": "2019-06-14 00:35:11.781726+00:00",
+            "updated": "2019-06-14 00:35:11.781740+00:00"
         }
     },
     {
@@ -1336,17 +1410,18 @@
         "pk": "75",
         "fields": {
             "date_value": "2019-08-18",
-            "lunar_day": 16,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 18,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-16",
+            "hijri_day": 16,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.656938+00:00",
-            "updated": "2019-06-12 22:33:01.656969+00:00"
+            "created": "2019-06-14 00:35:11.781779+00:00",
+            "updated": "2019-06-14 00:35:11.781793+00:00"
         }
     },
     {
@@ -1354,17 +1429,18 @@
         "pk": "76",
         "fields": {
             "date_value": "2019-08-19",
-            "lunar_day": 17,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 19,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-17",
+            "hijri_day": 17,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.657154+00:00",
-            "updated": "2019-06-12 22:33:01.657203+00:00"
+            "created": "2019-06-14 00:35:11.781885+00:00",
+            "updated": "2019-06-14 00:35:11.781915+00:00"
         }
     },
     {
@@ -1372,17 +1448,18 @@
         "pk": "77",
         "fields": {
             "date_value": "2019-08-20",
-            "lunar_day": 18,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 20,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-18",
+            "hijri_day": 18,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.657309+00:00",
-            "updated": "2019-06-12 22:33:01.657350+00:00"
+            "created": "2019-06-14 00:35:11.781960+00:00",
+            "updated": "2019-06-14 00:35:11.781976+00:00"
         }
     },
     {
@@ -1390,17 +1467,18 @@
         "pk": "78",
         "fields": {
             "date_value": "2019-08-21",
-            "lunar_day": 19,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 21,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-19",
+            "hijri_day": 19,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.657526+00:00",
-            "updated": "2019-06-12 22:33:01.657572+00:00"
+            "created": "2019-06-14 00:35:11.782015+00:00",
+            "updated": "2019-06-14 00:35:11.782029+00:00"
         }
     },
     {
@@ -1408,17 +1486,18 @@
         "pk": "79",
         "fields": {
             "date_value": "2019-08-22",
-            "lunar_day": 20,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 22,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-20",
+            "hijri_day": 20,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.657693+00:00",
-            "updated": "2019-06-12 22:33:01.657726+00:00"
+            "created": "2019-06-14 00:35:11.782068+00:00",
+            "updated": "2019-06-14 00:35:11.782082+00:00"
         }
     },
     {
@@ -1426,17 +1505,18 @@
         "pk": "80",
         "fields": {
             "date_value": "2019-08-23",
-            "lunar_day": 21,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 23,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-21",
+            "hijri_day": 21,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.657802+00:00",
-            "updated": "2019-06-12 22:33:01.657878+00:00"
+            "created": "2019-06-14 00:35:11.782120+00:00",
+            "updated": "2019-06-14 00:35:11.782134+00:00"
         }
     },
     {
@@ -1444,17 +1524,18 @@
         "pk": "81",
         "fields": {
             "date_value": "2019-08-24",
-            "lunar_day": 22,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 24,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-22",
+            "hijri_day": 22,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.657982+00:00",
-            "updated": "2019-06-12 22:33:01.658001+00:00"
+            "created": "2019-06-14 00:35:11.782199+00:00",
+            "updated": "2019-06-14 00:35:11.782217+00:00"
         }
     },
     {
@@ -1462,17 +1543,18 @@
         "pk": "82",
         "fields": {
             "date_value": "2019-08-25",
-            "lunar_day": 23,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 25,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-23",
+            "hijri_day": 23,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.658040+00:00",
-            "updated": "2019-06-12 22:33:01.658055+00:00"
+            "created": "2019-06-14 00:35:11.782257+00:00",
+            "updated": "2019-06-14 00:35:11.782271+00:00"
         }
     },
     {
@@ -1480,17 +1562,18 @@
         "pk": "83",
         "fields": {
             "date_value": "2019-08-26",
-            "lunar_day": 24,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 26,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-24",
+            "hijri_day": 24,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.658092+00:00",
-            "updated": "2019-06-12 22:33:01.658106+00:00"
+            "created": "2019-06-14 00:35:11.782310+00:00",
+            "updated": "2019-06-14 00:35:11.782324+00:00"
         }
     },
     {
@@ -1498,17 +1581,18 @@
         "pk": "84",
         "fields": {
             "date_value": "2019-08-27",
-            "lunar_day": 25,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 27,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-25",
+            "hijri_day": 25,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.658141+00:00",
-            "updated": "2019-06-12 22:33:01.658155+00:00"
+            "created": "2019-06-14 00:35:11.782363+00:00",
+            "updated": "2019-06-14 00:35:11.782376+00:00"
         }
     },
     {
@@ -1516,17 +1600,18 @@
         "pk": "85",
         "fields": {
             "date_value": "2019-08-28",
-            "lunar_day": 26,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 28,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-26",
+            "hijri_day": 26,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.658190+00:00",
-            "updated": "2019-06-12 22:33:01.658204+00:00"
+            "created": "2019-06-14 00:35:11.782414+00:00",
+            "updated": "2019-06-14 00:35:11.782429+00:00"
         }
     },
     {
@@ -1534,17 +1619,18 @@
         "pk": "86",
         "fields": {
             "date_value": "2019-08-29",
-            "lunar_day": 27,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 29,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-27",
+            "hijri_day": 27,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.658239+00:00",
-            "updated": "2019-06-12 22:33:01.658253+00:00"
+            "created": "2019-06-14 00:35:11.782466+00:00",
+            "updated": "2019-06-14 00:35:11.782480+00:00"
         }
     },
     {
@@ -1552,17 +1638,18 @@
         "pk": "87",
         "fields": {
             "date_value": "2019-08-30",
-            "lunar_day": 28,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 30,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-28",
+            "hijri_day": 28,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.658288+00:00",
-            "updated": "2019-06-12 22:33:01.658302+00:00"
+            "created": "2019-06-14 00:35:11.782518+00:00",
+            "updated": "2019-06-14 00:35:11.782532+00:00"
         }
     },
     {
@@ -1570,17 +1657,18 @@
         "pk": "88",
         "fields": {
             "date_value": "2019-08-31",
-            "lunar_day": 29,
-            "lunar_month": 12,
-            "lunar_month_label": "Zilhij",
-            "lunar_year": 1440,
             "day": 31,
-            "month_label": "August",
             "month": 8,
             "year": 2019,
+            "month_name": "August",
+            "hijri_date_value": "1440-12-29",
+            "hijri_day": 29,
+            "hijri_month": 12,
+            "hijri_year": 1440,
+            "hijri_month_name": "Zilhij",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.658337+00:00",
-            "updated": "2019-06-12 22:33:01.658351+00:00"
+            "created": "2019-06-14 00:35:11.782570+00:00",
+            "updated": "2019-06-14 00:35:11.782584+00:00"
         }
     },
     {
@@ -1588,17 +1676,18 @@
         "pk": "89",
         "fields": {
             "date_value": "2019-09-01",
-            "lunar_day": 1,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 1,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-01",
+            "hijri_day": 1,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.658396+00:00",
-            "updated": "2019-06-12 22:33:01.658476+00:00"
+            "created": "2019-06-14 00:35:11.782623+00:00",
+            "updated": "2019-06-14 00:35:11.782637+00:00"
         }
     },
     {
@@ -1606,17 +1695,18 @@
         "pk": "90",
         "fields": {
             "date_value": "2019-09-02",
-            "lunar_day": 2,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 2,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-02",
+            "hijri_day": 2,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.658689+00:00",
-            "updated": "2019-06-12 22:33:01.658719+00:00"
+            "created": "2019-06-14 00:35:11.782676+00:00",
+            "updated": "2019-06-14 00:35:11.782691+00:00"
         }
     },
     {
@@ -1624,17 +1714,18 @@
         "pk": "91",
         "fields": {
             "date_value": "2019-09-03",
-            "lunar_day": 3,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 3,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-03",
+            "hijri_day": 3,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.658767+00:00",
-            "updated": "2019-06-12 22:33:01.658782+00:00"
+            "created": "2019-06-14 00:35:11.782735+00:00",
+            "updated": "2019-06-14 00:35:11.782750+00:00"
         }
     },
     {
@@ -1642,17 +1733,18 @@
         "pk": "92",
         "fields": {
             "date_value": "2019-09-04",
-            "lunar_day": 4,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 4,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-04",
+            "hijri_day": 4,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.658895+00:00",
-            "updated": "2019-06-12 22:33:01.658910+00:00"
+            "created": "2019-06-14 00:35:11.782788+00:00",
+            "updated": "2019-06-14 00:35:11.782802+00:00"
         }
     },
     {
@@ -1660,17 +1752,18 @@
         "pk": "93",
         "fields": {
             "date_value": "2019-09-05",
-            "lunar_day": 5,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 5,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-05",
+            "hijri_day": 5,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.658946+00:00",
-            "updated": "2019-06-12 22:33:01.658960+00:00"
+            "created": "2019-06-14 00:35:11.782898+00:00",
+            "updated": "2019-06-14 00:35:11.782928+00:00"
         }
     },
     {
@@ -1678,17 +1771,18 @@
         "pk": "94",
         "fields": {
             "date_value": "2019-09-06",
-            "lunar_day": 6,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 6,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-06",
+            "hijri_day": 6,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.658996+00:00",
-            "updated": "2019-06-12 22:33:01.659010+00:00"
+            "created": "2019-06-14 00:35:11.782971+00:00",
+            "updated": "2019-06-14 00:35:11.782987+00:00"
         }
     },
     {
@@ -1696,17 +1790,18 @@
         "pk": "95",
         "fields": {
             "date_value": "2019-09-07",
-            "lunar_day": 7,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 7,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-07",
+            "hijri_day": 7,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659045+00:00",
-            "updated": "2019-06-12 22:33:01.659059+00:00"
+            "created": "2019-06-14 00:35:11.783026+00:00",
+            "updated": "2019-06-14 00:35:11.783041+00:00"
         }
     },
     {
@@ -1714,17 +1809,18 @@
         "pk": "96",
         "fields": {
             "date_value": "2019-09-08",
-            "lunar_day": 8,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 8,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-08",
+            "hijri_day": 8,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659095+00:00",
-            "updated": "2019-06-12 22:33:01.659109+00:00"
+            "created": "2019-06-14 00:35:11.783079+00:00",
+            "updated": "2019-06-14 00:35:11.783094+00:00"
         }
     },
     {
@@ -1732,17 +1828,18 @@
         "pk": "97",
         "fields": {
             "date_value": "2019-09-09",
-            "lunar_day": 9,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 9,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-09",
+            "hijri_day": 9,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659144+00:00",
-            "updated": "2019-06-12 22:33:01.659158+00:00"
+            "created": "2019-06-14 00:35:11.783132+00:00",
+            "updated": "2019-06-14 00:35:11.783147+00:00"
         }
     },
     {
@@ -1750,17 +1847,18 @@
         "pk": "98",
         "fields": {
             "date_value": "2019-09-10",
-            "lunar_day": 10,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 10,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-10",
+            "hijri_day": 10,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659194+00:00",
-            "updated": "2019-06-12 22:33:01.659208+00:00"
+            "created": "2019-06-14 00:35:11.783186+00:00",
+            "updated": "2019-06-14 00:35:11.783201+00:00"
         }
     },
     {
@@ -1768,17 +1866,18 @@
         "pk": "99",
         "fields": {
             "date_value": "2019-09-11",
-            "lunar_day": 11,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 11,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-11",
+            "hijri_day": 11,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659254+00:00",
-            "updated": "2019-06-12 22:33:01.659269+00:00"
+            "created": "2019-06-14 00:35:11.783240+00:00",
+            "updated": "2019-06-14 00:35:11.783255+00:00"
         }
     },
     {
@@ -1786,17 +1885,18 @@
         "pk": "100",
         "fields": {
             "date_value": "2019-09-12",
-            "lunar_day": 12,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 12,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-12",
+            "hijri_day": 12,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659306+00:00",
-            "updated": "2019-06-12 22:33:01.659320+00:00"
+            "created": "2019-06-14 00:35:11.783294+00:00",
+            "updated": "2019-06-14 00:35:11.783309+00:00"
         }
     },
     {
@@ -1804,17 +1904,18 @@
         "pk": "101",
         "fields": {
             "date_value": "2019-09-13",
-            "lunar_day": 13,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 13,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-13",
+            "hijri_day": 13,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659360+00:00",
-            "updated": "2019-06-12 22:33:01.659375+00:00"
+            "created": "2019-06-14 00:35:11.783349+00:00",
+            "updated": "2019-06-14 00:35:11.783363+00:00"
         }
     },
     {
@@ -1822,17 +1923,18 @@
         "pk": "102",
         "fields": {
             "date_value": "2019-09-14",
-            "lunar_day": 14,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 14,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-14",
+            "hijri_day": 14,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659514+00:00",
-            "updated": "2019-06-12 22:33:01.659544+00:00"
+            "created": "2019-06-14 00:35:11.783410+00:00",
+            "updated": "2019-06-14 00:35:11.783426+00:00"
         }
     },
     {
@@ -1840,17 +1942,18 @@
         "pk": "103",
         "fields": {
             "date_value": "2019-09-15",
-            "lunar_day": 15,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 15,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-15",
+            "hijri_day": 15,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659587+00:00",
-            "updated": "2019-06-12 22:33:01.659601+00:00"
+            "created": "2019-06-14 00:35:11.783466+00:00",
+            "updated": "2019-06-14 00:35:11.783480+00:00"
         }
     },
     {
@@ -1858,17 +1961,18 @@
         "pk": "104",
         "fields": {
             "date_value": "2019-09-16",
-            "lunar_day": 16,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 16,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-16",
+            "hijri_day": 16,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659638+00:00",
-            "updated": "2019-06-12 22:33:01.659652+00:00"
+            "created": "2019-06-14 00:35:11.783519+00:00",
+            "updated": "2019-06-14 00:35:11.783534+00:00"
         }
     },
     {
@@ -1876,17 +1980,18 @@
         "pk": "105",
         "fields": {
             "date_value": "2019-09-17",
-            "lunar_day": 17,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 17,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-17",
+            "hijri_day": 17,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659688+00:00",
-            "updated": "2019-06-12 22:33:01.659702+00:00"
+            "created": "2019-06-14 00:35:11.783573+00:00",
+            "updated": "2019-06-14 00:35:11.783587+00:00"
         }
     },
     {
@@ -1894,17 +1999,18 @@
         "pk": "106",
         "fields": {
             "date_value": "2019-09-18",
-            "lunar_day": 18,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 18,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-18",
+            "hijri_day": 18,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659737+00:00",
-            "updated": "2019-06-12 22:33:01.659751+00:00"
+            "created": "2019-06-14 00:35:11.783626+00:00",
+            "updated": "2019-06-14 00:35:11.783640+00:00"
         }
     },
     {
@@ -1912,17 +2018,18 @@
         "pk": "107",
         "fields": {
             "date_value": "2019-09-19",
-            "lunar_day": 19,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 19,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-19",
+            "hijri_day": 19,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659787+00:00",
-            "updated": "2019-06-12 22:33:01.659801+00:00"
+            "created": "2019-06-14 00:35:11.783678+00:00",
+            "updated": "2019-06-14 00:35:11.783693+00:00"
         }
     },
     {
@@ -1930,17 +2037,18 @@
         "pk": "108",
         "fields": {
             "date_value": "2019-09-20",
-            "lunar_day": 20,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 20,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-20",
+            "hijri_day": 20,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659836+00:00",
-            "updated": "2019-06-12 22:33:01.659850+00:00"
+            "created": "2019-06-14 00:35:11.783731+00:00",
+            "updated": "2019-06-14 00:35:11.783746+00:00"
         }
     },
     {
@@ -1948,17 +2056,18 @@
         "pk": "109",
         "fields": {
             "date_value": "2019-09-21",
-            "lunar_day": 21,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 21,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-21",
+            "hijri_day": 21,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659886+00:00",
-            "updated": "2019-06-12 22:33:01.659900+00:00"
+            "created": "2019-06-14 00:35:11.783785+00:00",
+            "updated": "2019-06-14 00:35:11.783799+00:00"
         }
     },
     {
@@ -1966,17 +2075,18 @@
         "pk": "110",
         "fields": {
             "date_value": "2019-09-22",
-            "lunar_day": 22,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 22,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-22",
+            "hijri_day": 22,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659935+00:00",
-            "updated": "2019-06-12 22:33:01.659949+00:00"
+            "created": "2019-06-14 00:35:11.783938+00:00",
+            "updated": "2019-06-14 00:35:11.784003+00:00"
         }
     },
     {
@@ -1984,17 +2094,18 @@
         "pk": "111",
         "fields": {
             "date_value": "2019-09-23",
-            "lunar_day": 23,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 23,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-23",
+            "hijri_day": 23,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.659984+00:00",
-            "updated": "2019-06-12 22:33:01.659999+00:00"
+            "created": "2019-06-14 00:35:11.784065+00:00",
+            "updated": "2019-06-14 00:35:11.784081+00:00"
         }
     },
     {
@@ -2002,17 +2113,18 @@
         "pk": "112",
         "fields": {
             "date_value": "2019-09-24",
-            "lunar_day": 24,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 24,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-24",
+            "hijri_day": 24,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.660042+00:00",
-            "updated": "2019-06-12 22:33:01.660057+00:00"
+            "created": "2019-06-14 00:35:11.784131+00:00",
+            "updated": "2019-06-14 00:35:11.784147+00:00"
         }
     },
     {
@@ -2020,17 +2132,18 @@
         "pk": "113",
         "fields": {
             "date_value": "2019-09-25",
-            "lunar_day": 25,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 25,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-25",
+            "hijri_day": 25,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.660094+00:00",
-            "updated": "2019-06-12 22:33:01.660108+00:00"
+            "created": "2019-06-14 00:35:11.784188+00:00",
+            "updated": "2019-06-14 00:35:11.784202+00:00"
         }
     },
     {
@@ -2038,17 +2151,18 @@
         "pk": "114",
         "fields": {
             "date_value": "2019-09-26",
-            "lunar_day": 26,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 26,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-26",
+            "hijri_day": 26,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.660143+00:00",
-            "updated": "2019-06-12 22:33:01.660157+00:00"
+            "created": "2019-06-14 00:35:11.784241+00:00",
+            "updated": "2019-06-14 00:35:11.784255+00:00"
         }
     },
     {
@@ -2056,17 +2170,18 @@
         "pk": "115",
         "fields": {
             "date_value": "2019-09-27",
-            "lunar_day": 27,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 27,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-27",
+            "hijri_day": 27,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.660192+00:00",
-            "updated": "2019-06-12 22:33:01.660206+00:00"
+            "created": "2019-06-14 00:35:11.784294+00:00",
+            "updated": "2019-06-14 00:35:11.784308+00:00"
         }
     },
     {
@@ -2074,17 +2189,18 @@
         "pk": "116",
         "fields": {
             "date_value": "2019-09-28",
-            "lunar_day": 28,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 28,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-28",
+            "hijri_day": 28,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.660241+00:00",
-            "updated": "2019-06-12 22:33:01.660255+00:00"
+            "created": "2019-06-14 00:35:11.784347+00:00",
+            "updated": "2019-06-14 00:35:11.784362+00:00"
         }
     },
     {
@@ -2092,17 +2208,18 @@
         "pk": "117",
         "fields": {
             "date_value": "2019-09-29",
-            "lunar_day": 29,
-            "lunar_month": 1,
-            "lunar_month_label": "MUHARRAM",
-            "lunar_year": 1441,
             "day": 29,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-01-29",
+            "hijri_day": 29,
+            "hijri_month": 1,
+            "hijri_year": 1441,
+            "hijri_month_name": "MUHARRAM",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.660290+00:00",
-            "updated": "2019-06-12 22:33:01.660305+00:00"
+            "created": "2019-06-14 00:35:11.784400+00:00",
+            "updated": "2019-06-14 00:35:11.784415+00:00"
         }
     },
     {
@@ -2110,17 +2227,18 @@
         "pk": "118",
         "fields": {
             "date_value": "2019-09-30",
-            "lunar_day": 1,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 30,
-            "month_label": "September",
             "month": 9,
             "year": 2019,
+            "month_name": "September",
+            "hijri_date_value": "1441-02-01",
+            "hijri_day": 1,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.660340+00:00",
-            "updated": "2019-06-12 22:33:01.660354+00:00"
+            "created": "2019-06-14 00:35:11.784454+00:00",
+            "updated": "2019-06-14 00:35:11.784468+00:00"
         }
     },
     {
@@ -2128,17 +2246,18 @@
         "pk": "119",
         "fields": {
             "date_value": "2019-10-01",
-            "lunar_day": 2,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 1,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-02",
+            "hijri_day": 2,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.660391+00:00",
-            "updated": "2019-06-12 22:33:01.660456+00:00"
+            "created": "2019-06-14 00:35:11.784507+00:00",
+            "updated": "2019-06-14 00:35:11.784521+00:00"
         }
     },
     {
@@ -2146,17 +2265,18 @@
         "pk": "120",
         "fields": {
             "date_value": "2019-10-02",
-            "lunar_day": 3,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 2,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-03",
+            "hijri_day": 3,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.660769+00:00",
-            "updated": "2019-06-12 22:33:01.660812+00:00"
+            "created": "2019-06-14 00:35:11.784560+00:00",
+            "updated": "2019-06-14 00:35:11.784575+00:00"
         }
     },
     {
@@ -2164,17 +2284,18 @@
         "pk": "121",
         "fields": {
             "date_value": "2019-10-03",
-            "lunar_day": 4,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 3,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-04",
+            "hijri_day": 4,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.660890+00:00",
-            "updated": "2019-06-12 22:33:01.660917+00:00"
+            "created": "2019-06-14 00:35:11.784613+00:00",
+            "updated": "2019-06-14 00:35:11.784628+00:00"
         }
     },
     {
@@ -2182,17 +2303,18 @@
         "pk": "122",
         "fields": {
             "date_value": "2019-10-04",
-            "lunar_day": 5,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 4,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-05",
+            "hijri_day": 5,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.660984+00:00",
-            "updated": "2019-06-12 22:33:01.661010+00:00"
+            "created": "2019-06-14 00:35:11.784671+00:00",
+            "updated": "2019-06-14 00:35:11.784842+00:00"
         }
     },
     {
@@ -2200,17 +2322,18 @@
         "pk": "123",
         "fields": {
             "date_value": "2019-10-05",
-            "lunar_day": 6,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 5,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-06",
+            "hijri_day": 6,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.661090+00:00",
-            "updated": "2019-06-12 22:33:01.661118+00:00"
+            "created": "2019-06-14 00:35:11.784902+00:00",
+            "updated": "2019-06-14 00:35:11.784918+00:00"
         }
     },
     {
@@ -2218,17 +2341,18 @@
         "pk": "124",
         "fields": {
             "date_value": "2019-10-06",
-            "lunar_day": 7,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 6,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-07",
+            "hijri_day": 7,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.661183+00:00",
-            "updated": "2019-06-12 22:33:01.661208+00:00"
+            "created": "2019-06-14 00:35:11.784958+00:00",
+            "updated": "2019-06-14 00:35:11.784973+00:00"
         }
     },
     {
@@ -2236,17 +2360,18 @@
         "pk": "125",
         "fields": {
             "date_value": "2019-10-07",
-            "lunar_day": 8,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 7,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-08",
+            "hijri_day": 8,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.661272+00:00",
-            "updated": "2019-06-12 22:33:01.661298+00:00"
+            "created": "2019-06-14 00:35:11.785011+00:00",
+            "updated": "2019-06-14 00:35:11.785026+00:00"
         }
     },
     {
@@ -2254,17 +2379,18 @@
         "pk": "126",
         "fields": {
             "date_value": "2019-10-08",
-            "lunar_day": 9,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 8,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-09",
+            "hijri_day": 9,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.661362+00:00",
-            "updated": "2019-06-12 22:33:01.661434+00:00"
+            "created": "2019-06-14 00:35:11.785064+00:00",
+            "updated": "2019-06-14 00:35:11.785078+00:00"
         }
     },
     {
@@ -2272,17 +2398,18 @@
         "pk": "127",
         "fields": {
             "date_value": "2019-10-09",
-            "lunar_day": 10,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 9,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-10",
+            "hijri_day": 10,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.661547+00:00",
-            "updated": "2019-06-12 22:33:01.661580+00:00"
+            "created": "2019-06-14 00:35:11.785116+00:00",
+            "updated": "2019-06-14 00:35:11.785130+00:00"
         }
     },
     {
@@ -2290,17 +2417,18 @@
         "pk": "128",
         "fields": {
             "date_value": "2019-10-10",
-            "lunar_day": 11,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 10,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-11",
+            "hijri_day": 11,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.661651+00:00",
-            "updated": "2019-06-12 22:33:01.661678+00:00"
+            "created": "2019-06-14 00:35:11.785168+00:00",
+            "updated": "2019-06-14 00:35:11.785183+00:00"
         }
     },
     {
@@ -2308,17 +2436,18 @@
         "pk": "129",
         "fields": {
             "date_value": "2019-10-11",
-            "lunar_day": 12,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 11,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-12",
+            "hijri_day": 12,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.661744+00:00",
-            "updated": "2019-06-12 22:33:01.661770+00:00"
+            "created": "2019-06-14 00:35:11.785221+00:00",
+            "updated": "2019-06-14 00:35:11.785235+00:00"
         }
     },
     {
@@ -2326,17 +2455,18 @@
         "pk": "130",
         "fields": {
             "date_value": "2019-10-12",
-            "lunar_day": 13,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 12,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-13",
+            "hijri_day": 13,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.661834+00:00",
-            "updated": "2019-06-12 22:33:01.661860+00:00"
+            "created": "2019-06-14 00:35:11.785273+00:00",
+            "updated": "2019-06-14 00:35:11.785287+00:00"
         }
     },
     {
@@ -2344,17 +2474,18 @@
         "pk": "131",
         "fields": {
             "date_value": "2019-10-13",
-            "lunar_day": 14,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 13,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-14",
+            "hijri_day": 14,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.661923+00:00",
-            "updated": "2019-06-12 22:33:01.661948+00:00"
+            "created": "2019-06-14 00:35:11.785325+00:00",
+            "updated": "2019-06-14 00:35:11.785339+00:00"
         }
     },
     {
@@ -2362,17 +2493,18 @@
         "pk": "132",
         "fields": {
             "date_value": "2019-10-14",
-            "lunar_day": 15,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 14,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-15",
+            "hijri_day": 15,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.662011+00:00",
-            "updated": "2019-06-12 22:33:01.662036+00:00"
+            "created": "2019-06-14 00:35:11.785378+00:00",
+            "updated": "2019-06-14 00:35:11.785392+00:00"
         }
     },
     {
@@ -2380,17 +2512,18 @@
         "pk": "133",
         "fields": {
             "date_value": "2019-10-15",
-            "lunar_day": 16,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 15,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-16",
+            "hijri_day": 16,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.662099+00:00",
-            "updated": "2019-06-12 22:33:01.662124+00:00"
+            "created": "2019-06-14 00:35:11.785439+00:00",
+            "updated": "2019-06-14 00:35:11.785455+00:00"
         }
     },
     {
@@ -2398,17 +2531,18 @@
         "pk": "134",
         "fields": {
             "date_value": "2019-10-16",
-            "lunar_day": 17,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 16,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-17",
+            "hijri_day": 17,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.662187+00:00",
-            "updated": "2019-06-12 22:33:01.662213+00:00"
+            "created": "2019-06-14 00:35:11.785494+00:00",
+            "updated": "2019-06-14 00:35:11.785508+00:00"
         }
     },
     {
@@ -2416,17 +2550,18 @@
         "pk": "135",
         "fields": {
             "date_value": "2019-10-17",
-            "lunar_day": 18,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 17,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-18",
+            "hijri_day": 18,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.662296+00:00",
-            "updated": "2019-06-12 22:33:01.662323+00:00"
+            "created": "2019-06-14 00:35:11.785546+00:00",
+            "updated": "2019-06-14 00:35:11.785560+00:00"
         }
     },
     {
@@ -2434,17 +2569,18 @@
         "pk": "136",
         "fields": {
             "date_value": "2019-10-18",
-            "lunar_day": 19,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 18,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-19",
+            "hijri_day": 19,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.662394+00:00",
-            "updated": "2019-06-12 22:33:01.662592+00:00"
+            "created": "2019-06-14 00:35:11.785599+00:00",
+            "updated": "2019-06-14 00:35:11.785613+00:00"
         }
     },
     {
@@ -2452,17 +2588,18 @@
         "pk": "137",
         "fields": {
             "date_value": "2019-10-19",
-            "lunar_day": 20,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 19,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-20",
+            "hijri_day": 20,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.662691+00:00",
-            "updated": "2019-06-12 22:33:01.662711+00:00"
+            "created": "2019-06-14 00:35:11.785651+00:00",
+            "updated": "2019-06-14 00:35:11.785665+00:00"
         }
     },
     {
@@ -2470,17 +2607,18 @@
         "pk": "138",
         "fields": {
             "date_value": "2019-10-20",
-            "lunar_day": 21,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 20,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-21",
+            "hijri_day": 21,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.662754+00:00",
-            "updated": "2019-06-12 22:33:01.662768+00:00"
+            "created": "2019-06-14 00:35:11.785704+00:00",
+            "updated": "2019-06-14 00:35:11.785718+00:00"
         }
     },
     {
@@ -2488,17 +2626,18 @@
         "pk": "139",
         "fields": {
             "date_value": "2019-10-21",
-            "lunar_day": 22,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 21,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-22",
+            "hijri_day": 22,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.662805+00:00",
-            "updated": "2019-06-12 22:33:01.662819+00:00"
+            "created": "2019-06-14 00:35:11.785756+00:00",
+            "updated": "2019-06-14 00:35:11.785770+00:00"
         }
     },
     {
@@ -2506,17 +2645,18 @@
         "pk": "140",
         "fields": {
             "date_value": "2019-10-22",
-            "lunar_day": 23,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 22,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-23",
+            "hijri_day": 23,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.662856+00:00",
-            "updated": "2019-06-12 22:33:01.662869+00:00"
+            "created": "2019-06-14 00:35:11.785867+00:00",
+            "updated": "2019-06-14 00:35:11.785895+00:00"
         }
     },
     {
@@ -2524,17 +2664,18 @@
         "pk": "141",
         "fields": {
             "date_value": "2019-10-23",
-            "lunar_day": 24,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 23,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-24",
+            "hijri_day": 24,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.662905+00:00",
-            "updated": "2019-06-12 22:33:01.662919+00:00"
+            "created": "2019-06-14 00:35:11.785937+00:00",
+            "updated": "2019-06-14 00:35:11.785952+00:00"
         }
     },
     {
@@ -2542,17 +2683,18 @@
         "pk": "142",
         "fields": {
             "date_value": "2019-10-24",
-            "lunar_day": 25,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 24,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-25",
+            "hijri_day": 25,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.662955+00:00",
-            "updated": "2019-06-12 22:33:01.663025+00:00"
+            "created": "2019-06-14 00:35:11.785992+00:00",
+            "updated": "2019-06-14 00:35:11.786007+00:00"
         }
     },
     {
@@ -2560,17 +2702,18 @@
         "pk": "143",
         "fields": {
             "date_value": "2019-10-25",
-            "lunar_day": 26,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 25,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-26",
+            "hijri_day": 26,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663077+00:00",
-            "updated": "2019-06-12 22:33:01.663092+00:00"
+            "created": "2019-06-14 00:35:11.786055+00:00",
+            "updated": "2019-06-14 00:35:11.786071+00:00"
         }
     },
     {
@@ -2578,17 +2721,18 @@
         "pk": "144",
         "fields": {
             "date_value": "2019-10-26",
-            "lunar_day": 27,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 26,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-27",
+            "hijri_day": 27,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663130+00:00",
-            "updated": "2019-06-12 22:33:01.663144+00:00"
+            "created": "2019-06-14 00:35:11.786111+00:00",
+            "updated": "2019-06-14 00:35:11.786125+00:00"
         }
     },
     {
@@ -2596,17 +2740,18 @@
         "pk": "145",
         "fields": {
             "date_value": "2019-10-27",
-            "lunar_day": 28,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 27,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-28",
+            "hijri_day": 28,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663179+00:00",
-            "updated": "2019-06-12 22:33:01.663193+00:00"
+            "created": "2019-06-14 00:35:11.786164+00:00",
+            "updated": "2019-06-14 00:35:11.786179+00:00"
         }
     },
     {
@@ -2614,17 +2759,18 @@
         "pk": "146",
         "fields": {
             "date_value": "2019-10-28",
-            "lunar_day": 29,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 28,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-29",
+            "hijri_day": 29,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663241+00:00",
-            "updated": "2019-06-12 22:33:01.663257+00:00"
+            "created": "2019-06-14 00:35:11.786218+00:00",
+            "updated": "2019-06-14 00:35:11.786232+00:00"
         }
     },
     {
@@ -2632,17 +2778,18 @@
         "pk": "147",
         "fields": {
             "date_value": "2019-10-29",
-            "lunar_day": 30,
-            "lunar_month": 2,
-            "lunar_month_label": "Safar",
-            "lunar_year": 1441,
             "day": 29,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-02-30",
+            "hijri_day": 30,
+            "hijri_month": 2,
+            "hijri_year": 1441,
+            "hijri_month_name": "Safar",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663293+00:00",
-            "updated": "2019-06-12 22:33:01.663307+00:00"
+            "created": "2019-06-14 00:35:11.786272+00:00",
+            "updated": "2019-06-14 00:35:11.786287+00:00"
         }
     },
     {
@@ -2650,17 +2797,18 @@
         "pk": "148",
         "fields": {
             "date_value": "2019-10-30",
-            "lunar_day": 1,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 30,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-03-01",
+            "hijri_day": 1,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663343+00:00",
-            "updated": "2019-06-12 22:33:01.663357+00:00"
+            "created": "2019-06-14 00:35:11.786326+00:00",
+            "updated": "2019-06-14 00:35:11.786341+00:00"
         }
     },
     {
@@ -2668,17 +2816,18 @@
         "pk": "149",
         "fields": {
             "date_value": "2019-10-31",
-            "lunar_day": 2,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 31,
-            "month_label": "October",
             "month": 10,
             "year": 2019,
+            "month_name": "October",
+            "hijri_date_value": "1441-03-02",
+            "hijri_day": 2,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663445+00:00",
-            "updated": "2019-06-12 22:33:01.663475+00:00"
+            "created": "2019-06-14 00:35:11.786436+00:00",
+            "updated": "2019-06-14 00:35:11.786454+00:00"
         }
     },
     {
@@ -2686,17 +2835,18 @@
         "pk": "150",
         "fields": {
             "date_value": "2019-11-01",
-            "lunar_day": 3,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 1,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-03",
+            "hijri_day": 3,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663523+00:00",
-            "updated": "2019-06-12 22:33:01.663538+00:00"
+            "created": "2019-06-14 00:35:11.786496+00:00",
+            "updated": "2019-06-14 00:35:11.786511+00:00"
         }
     },
     {
@@ -2704,17 +2854,18 @@
         "pk": "151",
         "fields": {
             "date_value": "2019-11-02",
-            "lunar_day": 4,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 2,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-04",
+            "hijri_day": 4,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663576+00:00",
-            "updated": "2019-06-12 22:33:01.663590+00:00"
+            "created": "2019-06-14 00:35:11.786550+00:00",
+            "updated": "2019-06-14 00:35:11.786565+00:00"
         }
     },
     {
@@ -2722,17 +2873,18 @@
         "pk": "152",
         "fields": {
             "date_value": "2019-11-03",
-            "lunar_day": 5,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 3,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-05",
+            "hijri_day": 5,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663626+00:00",
-            "updated": "2019-06-12 22:33:01.663640+00:00"
+            "created": "2019-06-14 00:35:11.786609+00:00",
+            "updated": "2019-06-14 00:35:11.786624+00:00"
         }
     },
     {
@@ -2740,17 +2892,18 @@
         "pk": "153",
         "fields": {
             "date_value": "2019-11-04",
-            "lunar_day": 6,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 4,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-06",
+            "hijri_day": 6,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663676+00:00",
-            "updated": "2019-06-12 22:33:01.663690+00:00"
+            "created": "2019-06-14 00:35:11.786664+00:00",
+            "updated": "2019-06-14 00:35:11.786678+00:00"
         }
     },
     {
@@ -2758,17 +2911,18 @@
         "pk": "154",
         "fields": {
             "date_value": "2019-11-05",
-            "lunar_day": 7,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 5,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-07",
+            "hijri_day": 7,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663726+00:00",
-            "updated": "2019-06-12 22:33:01.663740+00:00"
+            "created": "2019-06-14 00:35:11.786717+00:00",
+            "updated": "2019-06-14 00:35:11.786731+00:00"
         }
     },
     {
@@ -2776,17 +2930,18 @@
         "pk": "155",
         "fields": {
             "date_value": "2019-11-06",
-            "lunar_day": 8,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 6,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-08",
+            "hijri_day": 8,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663775+00:00",
-            "updated": "2019-06-12 22:33:01.663788+00:00"
+            "created": "2019-06-14 00:35:11.786770+00:00",
+            "updated": "2019-06-14 00:35:11.786784+00:00"
         }
     },
     {
@@ -2794,17 +2949,18 @@
         "pk": "156",
         "fields": {
             "date_value": "2019-11-07",
-            "lunar_day": 9,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 7,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-09",
+            "hijri_day": 9,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663823+00:00",
-            "updated": "2019-06-12 22:33:01.663837+00:00"
+            "created": "2019-06-14 00:35:11.786879+00:00",
+            "updated": "2019-06-14 00:35:11.786910+00:00"
         }
     },
     {
@@ -2812,17 +2968,18 @@
         "pk": "157",
         "fields": {
             "date_value": "2019-11-08",
-            "lunar_day": 10,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 8,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-10",
+            "hijri_day": 10,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663881+00:00",
-            "updated": "2019-06-12 22:33:01.663896+00:00"
+            "created": "2019-06-14 00:35:11.786953+00:00",
+            "updated": "2019-06-14 00:35:11.786968+00:00"
         }
     },
     {
@@ -2830,17 +2987,18 @@
         "pk": "158",
         "fields": {
             "date_value": "2019-11-09",
-            "lunar_day": 11,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 9,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-11",
+            "hijri_day": 11,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663932+00:00",
-            "updated": "2019-06-12 22:33:01.663946+00:00"
+            "created": "2019-06-14 00:35:11.787008+00:00",
+            "updated": "2019-06-14 00:35:11.787022+00:00"
         }
     },
     {
@@ -2848,17 +3006,18 @@
         "pk": "159",
         "fields": {
             "date_value": "2019-11-10",
-            "lunar_day": 12,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 10,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-12",
+            "hijri_day": 12,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.663982+00:00",
-            "updated": "2019-06-12 22:33:01.663996+00:00"
+            "created": "2019-06-14 00:35:11.787061+00:00",
+            "updated": "2019-06-14 00:35:11.787076+00:00"
         }
     },
     {
@@ -2866,17 +3025,18 @@
         "pk": "160",
         "fields": {
             "date_value": "2019-11-11",
-            "lunar_day": 13,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 11,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-13",
+            "hijri_day": 13,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.664031+00:00",
-            "updated": "2019-06-12 22:33:01.664045+00:00"
+            "created": "2019-06-14 00:35:11.787115+00:00",
+            "updated": "2019-06-14 00:35:11.787129+00:00"
         }
     },
     {
@@ -2884,17 +3044,18 @@
         "pk": "161",
         "fields": {
             "date_value": "2019-11-12",
-            "lunar_day": 14,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 12,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-14",
+            "hijri_day": 14,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.664081+00:00",
-            "updated": "2019-06-12 22:33:01.664095+00:00"
+            "created": "2019-06-14 00:35:11.787169+00:00",
+            "updated": "2019-06-14 00:35:11.787183+00:00"
         }
     },
     {
@@ -2902,17 +3063,18 @@
         "pk": "162",
         "fields": {
             "date_value": "2019-11-13",
-            "lunar_day": 15,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 13,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-15",
+            "hijri_day": 15,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.664130+00:00",
-            "updated": "2019-06-12 22:33:01.664143+00:00"
+            "created": "2019-06-14 00:35:11.787230+00:00",
+            "updated": "2019-06-14 00:35:11.787246+00:00"
         }
     },
     {
@@ -2920,17 +3082,18 @@
         "pk": "163",
         "fields": {
             "date_value": "2019-11-14",
-            "lunar_day": 16,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 14,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-16",
+            "hijri_day": 16,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.664179+00:00",
-            "updated": "2019-06-12 22:33:01.664192+00:00"
+            "created": "2019-06-14 00:35:11.787285+00:00",
+            "updated": "2019-06-14 00:35:11.787299+00:00"
         }
     },
     {
@@ -2938,17 +3101,18 @@
         "pk": "164",
         "fields": {
             "date_value": "2019-11-15",
-            "lunar_day": 17,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 15,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-17",
+            "hijri_day": 17,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.664227+00:00",
-            "updated": "2019-06-12 22:33:01.664241+00:00"
+            "created": "2019-06-14 00:35:11.787338+00:00",
+            "updated": "2019-06-14 00:35:11.787353+00:00"
         }
     },
     {
@@ -2956,17 +3120,18 @@
         "pk": "165",
         "fields": {
             "date_value": "2019-11-16",
-            "lunar_day": 18,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 16,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-18",
+            "hijri_day": 18,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.664277+00:00",
-            "updated": "2019-06-12 22:33:01.664291+00:00"
+            "created": "2019-06-14 00:35:11.787392+00:00",
+            "updated": "2019-06-14 00:35:11.787406+00:00"
         }
     },
     {
@@ -2974,17 +3139,18 @@
         "pk": "166",
         "fields": {
             "date_value": "2019-11-17",
-            "lunar_day": 19,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 17,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-19",
+            "hijri_day": 19,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.664326+00:00",
-            "updated": "2019-06-12 22:33:01.664340+00:00"
+            "created": "2019-06-14 00:35:11.787445+00:00",
+            "updated": "2019-06-14 00:35:11.787460+00:00"
         }
     },
     {
@@ -2992,17 +3158,18 @@
         "pk": "167",
         "fields": {
             "date_value": "2019-11-18",
-            "lunar_day": 20,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 18,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-20",
+            "hijri_day": 20,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.664375+00:00",
-            "updated": "2019-06-12 22:33:01.664389+00:00"
+            "created": "2019-06-14 00:35:11.787499+00:00",
+            "updated": "2019-06-14 00:35:11.787513+00:00"
         }
     },
     {
@@ -3010,17 +3177,18 @@
         "pk": "168",
         "fields": {
             "date_value": "2019-11-19",
-            "lunar_day": 21,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 19,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-21",
+            "hijri_day": 21,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.665048+00:00",
-            "updated": "2019-06-12 22:33:01.665250+00:00"
+            "created": "2019-06-14 00:35:11.787552+00:00",
+            "updated": "2019-06-14 00:35:11.787566+00:00"
         }
     },
     {
@@ -3028,17 +3196,18 @@
         "pk": "169",
         "fields": {
             "date_value": "2019-11-20",
-            "lunar_day": 22,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 20,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-22",
+            "hijri_day": 22,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.665382+00:00",
-            "updated": "2019-06-12 22:33:01.665613+00:00"
+            "created": "2019-06-14 00:35:11.787605+00:00",
+            "updated": "2019-06-14 00:35:11.787619+00:00"
         }
     },
     {
@@ -3046,17 +3215,18 @@
         "pk": "170",
         "fields": {
             "date_value": "2019-11-21",
-            "lunar_day": 23,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 21,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-23",
+            "hijri_day": 23,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.665740+00:00",
-            "updated": "2019-06-12 22:33:01.665781+00:00"
+            "created": "2019-06-14 00:35:11.787658+00:00",
+            "updated": "2019-06-14 00:35:11.787672+00:00"
         }
     },
     {
@@ -3064,17 +3234,18 @@
         "pk": "171",
         "fields": {
             "date_value": "2019-11-22",
-            "lunar_day": 24,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 22,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-24",
+            "hijri_day": 24,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.665876+00:00",
-            "updated": "2019-06-12 22:33:01.665913+00:00"
+            "created": "2019-06-14 00:35:11.787711+00:00",
+            "updated": "2019-06-14 00:35:11.787725+00:00"
         }
     },
     {
@@ -3082,17 +3253,18 @@
         "pk": "172",
         "fields": {
             "date_value": "2019-11-23",
-            "lunar_day": 25,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 23,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-25",
+            "hijri_day": 25,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.665998+00:00",
-            "updated": "2019-06-12 22:33:01.666034+00:00"
+            "created": "2019-06-14 00:35:11.787764+00:00",
+            "updated": "2019-06-14 00:35:11.787778+00:00"
         }
     },
     {
@@ -3100,17 +3272,18 @@
         "pk": "173",
         "fields": {
             "date_value": "2019-11-24",
-            "lunar_day": 26,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 24,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-26",
+            "hijri_day": 26,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.666118+00:00",
-            "updated": "2019-06-12 22:33:01.666151+00:00"
+            "created": "2019-06-14 00:35:11.787892+00:00",
+            "updated": "2019-06-14 00:35:11.787948+00:00"
         }
     },
     {
@@ -3118,17 +3291,18 @@
         "pk": "174",
         "fields": {
             "date_value": "2019-11-25",
-            "lunar_day": 27,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 25,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-27",
+            "hijri_day": 27,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.666232+00:00",
-            "updated": "2019-06-12 22:33:01.666269+00:00"
+            "created": "2019-06-14 00:35:11.788007+00:00",
+            "updated": "2019-06-14 00:35:11.788023+00:00"
         }
     },
     {
@@ -3136,17 +3310,18 @@
         "pk": "175",
         "fields": {
             "date_value": "2019-11-26",
-            "lunar_day": 28,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 26,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-28",
+            "hijri_day": 28,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.666352+00:00",
-            "updated": "2019-06-12 22:33:01.666387+00:00"
+            "created": "2019-06-14 00:35:11.788064+00:00",
+            "updated": "2019-06-14 00:35:11.788078+00:00"
         }
     },
     {
@@ -3154,17 +3329,18 @@
         "pk": "176",
         "fields": {
             "date_value": "2019-11-27",
-            "lunar_day": 29,
-            "lunar_month": 3,
-            "lunar_month_label": "RABI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 27,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-03-29",
+            "hijri_day": 29,
+            "hijri_month": 3,
+            "hijri_year": 1441,
+            "hijri_month_name": "RABI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.666649+00:00",
-            "updated": "2019-06-12 22:33:01.666689+00:00"
+            "created": "2019-06-14 00:35:11.788118+00:00",
+            "updated": "2019-06-14 00:35:11.788132+00:00"
         }
     },
     {
@@ -3172,17 +3348,18 @@
         "pk": "177",
         "fields": {
             "date_value": "2019-11-28",
-            "lunar_day": 1,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 28,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-04-01",
+            "hijri_day": 1,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.666739+00:00",
-            "updated": "2019-06-12 22:33:01.666772+00:00"
+            "created": "2019-06-14 00:35:11.788172+00:00",
+            "updated": "2019-06-14 00:35:11.788187+00:00"
         }
     },
     {
@@ -3190,17 +3367,18 @@
         "pk": "178",
         "fields": {
             "date_value": "2019-11-29",
-            "lunar_day": 2,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 29,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-04-02",
+            "hijri_day": 2,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.666830+00:00",
-            "updated": "2019-06-12 22:33:01.666845+00:00"
+            "created": "2019-06-14 00:35:11.788226+00:00",
+            "updated": "2019-06-14 00:35:11.788241+00:00"
         }
     },
     {
@@ -3208,17 +3386,18 @@
         "pk": "179",
         "fields": {
             "date_value": "2019-11-30",
-            "lunar_day": 3,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 30,
-            "month_label": "November",
             "month": 11,
             "year": 2019,
+            "month_name": "November",
+            "hijri_date_value": "1441-04-03",
+            "hijri_day": 3,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.666882+00:00",
-            "updated": "2019-06-12 22:33:01.666896+00:00"
+            "created": "2019-06-14 00:35:11.788280+00:00",
+            "updated": "2019-06-14 00:35:11.788294+00:00"
         }
     },
     {
@@ -3226,17 +3405,18 @@
         "pk": "180",
         "fields": {
             "date_value": "2019-12-01",
-            "lunar_day": 4,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 1,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-04",
+            "hijri_day": 4,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.666945+00:00",
-            "updated": "2019-06-12 22:33:01.666960+00:00"
+            "created": "2019-06-14 00:35:11.788333+00:00",
+            "updated": "2019-06-14 00:35:11.788348+00:00"
         }
     },
     {
@@ -3244,17 +3424,18 @@
         "pk": "181",
         "fields": {
             "date_value": "2019-12-02",
-            "lunar_day": 5,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 2,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-05",
+            "hijri_day": 5,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.666998+00:00",
-            "updated": "2019-06-12 22:33:01.667012+00:00"
+            "created": "2019-06-14 00:35:11.788387+00:00",
+            "updated": "2019-06-14 00:35:11.788401+00:00"
         }
     },
     {
@@ -3262,17 +3443,18 @@
         "pk": "182",
         "fields": {
             "date_value": "2019-12-03",
-            "lunar_day": 6,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 3,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-06",
+            "hijri_day": 6,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.667048+00:00",
-            "updated": "2019-06-12 22:33:01.667062+00:00"
+            "created": "2019-06-14 00:35:11.788440+00:00",
+            "updated": "2019-06-14 00:35:11.788455+00:00"
         }
     },
     {
@@ -3280,17 +3462,18 @@
         "pk": "183",
         "fields": {
             "date_value": "2019-12-04",
-            "lunar_day": 7,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 4,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-07",
+            "hijri_day": 7,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.667097+00:00",
-            "updated": "2019-06-12 22:33:01.667111+00:00"
+            "created": "2019-06-14 00:35:11.788503+00:00",
+            "updated": "2019-06-14 00:35:11.788518+00:00"
         }
     },
     {
@@ -3298,17 +3481,18 @@
         "pk": "184",
         "fields": {
             "date_value": "2019-12-05",
-            "lunar_day": 8,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 5,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-08",
+            "hijri_day": 8,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.667147+00:00",
-            "updated": "2019-06-12 22:33:01.667161+00:00"
+            "created": "2019-06-14 00:35:11.788561+00:00",
+            "updated": "2019-06-14 00:35:11.788576+00:00"
         }
     },
     {
@@ -3316,17 +3500,18 @@
         "pk": "185",
         "fields": {
             "date_value": "2019-12-06",
-            "lunar_day": 9,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 6,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-09",
+            "hijri_day": 9,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.667196+00:00",
-            "updated": "2019-06-12 22:33:01.667210+00:00"
+            "created": "2019-06-14 00:35:11.788616+00:00",
+            "updated": "2019-06-14 00:35:11.788630+00:00"
         }
     },
     {
@@ -3334,17 +3519,18 @@
         "pk": "186",
         "fields": {
             "date_value": "2019-12-07",
-            "lunar_day": 10,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 7,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-10",
+            "hijri_day": 10,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.667246+00:00",
-            "updated": "2019-06-12 22:33:01.667280+00:00"
+            "created": "2019-06-14 00:35:11.788765+00:00",
+            "updated": "2019-06-14 00:35:11.788788+00:00"
         }
     },
     {
@@ -3352,17 +3538,18 @@
         "pk": "187",
         "fields": {
             "date_value": "2019-12-08",
-            "lunar_day": 11,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 8,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-11",
+            "hijri_day": 11,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.667328+00:00",
-            "updated": "2019-06-12 22:33:01.667352+00:00"
+            "created": "2019-06-14 00:35:11.788888+00:00",
+            "updated": "2019-06-14 00:35:11.788918+00:00"
         }
     },
     {
@@ -3370,17 +3557,18 @@
         "pk": "188",
         "fields": {
             "date_value": "2019-12-09",
-            "lunar_day": 12,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 9,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-12",
+            "hijri_day": 12,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.667569+00:00",
-            "updated": "2019-06-12 22:33:01.667605+00:00"
+            "created": "2019-06-14 00:35:11.788961+00:00",
+            "updated": "2019-06-14 00:35:11.788975+00:00"
         }
     },
     {
@@ -3388,17 +3576,18 @@
         "pk": "189",
         "fields": {
             "date_value": "2019-12-10",
-            "lunar_day": 13,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 10,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-13",
+            "hijri_day": 13,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.667721+00:00",
-            "updated": "2019-06-12 22:33:01.667773+00:00"
+            "created": "2019-06-14 00:35:11.789015+00:00",
+            "updated": "2019-06-14 00:35:11.789029+00:00"
         }
     },
     {
@@ -3406,17 +3595,18 @@
         "pk": "190",
         "fields": {
             "date_value": "2019-12-11",
-            "lunar_day": 14,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 11,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-14",
+            "hijri_day": 14,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.667946+00:00",
-            "updated": "2019-06-12 22:33:01.668008+00:00"
+            "created": "2019-06-14 00:35:11.789121+00:00",
+            "updated": "2019-06-14 00:35:11.789140+00:00"
         }
     },
     {
@@ -3424,17 +3614,18 @@
         "pk": "191",
         "fields": {
             "date_value": "2019-12-12",
-            "lunar_day": 15,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 12,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-15",
+            "hijri_day": 15,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.668119+00:00",
-            "updated": "2019-06-12 22:33:01.668154+00:00"
+            "created": "2019-06-14 00:35:11.789181+00:00",
+            "updated": "2019-06-14 00:35:11.789196+00:00"
         }
     },
     {
@@ -3442,17 +3633,18 @@
         "pk": "192",
         "fields": {
             "date_value": "2019-12-13",
-            "lunar_day": 16,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 13,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-16",
+            "hijri_day": 16,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.668231+00:00",
-            "updated": "2019-06-12 22:33:01.668286+00:00"
+            "created": "2019-06-14 00:35:11.789235+00:00",
+            "updated": "2019-06-14 00:35:11.789250+00:00"
         }
     },
     {
@@ -3460,17 +3652,18 @@
         "pk": "193",
         "fields": {
             "date_value": "2019-12-14",
-            "lunar_day": 17,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 14,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-17",
+            "hijri_day": 17,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.668381+00:00",
-            "updated": "2019-06-12 22:33:01.668478+00:00"
+            "created": "2019-06-14 00:35:11.789301+00:00",
+            "updated": "2019-06-14 00:35:11.789317+00:00"
         }
     },
     {
@@ -3478,17 +3671,18 @@
         "pk": "194",
         "fields": {
             "date_value": "2019-12-15",
-            "lunar_day": 18,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 15,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-18",
+            "hijri_day": 18,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.668592+00:00",
-            "updated": "2019-06-12 22:33:01.668643+00:00"
+            "created": "2019-06-14 00:35:11.789357+00:00",
+            "updated": "2019-06-14 00:35:11.789371+00:00"
         }
     },
     {
@@ -3496,17 +3690,18 @@
         "pk": "195",
         "fields": {
             "date_value": "2019-12-16",
-            "lunar_day": 19,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 16,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-19",
+            "hijri_day": 19,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.668723+00:00",
-            "updated": "2019-06-12 22:33:01.668754+00:00"
+            "created": "2019-06-14 00:35:11.789410+00:00",
+            "updated": "2019-06-14 00:35:11.789424+00:00"
         }
     },
     {
@@ -3514,17 +3709,18 @@
         "pk": "196",
         "fields": {
             "date_value": "2019-12-17",
-            "lunar_day": 20,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 17,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-20",
+            "hijri_day": 20,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.668924+00:00",
-            "updated": "2019-06-12 22:33:01.669020+00:00"
+            "created": "2019-06-14 00:35:11.789462+00:00",
+            "updated": "2019-06-14 00:35:11.789477+00:00"
         }
     },
     {
@@ -3532,17 +3728,18 @@
         "pk": "197",
         "fields": {
             "date_value": "2019-12-18",
-            "lunar_day": 21,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 18,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-21",
+            "hijri_day": 21,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.669138+00:00",
-            "updated": "2019-06-12 22:33:01.669189+00:00"
+            "created": "2019-06-14 00:35:11.789516+00:00",
+            "updated": "2019-06-14 00:35:11.789530+00:00"
         }
     },
     {
@@ -3550,17 +3747,18 @@
         "pk": "198",
         "fields": {
             "date_value": "2019-12-19",
-            "lunar_day": 22,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 19,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-22",
+            "hijri_day": 22,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.669268+00:00",
-            "updated": "2019-06-12 22:33:01.669299+00:00"
+            "created": "2019-06-14 00:35:11.789568+00:00",
+            "updated": "2019-06-14 00:35:11.789582+00:00"
         }
     },
     {
@@ -3568,17 +3766,18 @@
         "pk": "199",
         "fields": {
             "date_value": "2019-12-20",
-            "lunar_day": 23,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 20,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-23",
+            "hijri_day": 23,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.669402+00:00",
-            "updated": "2019-06-12 22:33:01.669506+00:00"
+            "created": "2019-06-14 00:35:11.789621+00:00",
+            "updated": "2019-06-14 00:35:11.789635+00:00"
         }
     },
     {
@@ -3586,17 +3785,18 @@
         "pk": "200",
         "fields": {
             "date_value": "2019-12-21",
-            "lunar_day": 24,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 21,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-24",
+            "hijri_day": 24,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.669600+00:00",
-            "updated": "2019-06-12 22:33:01.669634+00:00"
+            "created": "2019-06-14 00:35:11.789673+00:00",
+            "updated": "2019-06-14 00:35:11.789688+00:00"
         }
     },
     {
@@ -3604,17 +3804,18 @@
         "pk": "201",
         "fields": {
             "date_value": "2019-12-22",
-            "lunar_day": 25,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 22,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-25",
+            "hijri_day": 25,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.669753+00:00",
-            "updated": "2019-06-12 22:33:01.669785+00:00"
+            "created": "2019-06-14 00:35:11.789726+00:00",
+            "updated": "2019-06-14 00:35:11.789740+00:00"
         }
     },
     {
@@ -3622,17 +3823,18 @@
         "pk": "202",
         "fields": {
             "date_value": "2019-12-23",
-            "lunar_day": 26,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 23,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-26",
+            "hijri_day": 26,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.669874+00:00",
-            "updated": "2019-06-12 22:33:01.669926+00:00"
+            "created": "2019-06-14 00:35:11.789778+00:00",
+            "updated": "2019-06-14 00:35:11.789792+00:00"
         }
     },
     {
@@ -3640,17 +3842,18 @@
         "pk": "203",
         "fields": {
             "date_value": "2019-12-24",
-            "lunar_day": 27,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 24,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-27",
+            "hijri_day": 27,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.670030+00:00",
-            "updated": "2019-06-12 22:33:01.670062+00:00"
+            "created": "2019-06-14 00:35:11.789933+00:00",
+            "updated": "2019-06-14 00:35:11.789965+00:00"
         }
     },
     {
@@ -3658,17 +3861,18 @@
         "pk": "204",
         "fields": {
             "date_value": "2019-12-25",
-            "lunar_day": 28,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 25,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-28",
+            "hijri_day": 28,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.670138+00:00",
-            "updated": "2019-06-12 22:33:01.670196+00:00"
+            "created": "2019-06-14 00:35:11.790022+00:00",
+            "updated": "2019-06-14 00:35:11.790039+00:00"
         }
     },
     {
@@ -3676,17 +3880,18 @@
         "pk": "205",
         "fields": {
             "date_value": "2019-12-26",
-            "lunar_day": 29,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 26,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-29",
+            "hijri_day": 29,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.670293+00:00",
-            "updated": "2019-06-12 22:33:01.670323+00:00"
+            "created": "2019-06-14 00:35:11.790080+00:00",
+            "updated": "2019-06-14 00:35:11.790095+00:00"
         }
     },
     {
@@ -3694,17 +3899,18 @@
         "pk": "206",
         "fields": {
             "date_value": "2019-12-27",
-            "lunar_day": 30,
-            "lunar_month": 4,
-            "lunar_month_label": "Rabi-us-Sani",
-            "lunar_year": 1441,
             "day": 27,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-04-30",
+            "hijri_day": 30,
+            "hijri_month": 4,
+            "hijri_year": 1441,
+            "hijri_month_name": "Rabi-us-Sani",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.670461+00:00",
-            "updated": "2019-06-12 22:33:01.670514+00:00"
+            "created": "2019-06-14 00:35:11.790135+00:00",
+            "updated": "2019-06-14 00:35:11.790150+00:00"
         }
     },
     {
@@ -3712,17 +3918,18 @@
         "pk": "207",
         "fields": {
             "date_value": "2019-12-28",
-            "lunar_day": 1,
-            "lunar_month": 5,
-            "lunar_month_label": "JAMADI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 28,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-05-01",
+            "hijri_day": 1,
+            "hijri_month": 5,
+            "hijri_year": 1441,
+            "hijri_month_name": "JAMADI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.670613+00:00",
-            "updated": "2019-06-12 22:33:01.670645+00:00"
+            "created": "2019-06-14 00:35:11.790190+00:00",
+            "updated": "2019-06-14 00:35:11.790204+00:00"
         }
     },
     {
@@ -3730,17 +3937,18 @@
         "pk": "208",
         "fields": {
             "date_value": "2019-12-29",
-            "lunar_day": 2,
-            "lunar_month": 5,
-            "lunar_month_label": "JAMADI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 29,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-05-02",
+            "hijri_day": 2,
+            "hijri_month": 5,
+            "hijri_year": 1441,
+            "hijri_month_name": "JAMADI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.670751+00:00",
-            "updated": "2019-06-12 22:33:01.670799+00:00"
+            "created": "2019-06-14 00:35:11.790245+00:00",
+            "updated": "2019-06-14 00:35:11.790259+00:00"
         }
     },
     {
@@ -3748,17 +3956,18 @@
         "pk": "209",
         "fields": {
             "date_value": "2019-12-30",
-            "lunar_day": 3,
-            "lunar_month": 5,
-            "lunar_month_label": "JAMADI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 30,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-05-03",
+            "hijri_day": 3,
+            "hijri_month": 5,
+            "hijri_year": 1441,
+            "hijri_month_name": "JAMADI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.670877+00:00",
-            "updated": "2019-06-12 22:33:01.670907+00:00"
+            "created": "2019-06-14 00:35:11.790299+00:00",
+            "updated": "2019-06-14 00:35:11.790314+00:00"
         }
     },
     {
@@ -3766,17 +3975,18 @@
         "pk": "210",
         "fields": {
             "date_value": "2019-12-31",
-            "lunar_day": 4,
-            "lunar_month": 5,
-            "lunar_month_label": "JAMADI-UL-AWWAL",
-            "lunar_year": 1441,
             "day": 31,
-            "month_label": "December",
             "month": 12,
             "year": 2019,
+            "month_name": "December",
+            "hijri_date_value": "1441-05-04",
+            "hijri_day": 4,
+            "hijri_month": 5,
+            "hijri_year": 1441,
+            "hijri_month_name": "JAMADI-UL-AWWAL",
             "data_file": 1,
-            "created": "2019-06-12 22:33:01.671010+00:00",
-            "updated": "2019-06-12 22:33:01.671058+00:00"
+            "created": "2019-06-14 00:35:11.790354+00:00",
+            "updated": "2019-06-14 00:35:11.790368+00:00"
         }
     }
 ]
