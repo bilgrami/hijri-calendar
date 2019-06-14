@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'django_extensions',
     'rest_framework',
-
+    'django_admin_shell',
  ]
 
 MIDDLEWARE = [
@@ -188,3 +188,8 @@ REST_FRAMEWORK = {
         ),
     'PAGE_SIZE': 10
 }
+
+# django-admin-shell settings
+ADMIN_SHELL_ENABLE = True
+ADMIN_SHELL_ONLY_FOR_SUPERUSER = True
+ADMIN_SHELL_ONLY_DEBUG_MODE = True
