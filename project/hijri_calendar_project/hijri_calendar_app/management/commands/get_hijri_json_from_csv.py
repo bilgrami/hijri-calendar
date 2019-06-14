@@ -15,7 +15,6 @@ class Command(BaseCommand):
         drop table hijri_holiday CASCADE;
         or
         truncate table hijri_calendar_data_file CASCADE;
-        
     script
         python manage.py makemigrations
         python manage.py migrate --fake hijri_calendar_app zero
