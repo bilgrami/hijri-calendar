@@ -5,7 +5,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Docker-Compose - build docker image",
+            "label": "Docker - build hijricalendar image",
             "type": "shell",
             "command": "docker build --rm -f 'Dockerfile' -t bilgrami/hijricalendar:latest .;",
             "group": "build",
