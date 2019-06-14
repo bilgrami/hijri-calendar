@@ -1,12 +1,10 @@
-from rest_framework import viewsets
-from .serializers import (
-  DataFileSerializer,
-  HijriCalendarSerializer
-)
-from .models import DataFile, HijriCalendar
-
 from django.shortcuts import render
 from django.views.generic import TemplateView
+
+from rest_framework import viewsets
+
+from .models import DataFile, HijriCalendar
+from .serializers import DataFileSerializer, HijriCalendarSerializer
 
 
 class HomePageView(TemplateView):

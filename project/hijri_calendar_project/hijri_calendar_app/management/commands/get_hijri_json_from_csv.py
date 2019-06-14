@@ -1,8 +1,8 @@
-from django.core.management.base import BaseCommand, CommandError
-import json
 import csv
+import json
 import os
-from django.utils import timezone
+
+from django.core.management.base import BaseCommand, CommandError
 
 
 class Command(BaseCommand):
@@ -80,8 +80,8 @@ class Command(BaseCommand):
                         "data_file": row[9],
                         "hijri_date_value": row[10],
                         "is_holiday": str(False),
-                        "created": str(timezone.now()),
-                        "updated": str(timezone.now()),
+                        "created": "2019-06-12",
+                        "updated": "2019-06-12",
                         }
                         }
                 result += str(d)
