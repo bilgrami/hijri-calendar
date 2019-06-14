@@ -78,7 +78,7 @@ class Command(BaseCommand):
                         "hijri_month": int(row[2]),
                         "hijri_year": int(row[4]),
                         "hijri_month_name": row[3],
-                        "data_file": int(row[9]),
+                        "data_file": row[9],
                         "hijri_date_value": row[10],
                         "is_holiday": str(False),
                         "created": str(timezone.now()),

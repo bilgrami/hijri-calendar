@@ -4,9 +4,9 @@
         "pk": "Y2019-hijri_calendar.json",
         "fields": {
             "file_type": "json",
-            "date_loaded" : "2019-06-12 22:31:48",
-            "created" : "2019-06-12 22:31:48",
-            "updated" : "2019-06-12 22:31:48"
+            "date_loaded" : "2019-06-05",
+            "created" : "2019-06-12",
+            "updated" : "2019-06-12"
         }
     },
     {
@@ -14,9 +14,9 @@
         "pk": "Y2020-hijri_calendar.json",
         "fields": {
             "file_type": "json",
-            "date_loaded" : "2019-06-12 22:31:48",
-            "created" : "2019-06-12 22:31:48",
-            "updated" : "2019-06-12 22:31:48"
+            "date_loaded" : "2019-06-05",
+            "created" : "2019-06-12",
+            "updated" : "2019-06-12"
         }
     }
 

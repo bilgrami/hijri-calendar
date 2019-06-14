@@ -11,5 +11,5 @@ class DataFileSerializer(serializers.HyperlinkedModelSerializer):
 class HijriCalendarSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = HijriCalendar
-        fields = ('url', 'date_value', 'lunar_day', 'lunar_month',
-                  'lunar_year', 'day', 'month', 'year')
+        fields = ('url', 'date_value', 'day', 'month', 'year',
+        'hijri_date_value', 'hijri_day', 'hijri_month', 'hijri_year')

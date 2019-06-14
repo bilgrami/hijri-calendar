@@ -40,7 +40,7 @@ class DataFile(models.Model):
     loaded_by = models.ForeignKey(User,
                                   on_delete=models.CASCADE,
                                   related_name='data_file_dates',
-                                  default=1)
+                                  default=1)  # assuming 1 exists
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 
@@ -48,7 +48,7 @@ class DataFile(models.Model):
         db_table = "hijri_calendar_data_file"
 
     def __str__(self):
-        return f"{self.file_name}.{self.file_type}"
+        return self.file_name
 
 
 class HijriCalendar(models.Model):
