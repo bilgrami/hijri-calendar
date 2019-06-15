@@ -1,8 +1,9 @@
+#!/bin/bash
 
 echo You are running script from $(pwd)
-python manage.py sqlflush
+python ./manage.py sqlflush  #| python ./manage.py dbshell
 python manage.py makemigrations
-python manage.py migrate
+# python manage.py migrate
 
 echo -----------------------------------------
 echo creating superuser [$ADMIN_USER], please wait ..
@@ -26,14 +27,20 @@ echo -----------------------------------------
 
 python manage.py migrate --fake hijri_calendar_app zero
 python manage.py migrate
-python manage.py loaddata data_file
 
-python manage.py get_hijri_json_from_csv \
-'../data/source/Y2019-hijri_calendar.csv' > \
-./hijri_calendar_app/fixtures/hijri_calendar_Y2019.json
+echo -----------------------------------------
+echo Loading Data
+echo -----------------------------------------
+
+python manage.py loaddata data_file;
+python manage.py loaddata holidayaliaslist;
+python manage.py loaddata holidaycountrylist;
+python manage.py loaddata holidayoriginlist;
+python manage.py loaddata holiday;
 python manage.py loaddata hijri_calendar_Y2019
+python manage.py loaddata hijri_calendar_Y2020;
 
-python manage.py get_hijri_json_from_csv \
-    '../data/source/Y2020-hijri_calendar.csv' > \
-    ./hijri_calendar_app/fixtures/hijri_calendar_Y2020.json
-python manage.py loaddata hijri_calendar_Y2020
+echo -----------------------------------------
+echo Populating Holidays
+echo -----------------------------------------
+python manage.py populate_holidays;
