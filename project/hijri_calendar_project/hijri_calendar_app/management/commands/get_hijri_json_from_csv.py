@@ -11,8 +11,7 @@ class Command(BaseCommand):
     sql:
         drop table hijri_calendar_data_file CASCADE;
         drop table hijri_calendar CASCADE;
-        drop table hijri_holiday_calendar CASCADE;
-        drop table hijri_holiday CASCADE;
+        drop table holiday CASCADE;
         or
         truncate table hijri_calendar_data_file CASCADE;
     script
@@ -80,8 +79,8 @@ class Command(BaseCommand):
                         "data_file": row[9],
                         "hijri_date_value": row[10],
                         "is_holiday": str(False),
-                        "created": "2019-06-12",
-                        "updated": "2019-06-12",
+                        "created": "2019-06-12T07:00:00Z",
+                        "updated": "2019-06-12T07:00:00Z",
                         }
                         }
                 result += str(d)
