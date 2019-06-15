@@ -52,6 +52,8 @@ INSTALLED_APPS = [
     'django_extensions',
     'rest_framework',
     'django_admin_shell',
+    'material.theme.amber',
+    'material'
  ]
 
 MIDDLEWARE = [

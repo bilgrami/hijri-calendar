@@ -8,7 +8,8 @@
 </head>
 <body>
   {% block pagecontent %}
-    <p>
+  {% include 'partials/nav-bar.html' %} <!--Add this-->
+  <p>
     We are a group of Django enthusiasts with the following idiosyncrasies:
     
     <ol>
@@ -16,7 +17,6 @@
         <li>We love making playing football on rainy days.</li>
     </ol>
     </p>
-    {% include 'partials/nav-bar.html' %} <!--Add this-->
   {% endblock %}
 </body>
 </html>
