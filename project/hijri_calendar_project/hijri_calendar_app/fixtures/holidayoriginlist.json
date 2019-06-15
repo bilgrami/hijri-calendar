@@ -1,0 +1,130 @@
+[
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "American",
+        "fields": {
+            "created": "2019-06-14T22:24:18.090Z",
+            "updated": "2019-06-14T22:24:18.092Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "Bangladeshi",
+        "fields": {
+            "created": "2019-06-14T22:25:21.039Z",
+            "updated": "2019-06-14T22:25:21.039Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "British",
+        "fields": {
+            "created": "2019-06-14T22:24:32.143Z",
+            "updated": "2019-06-14T22:24:32.143Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "Budhist",
+        "fields": {
+            "created": "2019-06-14T22:24:10.229Z",
+            "updated": "2019-06-14T22:24:10.229Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "Canadian",
+        "fields": {
+            "created": "2019-06-14T22:24:27.519Z",
+            "updated": "2019-06-14T22:24:27.519Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "Christian",
+        "fields": {
+            "created": "2019-06-14T22:24:00.001Z",
+            "updated": "2019-06-14T22:24:00.001Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "French",
+        "fields": {
+            "created": "2019-06-14T22:25:02.418Z",
+            "updated": "2019-06-14T22:25:02.418Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "German",
+        "fields": {
+            "created": "2019-06-14T22:25:29.462Z",
+            "updated": "2019-06-14T22:25:29.462Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "Hindu",
+        "fields": {
+            "created": "2019-06-14T22:24:06.366Z",
+            "updated": "2019-06-14T22:24:06.367Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "Indian",
+        "fields": {
+            "created": "2019-06-14T22:25:12.439Z",
+            "updated": "2019-06-14T22:25:12.440Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "Islamic",
+        "fields": {
+            "created": "2019-06-14T22:23:56.255Z",
+            "updated": "2019-06-14T22:23:56.255Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "Jewish",
+        "fields": {
+            "created": "2019-06-14T22:24:13.436Z",
+            "updated": "2019-06-14T22:24:13.436Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "Mexican",
+        "fields": {
+            "created": "2019-06-14T22:25:07.016Z",
+            "updated": "2019-06-14T22:25:07.017Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "Pakistani",
+        "fields": {
+            "created": "2019-06-14T22:25:17.263Z",
+            "updated": "2019-06-14T22:25:17.263Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "Persian",
+        "fields": {
+            "created": "2019-06-14T22:25:24.610Z",
+            "updated": "2019-06-14T22:25:24.610Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayoriginlist",
+        "pk": "Unknown",
+        "fields": {
+            "created": "2019-06-14T22:23:52.473Z",
+            "updated": "2019-06-14T22:23:52.474Z"
+        }
+    }
+]

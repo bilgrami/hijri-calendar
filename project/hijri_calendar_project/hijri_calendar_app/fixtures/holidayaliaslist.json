@@ -1,0 +1,115 @@
+[
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Ashura-e-Moharram",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Ramazan",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Ramzan",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Eid ul Fitr",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Meethi Eid",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Choti Eid",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Miraj Shareef",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Eid ul Azha",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Baqar Eid",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Bari Eid",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Baqar Eid",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Yom Ashura",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "عاشوراء",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Eid Milad-un-Nabi",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    }
+    
+]

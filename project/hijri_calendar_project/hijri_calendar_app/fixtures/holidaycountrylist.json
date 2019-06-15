@@ -1,0 +1,58 @@
+[
+    {
+        "model": "hijri_calendar_app.holidaycountrylist",
+        "pk": "All",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidaycountrylist",
+        "pk": "India",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidaycountrylist",
+        "pk": "Pakistan",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidaycountrylist",
+        "pk": "United States",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidaycountrylist",
+        "pk": "Canada",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidaycountrylist",
+        "pk": "Mexico",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidaycountrylist",
+        "pk": "Bangladesh",
+        "fields": {
+            "created": "2019-06-14T00:00:00.000Z",
+            "updated": "2019-06-14T00:00:00.000Z"
+        }
+    }
+]
