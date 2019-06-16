@@ -1,18 +1,48 @@
 {% extends 'base.html' %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{% block title %}Welcome Home {% endblock %}</title>
-</head>
-<body>
-  {% block pagecontent %}
-  {% include 'partials/nav-bar.html' %} <!--Add this-->
-  <h1>Welcome to Hijri Calendar</h1>
-    <p>This website is created to display lunar hijri calendar based on data obtained 
-      from <A href="http://pakmoonsighting.pk/">pakmoonsighting.pk</A>"
-    </p>
-  {% endblock %}
-</body>
-</html>
+{% block extrahead %}
+<style type="text/css">
+  @media only screen and (min-width : 601px) {
+    #id_card_type_container {
+      margin-top: 40px;
+      margin-left: 50px;
+    }
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="divider"></div>
+
+<h1>Welcome to PK Hijri Calendar Website</h1>
+
+<p class="flow-text">
+  This website is created to display hijri and holiday calendar data obtained
+  from <a target="_blank" href="http://pakmoonsighting.pk/">pakmoonsighting.pk</a>.
+
+</p>
+
+<p class="flow-text">
+    Complete Source code for this website is available on Github located at
+     <a target="_blank" href="https://github.com/bilgrami/hijri-calendar">bilgrami/hijri-calendar</a>.
+  
+  </p>
+  
+<h3>
+  Features
+</h3>
+<h5>
+  <p>Calendar API</p> 
+  
+<p class="flow-text">
+    The Calendar API provides access to two years (Y2019 and Y2020) worth of data. The API is public and require no authenticate  
+  </p>
+  <p>Holiday Calendar</p> 
+<p class="flow-text">
+    Holiday Calendar displays list of public holidays observed in Pakistan. 
+  </p>
+
+</h5>
+</div>
+
+{% endblock %}
