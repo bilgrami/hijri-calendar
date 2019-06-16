@@ -41,7 +41,7 @@ class HolidaySerializer(serializers.HyperlinkedModelSerializer):
         model = Holiday
         fields = ('url', 'holiday_name', 'description', 'day', 'month',
                   'hijri_day', 'hijri_month', 'cultural_origin',
-                  'alias', 'country_origin')
+                  'alias', 'country_origin', 'holiday_dates')
 
 
 class HijriCalendarSerializer(serializers.HyperlinkedModelSerializer):

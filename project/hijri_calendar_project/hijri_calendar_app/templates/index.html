@@ -14,11 +14,11 @@
 {% block content %}
 <div class="divider"></div>
 
-<h1>Welcome to PK Hijri Calendar Website</h1>
+<h1>Rest API for Pakistan Holidays</h1>
 
 <p class="flow-text">
   This website is created to display hijri and holiday calendar data obtained
-  from <a target="_blank" href="http://pakmoonsighting.pk/">pakmoonsighting.pk</a>.
+  from <a target="_blank" href="http://pakmoonsighting.pk/">pakmoonsighting.pk</a> via Restfil API.
 
 </p>
 
@@ -28,26 +28,46 @@
   Features
 </h3>
 <h5>
-  <p>Calendar API</p>
 
-  <p class="flow-text">
-    The Calendar API provides access to two years (Y2019 and Y2020) worth of data. The API is public and require no
-    authenticate
+  <p>
+    Holiday Calendar: <a href="{% url 'holiday' %}">/holiday/</a>
   </p>
-  <p>Holiday Calendar</p>
   <p class="flow-text">
-    Holiday Calendar displays list of public holidays observed in Pakistan.
+    Holiday Calendar displays table of public holidays observed in Pakistan.
+  </p>
+
+  <p>
+    Holiday API: <a target="_blank" href="/api/v1/holiday/">/api/v1/holiday/</a> (opens in new window)
+  </p>
+  <p class="flow-text">
+    The Holiday API provides access to public holidays observed in Pakistan.
+  </p>
+
+
+  <p>
+    Calendar API: <a target="_blank" href="/api/v1/calendar/">/api/v1/calendar/</a> (opens in new window)
+  </p>
+  <p class="flow-text">
+    The Calendar API provides access to two years (Y2019 and Y2020) worth of data. API is public and require no
+    authenticatation for read-only access.
   </p>
 
 </h5>
 <div class="divider"></div>
 
-<p class="flow-text">
+
+<h8>
+  About this website:
+  <a target="_blank" href="{% url 'about' %}">/about/</a>
+</h8>
+<div class="divider"></div>
+
+<h8>
   Source code:
   <a target="_blank"
     href="https://www.github.com/bilgrami/hijri-calendar">https://www.github.com/bilgrami/hijri-calendar</a>.
-
-</p>
+</h8>
+<div class="divider"></div>
 
 </div>
 

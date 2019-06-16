@@ -1,5 +1,5 @@
-# PK Hijri Calendar and Holidays
-This repo is created to display hijri and Pakistani holiday calendar data via restful API. 
+# Rest API for Pakistan Holidays
+This repo is created to display hijri calendar and Pakistani holidays via restful API. 
 Data is obtained from official [pakmoonsighting.com.pk] government website. 
 
 ### Demo website
