@@ -1,10 +1,16 @@
 # PK Hijri Calendar and Holidays
-This repo is created to display hijri and holiday calendar data for Pakistan via restful API. 
-Data is obtained from official [pakmoonsighting.com.pk] website. 
+This repo is created to display hijri and Pakistani holiday calendar data via restful API. 
+Data is obtained from official [pakmoonsighting.com.pk] government website. 
+
+### Demo website
+* [Moon calendar] - Mooncalendar Hosted on Azure Cloud Platform
 
 
 ### Installation
-You need to docker and docker-compose to run the website.
+
+#### Pre-requisites: 
+
+You need docker and docker-compose to run the website.
 
 ##### Method 1: Pull image from docker hub
 
@@ -20,7 +26,7 @@ cd hijri-calendar
 docker build -t bilgrami/hijricalendar:latest .
 ```
 
-Once docker image is build, bring up the container:
+After building docker image, bring up the container:
 
 ```sh
 docker-compose up
@@ -31,9 +37,6 @@ Verify the deployment by navigating to your server address in your preferred bro
 ```sh
 127.0.0.1:5000
 ```
-
-# Demo website
-* [Moon calendar] - Mooncalendar Hosted on Azure Cloud Platform
 
 ----
 
