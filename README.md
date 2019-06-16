@@ -1,9 +1,11 @@
-# Rest API for Pakistan Holidays
+# Restful API for Pakistani Holidays
 This repo is created to display hijri calendar and Pakistani holidays via restful API. 
 Data is obtained from official [pakmoonsighting.com.pk] government website. 
 
-### Demo website
-* [Moon calendar] - Mooncalendar Hosted on Azure Cloud Platform
+### Demo links
+* [Pak Holidays Website] - Mooncalendar website is hosted on Azure Cloud Platform
+* [Holidays API] - The Holiday API provides access to public holidays observed in Pakistan. API is public and require no authenticatation for read-only access.
+* [Calendar API] - The Calendar API provides access to two years (Y2019 and Y2020) worth of hijri calendar data. API is public and require no authenticatation for read-only access.
 
 
 ### Installation
@@ -41,5 +43,7 @@ Verify the deployment by navigating to your server address in your preferred bro
 ----
 
 
- [Moon calendar]: <https://mooncalendar.azurewebsites.net>
+[Pak Holidays Website]: <https://mooncalendar.azurewebsites.net>
 [pakmoonSighting.com.pk]: <http://pakmoonsighting.pk> 
+[Holidays API]: <https://mooncalendar.azurewebsites.net/api/v1/holiday/>
+[Calendar API]: <https://mooncalendar.azurewebsites.net/api/v1/calendar/>
