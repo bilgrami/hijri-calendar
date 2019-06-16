@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User
 from django.db import models
 from django.utils import timezone
-
+# from django.urls import reverse
 from .managers import HolidayCalendarManager
 
 hijri_month_choices = [
@@ -185,3 +185,8 @@ class HijriCalendar(models.Model):
         self.hijri_month_name = next(iter(hijri_month_filtered_list or []),
                                      None)
         super(HijriCalendar, self).save(*args, **kwargs)
+
+    def get_absolute_url(self):
+        # return reverse('calendar:calendar_detail_url',
+        #                args=[{self.date_value}, ])
+        return f"/calendar_detail/{self.date_value}"

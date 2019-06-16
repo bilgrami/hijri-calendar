@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block extrahead %}
+<style type="text/css">
+  @media only screen and (min-width : 601px) {
+    #id_card_type_container {
+      margin-top: 40px;
+      margin-left: 50px;
+    }
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="divider"></div>
+<div class="section row">
+  <div class="col s4">
+
+    <h4>{{data.date_value}}</h4>
+
+  </div>
+
+  <div class="col s8">
+
+    <h4>{{data.hijri_date_value}} Hijri in the month of {{data.hijri_month_name}}</h4>
+
+  </div>
+
+</div>
+
+<div class="divider"></div>
+{% for holiday in data.holiday_list.all %}
+
+<h5>
+  {{ holiday.holiday_name }}
+</h5>
+<p class="flow-text">
+  {{ holiday.description |linebreaksbr }}
+
+</p>
+
+<h6>
+ Cultural Origin
+</h6>
+<p>
+  -  {{ holiday.origin |default_if_none:" - unknown origin - " }}
+
+</p>
+
+
+
+{% if  holiday.country.count > 0 %}
+<h6>
+  Country of Origin
+</h6>
+
+{% for country in holiday.country.all %}
+<h7>
+  - {{ country |default_if_none:" - unknown - " }}
+  <br />
+</h7>
+{% endfor %}
+
+{% endif %}
+
+
+
+
+{% if  holiday.alias_names.count > 0 %}
+<h6>
+  Also Known as
+</h6>
+
+{% for alias in holiday.alias_names.all %}
+<h7>
+  {{ forloop.counter }} - {{ alias |default_if_none:" - unknown - " }}
+  <br />
+</h7>
+{% endfor %}
+
+{% endif %}
+<p></p>
+<hr />
+{% endfor %}
+</div>
+{% endblock %}

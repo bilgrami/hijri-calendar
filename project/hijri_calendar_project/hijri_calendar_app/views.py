@@ -1,10 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.views.generic import TemplateView
 
 from rest_framework import viewsets
 
-from .models import DataFile, HijriCalendar
-from .serializers import DataFileSerializer, HijriCalendarSerializer
+from .models import DataFile, HijriCalendar, Holiday
+from .serializers import DataFileSerializer, HijriCalendarSerializer, HolidaySerializer
+from datetime import date
 
 
 class HomePageView(TemplateView):
@@ -16,51 +17,28 @@ class AboutPageView(TemplateView):
 
 
 # Add this view
-class DataPageView(TemplateView):
+class HolidayPageView(TemplateView):
     def get(self, request, **kwargs):
-        context = {
-            'data': [
-                {
-                    'name': 'Celeb 1',
-                    'worth': '3567892'
-                },
-                {
-                    'name': 'Celeb 2',
-                    'worth': '23000000'
-                },
-                {
-                    'name': 'Celeb 3',
-                    'worth': '1000007'
-                },
-                {
-                    'name': 'Celeb 4',
-                    'worth': '456789'
-                },
-                {
-                    'name': 'Celeb 5',
-                    'worth': '7890000'
-                },
-                {
-                    'name': 'Celeb 6',
-                    'worth': '12000456'
-                },
-                {
-                    'name': 'Celeb 7',
-                    'worth': '896000'
-                },
-                {
-                    'name': 'Celeb 8',
-                    'worth': '670000'
-                }
-            ]
-        }
+        m = HijriCalendar.holiday_calendar.all()
+        holiday_calendars = m.filter(date_value__gte=date.today())  \
+                             .order_by('date_value')
+        data = 'Note: Holidays earlier than today are not displayed'
+        return render(request, 'hijri_calendar_app/holiday.html',
+                               {'holiday_calendars': holiday_calendars,
+                                'data': data})
 
-        return render(request, 'data.html', context)
+
+class CalendarDetailPageView(TemplateView):
+    def get(self, request, date_value, **kwargs):
+        data = get_object_or_404(HijriCalendar,
+                                 date_value=date_value)
+        return render(request, 'hijri_calendar_app/calendar_detail.html',
+                               {'data': data})
 
 
 class DataFileViewSet(viewsets.ModelViewSet):
     """
-    API endpoint that allows users to be viewed or edited.
+    API endpoint that allows DataFile to be viewed or edited.
     """
     queryset = DataFile.objects.all().order_by('file_name')
     serializer_class = DataFileSerializer
@@ -68,7 +46,15 @@ class DataFileViewSet(viewsets.ModelViewSet):
 
 class HijriCalendarViewSet(viewsets.ModelViewSet):
     """
-    API endpoint that allows groups to be viewed or edited.
+    API endpoint that allows HijriCalendar to be viewed or edited.
     """
-    queryset = HijriCalendar.objects.all().order_by('-date_value')
+    queryset = HijriCalendar.objects.all().order_by('date_value')
     serializer_class = HijriCalendarSerializer
+
+
+class HolidayViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows Holidays to be viewed or edited.
+    """
+    queryset = Holiday.objects.all()
+    serializer_class = HolidaySerializer
