@@ -27,6 +27,7 @@
       <th>Date</th>
       <th>Hijri Date</th>
       <th>Holiday Name</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -43,6 +44,11 @@
 
 
       </td>
+      <td>
+          <a target="_blank" href="{{ data.get_api_url }}">
+              api
+            </a>        
+     </td>
     </tr>
     {% endfor %}
   </tbody>

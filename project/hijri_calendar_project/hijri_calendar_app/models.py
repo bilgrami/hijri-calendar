@@ -190,3 +190,6 @@ class HijriCalendar(models.Model):
         # return reverse('calendar:calendar_detail_url',
         #                args=[{self.date_value}, ])
         return f"/calendar_detail/{self.date_value}"
+
+    def get_api_url(self):
+        return f"/api/v1/calendar/{self.date_value}"
