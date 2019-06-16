@@ -2,20 +2,54 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>{% block title %}About Us {% endblock %}</title>
+  <meta charset="UTF-8">
+  <title>{% block title %}About Us {% endblock %}</title>
 </head>
+
 <body>
   {% block content %}
-  <p>
-    We are a group of Django enthusiasts with the following idiosyncrasies:
-    
-    <ol>
-        <li>We only eat bananas on Saturdays.</li>
-        <li>We love making playing football on rainy days.</li>
-    </ol>
-    </p>
+
+  <h3>
+    Technologies
+  </h3>
+  <ol>
+    <li>
+      Python
+    </li>
+    <li>
+      Django
+    </li>
+    <li>
+      Django rest framework
+    </li>
+    <li>
+      Docker Compose
+    </li>
+    <li>
+      Linux running on Microsoft Azure Cloud platform
+    </li>
+    <li>
+      Google Material Design
+    </li>
+  </ol>
+  <div class="divider"></div>
+
+  <p class="flow-text">
+    Source code:
+    <a target="_blank"
+      href="https://www.github.com/bilgrami/hijri-calendar">https://www.github.com/bilgrami/hijri-calendar</a>.
+
+  </p>
+  <div class="divider"></div>
+
+  <p class="flow-text">
+    Last updated on: 2019-06-15
+
+  </p>
+
   {% endblock %}
 </body>
+
 </html>
