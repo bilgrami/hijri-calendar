@@ -42,6 +42,8 @@ CSRF_TRUSTED_ORIGINS = ALLOWED_HOSTS
 
 INSTALLED_APPS = [
     'hijri_calendar_app.apps.HijriCalendarWebsiteConfig',
+    'material',
+    'material.theme.amber',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -52,8 +54,6 @@ INSTALLED_APPS = [
     'django_extensions',
     'rest_framework',
     'django_admin_shell',
-    'material',
-    'material.theme.amber',
  ]
 
 MIDDLEWARE = [
