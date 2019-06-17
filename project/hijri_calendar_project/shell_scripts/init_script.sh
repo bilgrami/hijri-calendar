@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo You are running script from $(pwd)
-python ./manage.py sqlflush  #| python ./manage.py dbshell
+python manage.py sqlflush  #| python ./manage.py dbshell
 python manage.py makemigrations
 # python manage.py migrate
 
