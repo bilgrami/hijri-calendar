@@ -14,7 +14,7 @@ RUN mkdir -p $PROJECT_ROOT; \
 
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
-
+ENV PROJECT_ROOT $PROJECT_ROOT
 # install python packages
 WORKDIR $PROJECT_ROOT
 COPY requirements.txt requirements.txt
@@ -33,4 +33,27 @@ ENV PYTHONUNBUFFERED 1
 EXPOSE $SERVER_PORT
 EXPOSE $iPYTHON_NOTEBOOK_PORT
 STOPSIGNAL SIGINT
-CMD python ./hijri_calendar_project/manage.py runserver 0.0.0.0:$SERVER_PORT
+
+RUN \
+ apt-get update && \
+ apt-get install -qy --no-install-recommends \
+   curl wget openssh-server nano && \
+ rm -rf /var/lib/apt/lists/* && \
+ mkdir -p /home/LogFiles /opt/startup && \
+ echo "root:Docker!" | chpasswd 
+
+
+COPY docker/startup /opt/startup
+COPY docker/startup/sshd_config /etc/ssh/
+
+COPY docker/startup/ssh_setup.sh /tmp
+RUN chmod -R +x /opt/startup \
+   && chmod -R +x /tmp/ssh_setup.sh \
+   && (sleep 1;/tmp/ssh_setup.sh 2>&1 > /dev/null) \
+   && rm -rf /tmp/* \
+   && cd /opt/startup
+
+ENV SSH_PORT 8080
+EXPOSE $SSH_PORT $SSH_PORT
+
+ENTRYPOINT ["/opt/startup/init_container.sh"]
