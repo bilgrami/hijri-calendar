@@ -1,178 +1,219 @@
 [
     {
         "model": "hijri_calendar_app.holiday",
+        "pk": "12 Rabi ul Awal",
+        "fields": {
+          "description": "Eid Milad-un-Nabi, also known as the Prophet Muhammad\u2019s birthday, is a public holiday in Pakistan. Sunni Muslims observe Milad-un-Nabi on 12 Rabi-ul-Awwal (third month of the Islamic calendar) while Shia Muslims observe it on 17 Rabi-ul-Awwal, coinciding with the birthdate of their sixth Imam Jafar-al-Sadiq.",
+          "hijri_day": 12,
+          "hijri_month": 3,
+          "day": null,
+          "month": null,
+          "origin": "Islamic",
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z",
+          "alias_names": [
+            "Eid Milad-un-Nabi"
+          ],
+          "country": [
+            "All",
+            "India",
+            "Pakistan"
+          ]
+        }
+      },
+      {
+        "model": "hijri_calendar_app.holiday",
         "pk": "Ashura",
         "fields": {
-            "description": "Yom Ashura or Ashura (Arabic: عاشوراء‎ ʻĀshūrā’) is the tenth day of Muḥarram, the first month in the Islamic calendar. For the majority of Shia Muslims Ashura marks the climax of the Remembrance of Muharram,[3] and commemorates the death of Husayn ibn Ali, the grandson of the Islamic prophet Muhammad, at the Battle of Karbala on 10 Muharram in the year 61 AH (in AHt: October 10, 680 CE). Sunni Muslims have the same accounts of these events, but ceremonial mourning did not become a custom – although poems, eulogizing and recounting the events were and continue to be common. Mourning for the incident began almost immediately after the Battle of Karbala. Popular elegies were written by poets to commemorate the Battle of Karbala during the Umayyad and Abbasid era, and the earliest public mourning rituals occurred in 963 CE during the Buyid dynasty. In Afghanistan, Iran, Iraq, Lebanon, Bahrain, Bangladesh and Pakistan, Ashura has become a national holiday, and many ethnic and religious communities participate in it.\nIn Sunni Islam, Ashura also marks the day that Moses and the Israelites were saved from Pharaoh by God creating a path in the Sea, and is the Islamic equivalent to Yom Kippur. Other commemorations include Noah leaving the Ark and Muhammad's arrival in Medina.",
-            "hijri_day": 10,
-            "hijri_month": 1,
-            "day": null,
-            "month": null,
-            "origin": "Islamic",
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z",
-            "alias_names": [
-                "Ashura-e-Moharram",
-                "Yom Ashura",
-                "عاشوراء"
-            ],
-            "country": [
-                "All",
-                "India",
-                "Pakistan"
-            ]
+          "description": "Yom Ashura or Ashura (Arabic: \u0639\u0627\u0634\u0648\u0631\u0627\u0621\u200e \u02bb\u0100sh\u016br\u0101\u2019) is the tenth day of Mu\u1e25arram, the first month in the Islamic calendar. For the majority of Shia Muslims Ashura marks the climax of the Remembrance of Muharram,[3] and commemorates the death of Husayn ibn Ali, the grandson of the Islamic prophet Muhammad, at the Battle of Karbala on 10 Muharram in the year 61 AH (in AHt: October 10, 680 CE). Sunni Muslims have the same accounts of these events, but ceremonial mourning did not become a custom \u2013 although poems, eulogizing and recounting the events were and continue to be common. Mourning for the incident began almost immediately after the Battle of Karbala. Popular elegies were written by poets to commemorate the Battle of Karbala during the Umayyad and Abbasid era, and the earliest public mourning rituals occurred in 963 CE during the Buyid dynasty. In Afghanistan, Iran, Iraq, Lebanon, Bahrain, Bangladesh and Pakistan, Ashura has become a national holiday, and many ethnic and religious communities participate in it.\nIn Sunni Islam, Ashura also marks the day that Moses and the Israelites were saved from Pharaoh by God creating a path in the Sea, and is the Islamic equivalent to Yom Kippur. Other commemorations include Noah leaving the Ark and Muhammad's arrival in Medina.",
+          "hijri_day": 10,
+          "hijri_month": 1,
+          "day": null,
+          "month": null,
+          "origin": "Islamic",
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z",
+          "alias_names": [
+            "Ashura-e-Moharram",
+            "Yom Ashura",
+            "\u0639\u0627\u0634\u0648\u0631\u0627\u0621"
+          ],
+          "country": [
+            "All",
+            "India",
+            "Pakistan"
+          ]
         }
-    },
-    {
+      },
+      {
         "model": "hijri_calendar_app.holiday",
-        "pk": "Muharram",
+        "pk": "Christmas",
         "fields": {
-            "description": "Many Muslims in countries such as the United States observe the start of the Islamic New Year on the first day of Muharram, which is the first month in the Islamic calendar",
-            "hijri_day": 1,
-            "hijri_month": 1,
-            "day": null,
-            "month": null,
-            "origin": "Islamic",
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z",
-            "alias_names": [],
-            "country": [
-                "All"
-            ]
+          "description": "Christmas, a Christian holiday honoring the birth of Jesus, has evolved into a worldwide religious and secular celebration, incorporating many pre-Christian and pagan traditions into the festivities.",
+          "hijri_day": null,
+          "hijri_month": null,
+          "day": 25,
+          "month": 12,
+          "origin": "Christian",
+          "created": "2019-06-16T00:36:23.337Z",
+          "updated": "2019-06-16T00:36:23.337Z",
+          "alias_names": [
+            "Nativity"
+          ],
+          "country": [
+            "All"
+          ]
         }
-    },
-    {
-        "model": "hijri_calendar_app.holiday",
-        "pk": "Ramadan",
-        "fields": {
-            "description": "Ramadan is the ninth month of the Islamic calendar, observed by Muslims worldwide as a month of fasting, prayer, reflection and community.",
-            "hijri_day": 1,
-            "hijri_month": 9,
-            "day": null,
-            "month": null,
-            "origin": "Islamic",
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z",
-            "alias_names": [
-                "Ramazan",
-                "Ramzan"
-            ],
-            "country": [
-                "All",
-                "India",
-                "Pakistan"
-            ]
-        }
-    },
-    {
-        "model": "hijri_calendar_app.holiday",
-        "pk": "Eid al Fitr",
-        "fields": {
-            "description": "Eid al-Fitr, also called the \"Festival of Breaking the Fast\", is a religious holiday celebrated by Muslims worldwide that marks the end of Ramadan, the Islamic holy month of fasting. This religious Eid is the first and only day in the month of Shawwal during which Muslims are not permitted to fast.",
-            "hijri_day": 1,
-            "hijri_month": 10,
-            "day": null,
-            "month": null,
-            "origin": "Islamic",
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z",
-            "alias_names": [
-                "Eid ul Fitr",
-                "Meethi Eid",
-                "Choti Eid"
-            ],
-            "country": [
-                "All",
-                "India",
-                "Pakistan"
-            ]
-        }
-    },
-    {
+      },
+      {
         "model": "hijri_calendar_app.holiday",
         "pk": "Eid al Adha",
         "fields": {
-            "description": "Eid al-Adha, also called the \"Festival of the Sacrifice\", is the second of two Islamic holidays celebrated worldwide each year, and considered the holier of the two. It honors the willingness of Ibrahim to sacrifice his son as an act of obedience to God's command.",
-            "hijri_day": 10,
-            "hijri_month": 12,
-            "day": null,
-            "month": null,
-            "origin": "Islamic",
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z",
-            "alias_names": [
-                "Eid ul Azha",
-                "Baqar Eid",
-                "Bari Eid"
-            ],
-            "country": [
-                "All",
-                "India",
-                "Pakistan"
-            ]
+          "description": "Eid al-Adha, also called the \"Festival of the Sacrifice\", is the second of two Islamic holidays celebrated worldwide each year, and considered the holier of the two. It honors the willingness of Ibrahim to sacrifice his son as an act of obedience to God's command.",
+          "hijri_day": 10,
+          "hijri_month": 12,
+          "day": null,
+          "month": null,
+          "origin": "Islamic",
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z",
+          "alias_names": [
+            "Baqar Eid",
+            "Bari Eid",
+            "Eid ul Azha"
+          ],
+          "country": [
+            "All",
+            "India",
+            "Pakistan"
+          ]
         }
-    },
-    {
+      },
+      {
         "model": "hijri_calendar_app.holiday",
-        "pk": "12 Rabi ul Awal",
+        "pk": "Eid al Fitr",
         "fields": {
-            "description": "Eid Milad-un-Nabi, also known as the Prophet Muhammad’s birthday, is a public holiday in Pakistan. Sunni Muslims observe Milad-un-Nabi on 12 Rabi-ul-Awwal (third month of the Islamic calendar) while Shia Muslims observe it on 17 Rabi-ul-Awwal, coinciding with the birthdate of their sixth Imam Jafar-al-Sadiq.",
-            "hijri_day": 12,
-            "hijri_month": 3,
-            "day": null,
-            "month": null,
-            "origin": "Islamic",
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z",
-            "alias_names": [
-                "Eid Milad-un-Nabi"],
-            "country": [
-                "All",
-                "India",
-                "Pakistan"
-            ]
+          "description": "Eid al-Fitr, also called the \"Festival of Breaking the Fast\", is a religious holiday celebrated by Muslims worldwide that marks the end of Ramadan, the Islamic holy month of fasting. This religious Eid is the first and only day in the month of Shawwal during which Muslims are not permitted to fast.",
+          "hijri_day": 1,
+          "hijri_month": 10,
+          "day": null,
+          "month": null,
+          "origin": "Islamic",
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z",
+          "alias_names": [
+            "Choti Eid",
+            "Eid ul Fitr",
+            "Meethi Eid"
+          ],
+          "country": [
+            "All",
+            "India",
+            "Pakistan"
+          ]
         }
-    },
-    {
+      },
+      {
         "model": "hijri_calendar_app.holiday",
-        "pk": "Shab e Meraj",
+        "pk": "Muharram",
         "fields": {
-            "description": "",
-            "hijri_day": 27,
-            "hijri_month": 7,
-            "day": null,
-            "month": null,
-            "origin": "Islamic",
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z",
-            "alias_names": [
-                "Miraj Shareef"
-            ],
-            "country": [
-                "All",
-                "India",
-                "Pakistan"
-            ]
+          "description": "Many Muslims in countries such as the United States observe the start of the Islamic New Year on the first day of Muharram, which is the first month in the Islamic calendar",
+          "hijri_day": 1,
+          "hijri_month": 1,
+          "day": null,
+          "month": null,
+          "origin": "Islamic",
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z",
+          "alias_names": [],
+          "country": [
+            "All"
+          ]
         }
-    },
-    {
+      },
+      {
+        "model": "hijri_calendar_app.holiday",
+        "pk": "Quaid-e-Azam Day",
+        "fields": {
+          "description": "It commemorates the birthday of Muhammad Ali Jinnah, who was a notable politician, founder of Pakistan and Pakistan's first Governor-General.",
+          "hijri_day": null,
+          "hijri_month": null,
+          "day": 25,
+          "month": 12,
+          "origin": "Pakistani",
+          "created": "2019-06-16T00:33:58.510Z",
+          "updated": "2019-06-16T00:33:58.510Z",
+          "alias_names": [
+            "Mohammad Ali Jinnah Birthday"
+          ],
+          "country": [
+            "Pakistan"
+          ]
+        }
+      },
+      {
+        "model": "hijri_calendar_app.holiday",
+        "pk": "Ramadan",
+        "fields": {
+          "description": "Ramadan is the ninth month of the Islamic calendar, observed by Muslims worldwide as a month of fasting, prayer, reflection and community.",
+          "hijri_day": 1,
+          "hijri_month": 9,
+          "day": null,
+          "month": null,
+          "origin": "Islamic",
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z",
+          "alias_names": [
+            "Ramazan",
+            "Ramzan"
+          ],
+          "country": [
+            "All",
+            "India",
+            "Pakistan"
+          ]
+        }
+      },
+      {
         "model": "hijri_calendar_app.holiday",
         "pk": "Shab e Barat",
         "fields": {
-            "description": "",
-            "hijri_day": 15,
-            "hijri_month": 8,
-            "day": null,
-            "month": null,
-            "origin": "Islamic",
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z",
-            "alias_names": [],
-            "country": [
-                "All",
-                "India",
-                "Pakistan"
-            ]
+          "description": "",
+          "hijri_day": 15,
+          "hijri_month": 8,
+          "day": null,
+          "month": null,
+          "origin": "Islamic",
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z",
+          "alias_names": [],
+          "country": [
+            "All",
+            "India",
+            "Pakistan"
+          ]
         }
-    }
+      },
+      {
+        "model": "hijri_calendar_app.holiday",
+        "pk": "Shab e Meraj",
+        "fields": {
+          "description": "",
+          "hijri_day": 27,
+          "hijri_month": 7,
+          "day": null,
+          "month": null,
+          "origin": "Islamic",
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z",
+          "alias_names": [
+            "Miraj Shareef"
+          ],
+          "country": [
+            "All",
+            "India",
+            "Pakistan"
+          ]
+        }
+      }
 ]

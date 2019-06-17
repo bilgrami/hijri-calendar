@@ -3,113 +3,120 @@
         "model": "hijri_calendar_app.holidayaliaslist",
         "pk": "Ashura-e-Moharram",
         "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z"
         }
-    },
-    {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Ramazan",
-        "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
-        }
-    },
-    {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Ramzan",
-        "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
-        }
-    },
-    {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Eid ul Fitr",
-        "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
-        }
-    },
-    {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Meethi Eid",
-        "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
-        }
-    },
-    {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Choti Eid",
-        "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
-        }
-    },
-    {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Miraj Shareef",
-        "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
-        }
-    },
-    {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Eid ul Azha",
-        "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
-        }
-    },
-    {
+      },
+      {
         "model": "hijri_calendar_app.holidayaliaslist",
         "pk": "Baqar Eid",
         "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z"
         }
-    },
-    {
+      },
+      {
         "model": "hijri_calendar_app.holidayaliaslist",
         "pk": "Bari Eid",
         "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z"
         }
-    },
-    {
+      },
+      {
         "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Baqar Eid",
+        "pk": "Choti Eid",
         "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z"
         }
-    },
-    {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Yom Ashura",
-        "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
-        }
-    },
-    {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "عاشوراء",
-        "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
-        }
-    },
-    {
+      },
+      {
         "model": "hijri_calendar_app.holidayaliaslist",
         "pk": "Eid Milad-un-Nabi",
         "fields": {
-            "created": "2019-06-14T00:00:00.000Z",
-            "updated": "2019-06-14T00:00:00.000Z"
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z"
         }
-    }
-    
+      },
+      {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Eid ul Azha",
+        "fields": {
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z"
+        }
+      },
+      {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Eid ul Fitr",
+        "fields": {
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z"
+        }
+      },
+      {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Meethi Eid",
+        "fields": {
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z"
+        }
+      },
+      {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Miraj Shareef",
+        "fields": {
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z"
+        }
+      },
+      {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Mohammad Ali Jinnah Birthday",
+        "fields": {
+          "created": "2019-06-16T00:33:49.217Z",
+          "updated": "2019-06-16T00:33:49.217Z"
+        }
+      },
+      {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Nativity",
+        "fields": {
+          "created": "2019-06-16T00:36:16.407Z",
+          "updated": "2019-06-16T00:36:16.407Z"
+        }
+      },
+      {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Ramazan",
+        "fields": {
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z"
+        }
+      },
+      {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Ramzan",
+        "fields": {
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z"
+        }
+      },
+      {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "Yom Ashura",
+        "fields": {
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z"
+        }
+      },
+      {
+        "model": "hijri_calendar_app.holidayaliaslist",
+        "pk": "\u0639\u0627\u0634\u0648\u0631\u0627\u0621",
+        "fields": {
+          "created": "2019-06-14T00:00:00Z",
+          "updated": "2019-06-14T00:00:00Z"
+        }
+      }    
 ]
