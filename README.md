@@ -141,9 +141,9 @@ Below is the list (ordered by priority)
 5) Provide feedback form and guest book 
 
 # Future Roadmap
-a) Populate more holidays from different countries
-b) Create greeting cards for different holidays
-c) Create personalized user forms so a user can login and populate personalized holidays and events 
+1) Populate more holidays from different countries
+2) Create greeting cards for different holidays
+3) Create personalized user forms so a user can login and populate personalized holidays and events 
 
 #
 ----
