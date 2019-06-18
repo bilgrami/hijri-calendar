@@ -16,7 +16,7 @@ Data is obtained from official [pakmoonsighting.com.pk] government website.
 # Source data
 Source data for calendar dates is stored here
 1) Calendar dates as CSV files - [link](https://github.com/bilgrami/hijri-calendar/tree/master/project/hijri_calendar_project/hijri_calendar_app/data/source "")
-2) Model fixtures as json [link](https://github.com/bilgrami/hijri-calendar/tree/master/project/hijri_calendar_project/hijri_calendar_app/fixtures)
+2) Model fixtures as json - [link](https://github.com/bilgrami/hijri-calendar/tree/master/project/hijri_calendar_project/hijri_calendar_app/fixtures)
 
 #
 ----
