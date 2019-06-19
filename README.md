@@ -18,6 +18,31 @@ Source data for calendar dates is stored here
 1) Calendar dates as CSV files - [link](https://github.com/bilgrami/hijri-calendar/tree/master/project/hijri_calendar_project/hijri_calendar_app/data/source "")
 2) Model fixtures as json - [link](https://github.com/bilgrami/hijri-calendar/tree/master/project/hijri_calendar_project/hijri_calendar_app/fixtures)
 
+CSV files are stored under "project/hijri_calendar_project/hijri_calendar_app/data/source" folder by year. For example "Y2019-hijri_calendar.csv".
+Columns in CSV files are as follows:
+
+| pk | LunarDay | LunarMonth | LunarMonthName | LunarYear | Day | monthName | month | Year | dataFile | hijri_date_value | hijri_date_value |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| 2019-06-05|1|10|Shawwal|1440|5|June|6|2019|Y2019-hijri_calendar.json|1440-10-01|1440-10-01 |
+| 2019-06-06|2|10|Shawwal|1440|6|June|6|2019|Y2019-hijri_calendar.json|1440-10-02|1440-10-02 |
+| 2019-06-07|3|10|Shawwal|1440|7|June|6|2019|Y2019-hijri_calendar.json|1440-10-03|1440-10-03 |
+
+
+## Importing new calendar dates via CSV
+If you want to import calendar data via CSV files, follow these steps to create a JSON fixture file and then import it into the database. 
+1) place CSV file under "project/hijri_calendar_project/hijri_calendar_app/data/source" folder. 
+2) Run following management command inside Django shell
+
+```sh
+python manage.py get_hijri_json_from_csv \
+'../data/source/Y2020-hijri_calendar.csv' > \
+./hijri_calendar_app/fixtures/hijri_calendar_Y2020.json;
+
+python manage.py loaddata hijri_calendar_Y2020;
+
+```
+
+
 #
 ----
 
@@ -93,7 +118,8 @@ If you make any change to the holiday model via Admin interface, calendar dates 
 
 Alternatively, you can run below Django custom command to update all dates with holidays. 
 
-First connect with the running web container (see above), and then run the following
+First connect with the running web container (see above), and then run the following managment command inside Django shell
+
 ```sh
 cd /usr/local/project/hijri_calendar_project
 python manage.py populate_holidays
@@ -106,27 +132,27 @@ python manage.py populate_holidays
 ## 1) Website
 ### a) List of Holidays
 https://mooncalendar.azurewebsites.net/holiday/
-> ![Alt](https://github.com/bilgrami/hijri-calendar/blob/master/docs/holiday.JPG?raw=true "List of Holidays")
+> ![Alt](docs/holiday.JPG "List of Holidays")
 
 ### b) Holiday API
 http://mooncalendar.azurewebsites.net/api/v1/holiday/Christmas/?format=json
-> ![Alt](https://github.com/bilgrami/hijri-calendar/blob/master/docs/holiday-api.JPG?raw=true "Holiday API")
+> ![Alt](docs/holiday-api.JPG "Holiday API")
 
 ## 2) Admin Screens
 ### a) Admin - App Models - List
-> ![Alt](https://github.com/bilgrami/hijri-calendar/blob/master/docs/admin-all-models-list.JPG?raw=true "Admin - App Models - List")
+> ![Alt](docs/admin-all-models-list.JPG "Admin - App Models - List")
 
 ### b) Admin - Holiday - List View
-> ![Alt](https://github.com/bilgrami/hijri-calendar/blob/master/docs/admin-holiday-list.JPG?raw=true "Admin - Holiday - List View")
+> ![Alt](docs/admin-holiday-list.JPG "Admin - Holiday - List View")
 
 ### c) Admin - Holiday - Detail View
-> ![Alt](https://github.com/bilgrami/hijri-calendar/blob/master/docs/admin-holiday-detail.JPG?raw=true "Admin - Holiday - Detail View")
+> ![Alt](docs/admin-holiday-detail.JPG "Admin - Holiday - Detail View")
 
 ### d) Admin - Calendar Date - List View 
-> ![Alt](https://github.com/bilgrami/hijri-calendar/blob/master/docs/admin-calendar-date-list.JPG?raw=true "Admin - Calendar Date - List View")
+> ![Alt](docs/admin-calendar-date-list.JPG "Admin - Calendar Date - List View")
 
 ### e) Admin - Calendar Date - Detail View 
-> ![Alt](https://github.com/bilgrami/hijri-calendar/blob/master/docs/admin-calendar-date-detail.JPG?raw=true "Admin - Calendar Date - Detail View")
+> ![Alt](docs/admin-calendar-date-detail.JPG "Admin - Calendar Date - Detail View")
 
 #
 ----
