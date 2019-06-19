@@ -1,7 +1,8 @@
 from rest_framework import serializers
 
-from .models import (DataFile, HijriCalendar, Holiday,
-                     HolidayAliasList, HolidayCountryList, HolidayOriginList)
+from hijri_calendar_app.models import (DataFile, HijriCalendar, Holiday,
+                                       HolidayAliasList, HolidayCountryList,
+                                       HolidayOriginList)
 
 
 class DataFileSerializer(serializers.HyperlinkedModelSerializer):

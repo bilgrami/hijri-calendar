@@ -1,11 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.views.generic import TemplateView
-
-from rest_framework import viewsets
-
-from .models import DataFile, HijriCalendar, Holiday
-from .serializers import (DataFileSerializer, HijriCalendarSerializer,
-                          HolidaySerializer)
+from .models import DataFile, HijriCalendar
 from datetime import date
 
 
@@ -35,27 +30,3 @@ class CalendarDetailPageView(TemplateView):
                                  date_value=date_value)
         return render(request, 'hijri_calendar_app/calendar_detail.html',
                                {'data': data})
-
-
-class DataFileViewSet(viewsets.ModelViewSet):
-    """
-    API endpoint that allows DataFile to be viewed or edited.
-    """
-    queryset = DataFile.objects.all().order_by('file_name')
-    serializer_class = DataFileSerializer
-
-
-class HijriCalendarViewSet(viewsets.ModelViewSet):
-    """
-    API endpoint that allows HijriCalendar to be viewed or edited.
-    """
-    queryset = HijriCalendar.objects.all().order_by('date_value')
-    serializer_class = HijriCalendarSerializer
-
-
-class HolidayViewSet(viewsets.ModelViewSet):
-    """
-    API endpoint that allows Holidays to be viewed or edited.
-    """
-    queryset = Holiday.objects.all()
-    serializer_class = HolidaySerializer
