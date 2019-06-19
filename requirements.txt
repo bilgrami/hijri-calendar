@@ -11,3 +11,5 @@ jupyter-console
 jupyter-core
 django-admin-shell
 django-material
+redis
+aioredis

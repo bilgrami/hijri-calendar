@@ -22,12 +22,17 @@
         {{ data.date_value }}
       </a></h4>
   </div>
-  <div class="col s4">
+
+  <div class="col s6 right-align">
+    <h4><a target="_blank" href="{{ data.get_api_url }}">Goto API</a></h4>
+  </div>
+  <div class="col s2 right-align bottom-align">
+    <h6><span class="count">
+        {{ total_views }} view{{ total_views|pluralize }}
+      </span></h6>
   </div>
 
-  <div class="col s4">
-    <h4><a target="_blank" href="{{ data.get_api_url }}">(API)</a></h4>
-  </div>
+
 </div>
 
 <p class="flow-text">

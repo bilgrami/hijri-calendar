@@ -26,3 +26,6 @@ services:
       - "ADMIN_PASSWD=admin!23"
       - "ADMIN_EMAIL=admin_user@gmail.com"
       - "SSH_PORT=8080"
+
+  redis:
+    image: "redis:alpine"

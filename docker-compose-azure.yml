@@ -41,5 +41,8 @@ services:
       - "ADMIN_EMAIL=admin_user@email.com"
       - "SSH_PORT=8080"
 
+  redis:
+    image: "redis:alpine"
+
 volumes:
   postgres:
