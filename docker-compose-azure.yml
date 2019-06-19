@@ -33,6 +33,7 @@ services:
       - "SERVER_PORT=80"
       - "iPYTHON_NOTEBOOK_PORT=8080"
       - "PROJECT_ROOT=/usr/local/project"
+      - "PROJECT_NAME=hijri_calendar_project"
       - "CONFIG_ROOT=/usr/local/project/config"
       - "VIRTUAL_ENV=/usr/local/project/.virtualenvs/myproject_env"
       - "ADMIN_USER=admin"
