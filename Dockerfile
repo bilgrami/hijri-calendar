@@ -53,7 +53,7 @@ RUN chmod -R +x /opt/startup \
    && rm -rf /tmp/* \
    && cd /opt/startup
 
-ENV SSH_PORT 8080
-EXPOSE $SSH_PORT $SSH_PORT
+ENV SSH_PORT 2222
+EXPOSE 80 2222
 
 ENTRYPOINT ["/opt/startup/init_container.sh"]

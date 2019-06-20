@@ -16,7 +16,9 @@ services:
       - ${WEBAPP_STORAGE_HOME}/docker/volumes/webdata:/usr/local/project/hijri_calendar_project/data
 
     ports:
-      - "80:80"
+      - "5000:5000"
+      - "8888:8888"
+      - "80:2222"
       - "8080:8080"
     environment:
       - "DATABASE_ENGINE=django.db.backends.postgresql"
@@ -39,7 +41,7 @@ services:
       - "ADMIN_USER=admin"
       - "ADMIN_PASSWD=admin!23"
       - "ADMIN_EMAIL=admin_user@email.com"
-      - "SSH_PORT=8080"
+      - "SSH_PORT=2222"
 
   redis:
     container_name: 'redis'
