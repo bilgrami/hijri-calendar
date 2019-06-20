@@ -13,3 +13,4 @@ django-admin-shell
 django-material
 redis
 aioredis
+django-redis

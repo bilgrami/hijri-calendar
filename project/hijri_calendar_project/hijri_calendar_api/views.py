@@ -1,9 +1,11 @@
 from rest_framework import viewsets
-
 from hijri_calendar_app.models import DataFile, HijriCalendar, Holiday
 from hijri_calendar_api.serializers import (DataFileSerializer,
                                             HijriCalendarSerializer,
                                             HolidaySerializer)
+from django.utils.decorators import method_decorator
+from django.views.decorators.cache import cache_page
+from django.conf import settings
 
 
 class DataFileViewSet(viewsets.ModelViewSet):
@@ -13,6 +15,10 @@ class DataFileViewSet(viewsets.ModelViewSet):
     queryset = DataFile.objects.all().order_by('file_name')
     serializer_class = DataFileSerializer
 
+    @method_decorator(cache_page(settings.API_CACHE_TIMEOUT))
+    def dispatch(self, *args, **kwargs):
+        return super(DataFileViewSet, self).dispatch(*args, **kwargs)
+
 
 class HijriCalendarViewSet(viewsets.ModelViewSet):
     """
@@ -21,6 +27,10 @@ class HijriCalendarViewSet(viewsets.ModelViewSet):
     queryset = HijriCalendar.objects.all().order_by('date_value')
     serializer_class = HijriCalendarSerializer
 
+    @method_decorator(cache_page(settings.API_CACHE_TIMEOUT))
+    def dispatch(self, *args, **kwargs):
+        return super(HijriCalendarViewSet, self).dispatch(*args, **kwargs)
+
 
 class HolidayViewSet(viewsets.ModelViewSet):
     """
@@ -28,3 +38,7 @@ class HolidayViewSet(viewsets.ModelViewSet):
     """
     queryset = Holiday.objects.all()
     serializer_class = HolidaySerializer
+
+    @method_decorator(cache_page(settings.API_CACHE_TIMEOUT))
+    def dispatch(self, *args, **kwargs):
+        return super(HolidayViewSet, self).dispatch(*args, **kwargs)
