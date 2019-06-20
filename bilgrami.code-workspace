@@ -7,6 +7,7 @@
 	"settings": {
 		"python.envFile": "${workspaceFolder}/.virtualenvs",
 		"workbench.colorTheme": "Monokai Dimmed",
-		"git.postCommitCommand": "push"
+		"git.postCommitCommand": "push",
+		"editor.tabCompletion": "on"
 	}
 }
