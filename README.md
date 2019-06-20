@@ -152,12 +152,12 @@ python manage.py populate_holidays
 
 #### a) List of Holidays
 
-https://mooncalendar.azurewebsites.net/holiday/
+[List of Holidays]
 > ![Alt](docs/holiday.JPG "List of Holidays")
 
 #### b) Holiday API
 
-http://mooncalendar.azurewebsites.net/api/v1/holiday/Christmas/?format=json
+[Holiday API]
 > ![Alt](docs/holiday-api.JPG "Holiday API")
 
 ### 2) Admin Screens
@@ -204,6 +204,8 @@ Below is the list (ordered by priority)
 ----
 
 [Pak Holidays Website]: <https://mooncalendar.azurewebsites.net>
-[pakmoonSighting.com.pk]: <http://pakmoonsighting.pk> 
+[pakmoonSighting.com.pk]: <http://pakmoonsighting.pk>
 [Holidays API]: <https://mooncalendar.azurewebsites.net/api/v1/holiday/>
 [Calendar API]: <https://mooncalendar.azurewebsites.net/api/v1/calendar/>
+[List of Holidays]: <https://mooncalendar.azurewebsites.net/holiday/>
+[Holiday API]: <http://mooncalendar.azurewebsites.net/api/v1/holiday/Christmas/?format=json>
