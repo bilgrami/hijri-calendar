@@ -13,7 +13,7 @@ services:
   web:
     image: bilgrami/hijricalendar:latest
     volumes:
-      - ${WEBAPP_STORAGE_HOME}/project/hijri_calendar_project:/usr/local/project/hijri_calendar_project
+      - ${WEBAPP_STORAGE_HOME}/docker/volumes/webdata:/usr/local/project/hijri_calendar_project/data
 
     ports:
       - "80:80"
