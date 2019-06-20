@@ -107,3 +107,4 @@ docs/notes.txt
 config/web_azuredb.env
 docker-compose-azure-postgres-db.yml
 docker-compose-hosted-azure-postgres-db.yml
+docker/volumes/redisdata/dump.rdb
