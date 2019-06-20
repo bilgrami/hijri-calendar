@@ -26,10 +26,11 @@ class HolidayPageView(TemplateView):
                              .order_by('date_value')
         data = 'Note: Holidays earlier than today are not displayed'
         # increment total views by 1
-        total_views = r.incr('calendar-list:views')
+        total_views = r.incr('holiday-list:views')
         return render(request, 'hijri_calendar_app/holiday.html',
                                {'holiday_calendars': holiday_calendars,
                                 'data': data,
+                                'cache_timeout': settings.VIEW_CACHE_TIMEOUT,
                                 'total_views': total_views})
 
 
@@ -41,4 +42,5 @@ class CalendarDetailPageView(TemplateView):
         total_views = r.incr('calendar-date:{}:views'.format(str(date_value)))
         return render(request, 'hijri_calendar_app/calendar_detail.html',
                                {'data': data,
+                                'cache_timeout': settings.VIEW_CACHE_TIMEOUT,
                                 'total_views': total_views})
