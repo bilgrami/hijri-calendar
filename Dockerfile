@@ -37,7 +37,7 @@ STOPSIGNAL SIGINT
 RUN \
  apt-get update && \
  apt-get install -qy --no-install-recommends \
-   curl wget openssh-server nano && \
+   curl wget openssh-server nano redis-tools && \
  rm -rf /var/lib/apt/lists/* && \
  mkdir -p /home/LogFiles /opt/startup && \
  echo "root:Docker!" | chpasswd 
