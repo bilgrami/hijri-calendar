@@ -73,6 +73,22 @@ class HolidayCountryList(models.Model):
         verbose_name = "Holiday Country"
 
 
+class HolidayRegionList(models.Model):
+    name = models.CharField("Region Name", max_length=100, primary_key=True)
+    country = models.ForeignKey(HolidayCountryList, on_delete=models.CASCADE)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        if self.country:
+            return f"{self.name} ({self.country})"
+        else:
+            return f"{self.name}"
+
+    class Meta:
+        verbose_name = "Holiday Region"
+
+
 class HolidayAliasList(models.Model):
     name = models.CharField("Alias Name", max_length=100, primary_key=True)
     created = models.DateTimeField(auto_now_add=True)
@@ -86,7 +102,7 @@ class HolidayAliasList(models.Model):
 
 
 class Holiday(models.Model):
-    holiday_name = models.CharField(max_length=30, unique=True,
+    holiday_name = models.CharField(max_length=100, unique=True,
                                     primary_key=True)
     description = models.TextField("Description", blank=True, null=True)
     hijri_day = models.SmallIntegerField("Hijri Day", blank=True, null=True)
@@ -103,6 +119,13 @@ class Holiday(models.Model):
                                          blank=True, null=True)
     country = models.ManyToManyField(HolidayCountryList,
                                      blank=True, null=True)
+    region = models.ManyToManyField(HolidayRegionList,
+                                    blank=True, null=True)
+    is_official = models.BooleanField("Is Official", default=True)
+    is_birthday = models.BooleanField("Is Birthday", default=False)
+    is_religious = models.BooleanField("Is Religious", default=False)
+    is_cultural = models.BooleanField("Is Cultural", default=False)
+
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 
