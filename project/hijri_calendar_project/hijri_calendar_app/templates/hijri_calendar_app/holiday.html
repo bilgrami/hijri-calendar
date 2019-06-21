@@ -27,7 +27,7 @@
       </span></h6>
   </div>
 {% load cache %}
-{% cache cache_timeout result_holiday using="default" %}
+{% cache cache_timeout cache_key using="default" %}
 <table class="striped">
   <thead>
     <tr>

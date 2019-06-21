@@ -15,7 +15,7 @@ class DataFileViewSet(viewsets.ModelViewSet):
     queryset = DataFile.objects.all().order_by('file_name')
     serializer_class = DataFileSerializer
 
-    @method_decorator(cache_page(settings.API_CACHE_TIMEOUT))
+    @method_decorator(cache_page(settings.CACHE_TIMEOUT))
     def dispatch(self, *args, **kwargs):
         return super(DataFileViewSet, self).dispatch(*args, **kwargs)
 
@@ -27,7 +27,7 @@ class HijriCalendarViewSet(viewsets.ModelViewSet):
     queryset = HijriCalendar.objects.all().order_by('date_value')
     serializer_class = HijriCalendarSerializer
 
-    @method_decorator(cache_page(settings.API_CACHE_TIMEOUT))
+    @method_decorator(cache_page(settings.CACHE_TIMEOUT))
     def dispatch(self, *args, **kwargs):
         return super(HijriCalendarViewSet, self).dispatch(*args, **kwargs)
 
@@ -39,6 +39,6 @@ class HolidayViewSet(viewsets.ModelViewSet):
     queryset = Holiday.objects.all()
     serializer_class = HolidaySerializer
 
-    @method_decorator(cache_page(settings.API_CACHE_TIMEOUT))
+    @method_decorator(cache_page(settings.CACHE_TIMEOUT))
     def dispatch(self, *args, **kwargs):
         return super(HolidayViewSet, self).dispatch(*args, **kwargs)

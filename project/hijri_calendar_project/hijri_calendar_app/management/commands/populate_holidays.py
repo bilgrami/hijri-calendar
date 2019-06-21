@@ -1,15 +1,21 @@
 from django.core.management.base import BaseCommand
 from hijri_calendar_app.models import HijriCalendar, Holiday
+from hijri_calendar_app.views import HolidayPageView, CalendarDetailPageView
+from helpers import cache_helper as ch
 
 
 class Command(BaseCommand):
     """
     """
     def handle(self, *args, **options):
-        holidays = Holiday.objects.all()
-        # print(holidays)
-        dates = HijriCalendar.objects.all()
+        cache_key_prefix = HolidayPageView.cache_key_prefix()
+        ch.CacheHelper(key_prefix=cache_key_prefix).clear()
 
+        cache_key_prefix = CalendarDetailPageView.cache_key_prefix()
+        ch.CacheHelper(key_prefix=cache_key_prefix).clear()
+
+        holidays = Holiday.objects.all()
+        dates = HijriCalendar.objects.all()
         # first of all clear all existing holidays
         for dt in dates:
             dt.is_holiday = False

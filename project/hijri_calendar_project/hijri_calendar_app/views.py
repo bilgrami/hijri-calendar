@@ -2,12 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.views.generic import TemplateView
 from .models import HijriCalendar
 from datetime import date
-import redis
-from django.conf import settings
-# connect to redis
-r = redis.StrictRedis(host=settings.REDIS_HOST,
-                      port=settings.REDIS_PORT,
-                      db=settings.REDIS_DB)
+from helpers import cache_helper as ch
 
 
 class HomePageView(TemplateView):
@@ -20,27 +15,41 @@ class AboutPageView(TemplateView):
 
 # Add this view
 class HolidayPageView(TemplateView):
+
+    @staticmethod
+    def cache_key_prefix():
+        return 'holiday-list:views'
+
     def get(self, request, **kwargs):
+        self.cache = ch.CacheHelper(key_prefix=self.cache_key_prefix())
         m = HijriCalendar.holiday_calendar.all()
         holiday_calendars = m.filter(date_value__gte=date.today())  \
                              .order_by('date_value')
         data = 'Note: Holidays earlier than today are not displayed'
-        # increment total views by 1
-        total_views = r.incr('holiday-list:views')
+        key = ''
+        total_views = self.cache.increment(key)
         return render(request, 'hijri_calendar_app/holiday.html',
                                {'holiday_calendars': holiday_calendars,
                                 'data': data,
-                                'cache_timeout': settings.VIEW_CACHE_TIMEOUT,
+                                'cache_key': self.cache.get_key(key),
+                                'cache_timeout': self.cache.get_timeout(),
                                 'total_views': total_views})
 
 
 class CalendarDetailPageView(TemplateView):
+
+    @staticmethod
+    def cache_key_prefix():
+        return 'calendar-date'
+
     def get(self, request, date_value, **kwargs):
+        self.cache = ch.CacheHelper(key_prefix=self.cache_key_prefix())
         data = get_object_or_404(HijriCalendar,
                                  date_value=date_value)
-        # increment total date views by 1
-        total_views = r.incr('calendar-date:{}:views'.format(str(date_value)))
+        key = f'{str(date_value)}:views'
+        total_views = self.cache.increment(key=key)
         return render(request, 'hijri_calendar_app/calendar_detail.html',
                                {'data': data,
-                                'cache_timeout': settings.VIEW_CACHE_TIMEOUT,
+                                'cache_key': self.cache.get_key(key=key),
+                                'cache_timeout': self.cache.get_timeout(),
                                 'total_views': total_views})

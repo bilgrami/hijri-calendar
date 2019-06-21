@@ -35,7 +35,7 @@
 
 </div>
 {% load cache %}
-{% cache cache_timeout result_calendar_detail data.date_value using="default" %}
+{% cache cache_timeout cache_key data.date_value using="default" %}
 
 <p class="flow-text">
   <h7>{{data.hijri_date_value}} Hijri in the month of {{data.hijri_month_name}}</h7>

@@ -219,5 +219,4 @@ CACHES = {
 
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "default"
-API_CACHE_TIMEOUT = 24*60*60
-VIEW_CACHE_TIMEOUT = 24*60*60
+CACHE_TIMEOUT = 24*60*60
