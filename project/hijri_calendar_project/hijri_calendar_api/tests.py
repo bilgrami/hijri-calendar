@@ -41,5 +41,6 @@ class HijriCalendarAPITestCase(TestCase):
         """
         request = self.factory.get('/api/v1/calendar/2016-01-01')
         response = self.hijri_calendar_view(request)
-        print("response: ", response)
+        response.render()
+        print("response: ", response.content)
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
