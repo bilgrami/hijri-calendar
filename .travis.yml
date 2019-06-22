@@ -1,12 +1,18 @@
 dist: xenial   # required for Python >= 3.7
 language: python
 services:
+  - postgresql
   - docker
+
 python:
   - "3.7"
   # # PyPy versions
   # - "pypy3.5"
 # command to install dependencies
+
+before_script:
+  - psql -c 'create database travis_ci_test;' -U postgres
+
 before_install:
   - docker --version
   - docker build -t bilgrami/hijricalendar:latest .
