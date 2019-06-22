@@ -42,6 +42,7 @@ services:
       - "ADMIN_PASSWD=admin!23"
       - "ADMIN_EMAIL=admin_user@email.com"
       - "SSH_PORT=2222"
+      - "REDIS_HOST=redis"
 
   redis:
     container_name: 'redis'

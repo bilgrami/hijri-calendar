@@ -203,14 +203,15 @@ ADMIN_SHELL_ONLY_FOR_SUPERUSER = True
 ADMIN_SHELL_ONLY_DEBUG_MODE = True
 
 # REDIS settings
-REDIS_HOST = 'redis'
+REDIS_HOST = env('REDIS_HOST', 'redis')
 REDIS_PORT = 6379
 REDIS_DB = 0
-
+# REDIS_CACHE_LOCATION = "redis://redis:6379/0",
+REDIS_CACHE_LOCATION = "redis://" + env('REDIS_HOST', 'redis') + ":6379/0"
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://redis:6379/0",
+        "LOCATION": REDIS_CACHE_LOCATION,
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
