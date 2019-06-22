@@ -10,7 +10,7 @@ python:
 before_install:
   - docker --version
   - docker build -t bilgrami/hijricalendar:latest .
-  - docker run -d -p 127.0.0.1:80:5000 bilgrami/hijricalendar:latest /bin/sh -c "cd /opt/startup; "./init_container.sh;"
+  - docker run -d -p 127.0.0.1:80:5000 bilgrami/hijricalendar:latest /bin/sh -c "cd /opt/startup; ./init_container.sh;"
   - docker ps -a
   # - docker run carlad/sinatra /bin/sh -c "cd /root/sinatra; bundle exec rake test"
 
