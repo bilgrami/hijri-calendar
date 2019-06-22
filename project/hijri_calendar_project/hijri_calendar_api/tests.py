@@ -1,9 +1,8 @@
-from rest_framework.test import APIRequestFactory, APIClient
+from rest_framework.test import APIClient
 from hijri_calendar_app.models import HijriCalendar
 from django.test import TestCase
 from .views import HijriCalendarViewSet
 from rest_framework import status
-from rest_framework.test import APIClient
 
 
 class HijriCalendarAPITestCase(TestCase):
