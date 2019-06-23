@@ -5,7 +5,7 @@ This repo is created to display hijri calendar and Pakistani holidays via restfu
 Data is obtained from official [pakmoonsighting.com.pk] government website.
 
 ----
-[![Build Status](https://travis-ci.com/bilgrami/hijri-calendar.svg?branch=master)](https://travis-ci.com/bilgrami/hijri-calendar)
+[![Build Status](https://travis-ci.org/bilgrami/hijri-calendar.svg?branch=master)](https://travis-ci.org/bilgrami/hijri-calendar)
 
 ----
 
