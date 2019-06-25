@@ -1,15 +1,6 @@
 version: '3.7'
 
 services:
-  db:
-    image: postgres
-    volumes:
-      - postgres:/var/lib/postgresql/data
-    environment:
-      - "POSTGRES_USER=postgres"
-      - "POSTGRES_PASSWORD=docker"
-      - "POSTGRES_DB=postgres"
-
   web:
     image: bilgrami/hijricalendar:latest
     volumes:
@@ -43,6 +34,15 @@ services:
       - "ADMIN_EMAIL=admin_user@email.com"
       - "SSH_PORT=2222"
       - "REDIS_HOST=redis"
+
+  db:
+    image: postgres
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    environment:
+      - "POSTGRES_USER=postgres"
+      - "POSTGRES_PASSWORD=docker"
+      - "POSTGRES_DB=postgres"
 
   redis:
     container_name: 'redis'
