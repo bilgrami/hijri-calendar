@@ -43,23 +43,15 @@ steps:
   displayName: '$(app_name): Welcome Message'
 
 - script: |
-    echo Building docker image named [$(imageName)]
-    docker build --rm -f "Dockerfile" -t $(imageName) .
   displayName: '$(app_name): Build Docker image for Web container'
 
 - script: |
-    echo Bringing up containers
+    echo Building docker image [$(imageName)]
+    docker build --rm -f "Dockerfile" -t $(imageName) .
+    echo Bringing up containers and run tests
     docker-compose up -d
-  displayName: '$(app_name): Launch containers'
-
-
-- script: |
-    echo Running Init script
-    docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && chmod +x ./shell_scripts/init_script.sh && ./shell_scripts//init_script.sh'
-  displayName: '$(app_name): Run Init script on web container'
-
-- script: |
-    echo Running Tests
-    docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && python manage.py test'
-  displayName: '$(app_name): Run tests'
-  
+    echo Running Init script on web container
+    docker-compose exec web bash -c 'cd $(TARGET_PROJECT_FOLDER) && chmod +x ./shell_scripts/init_script.sh && ./shell_scripts//init_script.sh'
+    echo Running Tests on web container
+    docker-compose exec web bash -c 'cd $(TARGET_PROJECT_FOLDER) && python manage.py test'
+  displayName: '$(app_name): Build docker, Launch containers and run tests'
