@@ -55,8 +55,8 @@ steps:
     docker-compose up -d
 
     echo Running Init script on web container
-    docker-compose exec web -d bash -c 'cd $(TARGET_PROJECT_FOLDER) && chmod +x ./shell_scripts/init_script.sh && ./shell_scripts//init_script.sh'
+    docker-compose exec -d web bash -c 'cd $(TARGET_PROJECT_FOLDER) && chmod +x ./shell_scripts/init_script.sh && ./shell_scripts//init_script.sh'
 
     echo Running Tests on web container
-    docker-compose exec web -d bash -c 'cd $(TARGET_PROJECT_FOLDER) && python manage.py test'
+    docker-compose exec -d web bash -c 'cd $(TARGET_PROJECT_FOLDER) && python manage.py test'
   displayName: '$(app_name): Build docker, Launch containers and run tests'
