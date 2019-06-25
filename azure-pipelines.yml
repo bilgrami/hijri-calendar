@@ -1,0 +1,53 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  imageName: 'bilgrami/hijricalendar:$(build.buildId)'
+  app_name: Hijri Moon Calendar
+  WEBAPP_STORAGE_HOME: .
+  SERVER_PORT: 5000
+  TARGET_PROJECT_FOLDER: /usr/local/project/hijri_calendar_project
+  HOST_PROJECT_FOLDER: ./project/hijri_calendar_project
+  iPYTHON_NOTEBOOK_PORT: 8888
+  DATABASE_ENGINE: django.db.backends.postgresql
+  DATABASE_NAME: postgres
+  DATABASE_USER: postgres
+  DATABASE_PASSWORD: docker
+  DATABASE_HOST: db
+  DATABASE_PORT: 5432
+  SECRET_KEY: "!r71&*14evg0slrxi+lqkrl5uq%&-oz5=y@=6^7ck&wglssv_@;"
+  STATIC_URL: /static/
+  DEBUG: True
+  PROJECT_ROOT: /usr/local/project
+  PROJECT_NAME: hijri_calendar_project
+  CONFIG_ROOT: /usr/local/project/config
+  VIRTUAL_ENV: /usr/local/project/.virtualenvs/myproject_env
+  ADMIN_USER: admin
+  ADMIN_PASSWD: admin!23
+  ADMIN_EMAIL: admin_user@email.com
+  REDIS_HOST: redis
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: docker
+  POSTGRES_DB: postgres
+
+steps:
+- script: echo Azure Pipeline will build docker image and run tests for $(app_name)!
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo Building docker image named [$(imageName)]
+    docker build --rm -f "Dockerfile" -t $(imageName) .
+    displayName: 'docker build'
+
+- script: |
+    echo Bringing up containers
+    docker-compose up
+    displayName: 'docker-compose up'
