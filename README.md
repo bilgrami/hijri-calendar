@@ -9,6 +9,13 @@ Data is obtained from official [pakmoonsighting.com.pk] government website.
 
 ----
 
+## Important Links
+
+* [github repo] - GitHub repository contains source code of this repo
+* [docker repo] - Docker repository contains docker container image of this repo
+
+----
+
 ## Demo Links
 
 * [Pak Holidays Website] - Mooncalendar website is hosted on Azure Cloud Platform
@@ -223,3 +230,5 @@ Below is the list (ordered by priority)
 [Holiday API]: <http://mooncalendar.azurewebsites.net/api/v1/holiday/Christmas/?format=json>
 [docker-compose-sqlite-db.yml]: <docker-compose-sqlite-db.yml>
 [docker-compose-azure.yml]: <docker-compose-azure.yml>
+[github repo]: <https://github.com/bilgrami/hijri-calendar>
+[docker repo]: <https://cloud.docker.com/repository/docker/bilgrami/hijricalendar>
