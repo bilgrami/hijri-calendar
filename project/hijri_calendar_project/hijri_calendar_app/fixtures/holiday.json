@@ -1,219 +1,642 @@
 [
-    {
-        "model": "hijri_calendar_app.holiday",
-        "pk": "12 Rabi ul Awal",
-        "fields": {
-          "description": "Eid Milad-un-Nabi, also known as the Prophet Muhammad\u2019s birthday, is a public holiday in Pakistan. Sunni Muslims observe Milad-un-Nabi on 12 Rabi-ul-Awwal (third month of the Islamic calendar) while Shia Muslims observe it on 17 Rabi-ul-Awwal, coinciding with the birthdate of their sixth Imam Jafar-al-Sadiq.",
-          "hijri_day": 12,
-          "hijri_month": 3,
-          "day": null,
-          "month": null,
-          "origin": "Islamic",
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z",
-          "alias_names": [
-            "Eid Milad-un-Nabi"
-          ],
-          "country": [
-            "All",
-            "India",
-            "Pakistan"
-          ]
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holiday",
-        "pk": "Ashura",
-        "fields": {
-          "description": "Yom Ashura or Ashura (Arabic: \u0639\u0627\u0634\u0648\u0631\u0627\u0621\u200e \u02bb\u0100sh\u016br\u0101\u2019) is the tenth day of Mu\u1e25arram, the first month in the Islamic calendar. For the majority of Shia Muslims Ashura marks the climax of the Remembrance of Muharram,[3] and commemorates the death of Husayn ibn Ali, the grandson of the Islamic prophet Muhammad, at the Battle of Karbala on 10 Muharram in the year 61 AH (in AHt: October 10, 680 CE). Sunni Muslims have the same accounts of these events, but ceremonial mourning did not become a custom \u2013 although poems, eulogizing and recounting the events were and continue to be common. Mourning for the incident began almost immediately after the Battle of Karbala. Popular elegies were written by poets to commemorate the Battle of Karbala during the Umayyad and Abbasid era, and the earliest public mourning rituals occurred in 963 CE during the Buyid dynasty. In Afghanistan, Iran, Iraq, Lebanon, Bahrain, Bangladesh and Pakistan, Ashura has become a national holiday, and many ethnic and religious communities participate in it.\nIn Sunni Islam, Ashura also marks the day that Moses and the Israelites were saved from Pharaoh by God creating a path in the Sea, and is the Islamic equivalent to Yom Kippur. Other commemorations include Noah leaving the Ark and Muhammad's arrival in Medina.",
-          "hijri_day": 10,
-          "hijri_month": 1,
-          "day": null,
-          "month": null,
-          "origin": "Islamic",
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z",
-          "alias_names": [
-            "Ashura-e-Moharram",
-            "Yom Ashura",
-            "\u0639\u0627\u0634\u0648\u0631\u0627\u0621"
-          ],
-          "country": [
-            "All",
-            "India",
-            "Pakistan"
-          ]
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holiday",
-        "pk": "Christmas",
-        "fields": {
-          "description": "Christmas, a Christian holiday honoring the birth of Jesus, has evolved into a worldwide religious and secular celebration, incorporating many pre-Christian and pagan traditions into the festivities.",
-          "hijri_day": null,
-          "hijri_month": null,
-          "day": 25,
-          "month": 12,
-          "origin": "Christian",
-          "created": "2019-06-16T00:36:23.337Z",
-          "updated": "2019-06-16T00:36:23.337Z",
-          "alias_names": [
-            "Nativity"
-          ],
-          "country": [
-            "All"
-          ]
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holiday",
-        "pk": "Eid al Adha",
-        "fields": {
-          "description": "Eid al-Adha, also called the \"Festival of the Sacrifice\", is the second of two Islamic holidays celebrated worldwide each year, and considered the holier of the two. It honors the willingness of Ibrahim to sacrifice his son as an act of obedience to God's command.",
-          "hijri_day": 10,
-          "hijri_month": 12,
-          "day": null,
-          "month": null,
-          "origin": "Islamic",
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z",
-          "alias_names": [
-            "Baqar Eid",
-            "Bari Eid",
-            "Eid ul Azha"
-          ],
-          "country": [
-            "All",
-            "India",
-            "Pakistan"
-          ]
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holiday",
-        "pk": "Eid al Fitr",
-        "fields": {
-          "description": "Eid al-Fitr, also called the \"Festival of Breaking the Fast\", is a religious holiday celebrated by Muslims worldwide that marks the end of Ramadan, the Islamic holy month of fasting. This religious Eid is the first and only day in the month of Shawwal during which Muslims are not permitted to fast.",
-          "hijri_day": 1,
-          "hijri_month": 10,
-          "day": null,
-          "month": null,
-          "origin": "Islamic",
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z",
-          "alias_names": [
-            "Choti Eid",
-            "Eid ul Fitr",
-            "Meethi Eid"
-          ],
-          "country": [
-            "All",
-            "India",
-            "Pakistan"
-          ]
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holiday",
-        "pk": "Muharram",
-        "fields": {
-          "description": "Many Muslims in countries such as the United States observe the start of the Islamic New Year on the first day of Muharram, which is the first month in the Islamic calendar",
-          "hijri_day": 1,
-          "hijri_month": 1,
-          "day": null,
-          "month": null,
-          "origin": "Islamic",
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z",
-          "alias_names": [],
-          "country": [
-            "All"
-          ]
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holiday",
-        "pk": "Quaid-e-Azam Day",
-        "fields": {
-          "description": "It commemorates the birthday of Muhammad Ali Jinnah, who was a notable politician, founder of Pakistan and Pakistan's first Governor-General.",
-          "hijri_day": null,
-          "hijri_month": null,
-          "day": 25,
-          "month": 12,
-          "origin": "Pakistani",
-          "created": "2019-06-16T00:33:58.510Z",
-          "updated": "2019-06-16T00:33:58.510Z",
-          "alias_names": [
-            "Mohammad Ali Jinnah Birthday"
-          ],
-          "country": [
-            "Pakistan"
-          ]
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holiday",
-        "pk": "Ramadan",
-        "fields": {
-          "description": "Ramadan is the ninth month of the Islamic calendar, observed by Muslims worldwide as a month of fasting, prayer, reflection and community.",
-          "hijri_day": 1,
-          "hijri_month": 9,
-          "day": null,
-          "month": null,
-          "origin": "Islamic",
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z",
-          "alias_names": [
-            "Ramazan",
-            "Ramzan"
-          ],
-          "country": [
-            "All",
-            "India",
-            "Pakistan"
-          ]
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holiday",
-        "pk": "Shab e Barat",
-        "fields": {
-          "description": "",
-          "hijri_day": 15,
-          "hijri_month": 8,
-          "day": null,
-          "month": null,
-          "origin": "Islamic",
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z",
-          "alias_names": [],
-          "country": [
-            "All",
-            "India",
-            "Pakistan"
-          ]
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holiday",
-        "pk": "Shab e Meraj",
-        "fields": {
-          "description": "",
-          "hijri_day": 27,
-          "hijri_month": 7,
-          "day": null,
-          "month": null,
-          "origin": "Islamic",
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z",
-          "alias_names": [
-            "Miraj Shareef"
-          ],
-          "country": [
-            "All",
-            "India",
-            "Pakistan"
-          ]
-        }
-      }
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "12 Rabi ul Awal",
+    "fields": {
+      "description": "Eid Milad-un-Nabi, also known as the Prophet Muhammad\u2019s birthday, is a public holiday in Pakistan. Sunni Muslims observe Milad-un-Nabi on 12 Rabi-ul-Awwal (third month of the Islamic calendar) while Shia Muslims observe it on 17 Rabi-ul-Awwal, coinciding with the birthdate of their sixth Imam Jafar-al-Sadiq.",
+      "hijri_day": 12,
+      "hijri_month": 3,
+      "day": null,
+      "month": null,
+      "origin": "Islamic",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": true,
+      "is_cultural": false,
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-21T07:46:05.173Z",
+      "alias_names": [
+        "Eid Milad-un-Nabi"
+      ],
+      "country": [
+        "All",
+        "India",
+        "Pakistan"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Ashura",
+    "fields": {
+      "description": "Yom Ashura or Ashura (Arabic: \u0639\u0627\u0634\u0648\u0631\u0627\u0621\u200e \u02bb\u0100sh\u016br\u0101\u2019) is the tenth day of Mu\u1e25arram, the first month in the Islamic calendar. For the majority of Shia Muslims Ashura marks the climax of the Remembrance of Muharram,[3] and commemorates the death of Husayn ibn Ali, the grandson of the Islamic prophet Muhammad, at the Battle of Karbala on 10 Muharram in the year 61 AH (in AHt: October 10, 680 CE). Sunni Muslims have the same accounts of these events, but ceremonial mourning did not become a custom \u2013 although poems, eulogizing and recounting the events were and continue to be common. Mourning for the incident began almost immediately after the Battle of Karbala. Popular elegies were written by poets to commemorate the Battle of Karbala during the Umayyad and Abbasid era, and the earliest public mourning rituals occurred in 963 CE during the Buyid dynasty. In Afghanistan, Iran, Iraq, Lebanon, Bahrain, Bangladesh and Pakistan, Ashura has become a national holiday, and many ethnic and religious communities participate in it.\r\nIn Sunni Islam, Ashura also marks the day that Moses and the Israelites were saved from Pharaoh by God creating a path in the Sea, and is the Islamic equivalent to Yom Kippur. Other commemorations include Noah leaving the Ark and Muhammad's arrival in Medina.",
+      "hijri_day": 10,
+      "hijri_month": 1,
+      "day": null,
+      "month": null,
+      "origin": "Islamic",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": true,
+      "is_cultural": false,
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-21T07:47:49.593Z",
+      "alias_names": [
+        "Ashura-e-Moharram",
+        "Yom Ashura",
+        "\u0639\u0627\u0634\u0648\u0631\u0627\u0621"
+      ],
+      "country": [
+        "All",
+        "India",
+        "Pakistan"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Bengali New Year",
+    "fields": {
+      "description": "Pahela Baishakh or Bangla Noboborsho is the first day of Bengali calendar. It is celebrated on 14 April as a national holiday in Bangladesh and on 14 or 15 April in the Indian states of West Bengal, Tripura and parts of Assam and Odisha by people of Bengali heritage, irrespective of their religious faith.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 14,
+      "month": 4,
+      "origin": "Bangladeshi",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-21T18:39:32.821Z",
+      "updated": "2019-06-21T18:39:32.821Z",
+      "alias_names": [
+        "Bengali New Year"
+      ],
+      "country": [
+        "Bangladesh"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Canada Day",
+    "fields": {
+      "description": "Canada Day is the national day of Canada. A federal statutory holiday, it celebrates the anniversary of July 1, 1867, the effective date of the Constitution Act, 1867, which united the three separate colonies of the Province of Canada, Nova Scotia, and New Brunswick into a single Dominion within the British Empire called Canada.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 1,
+      "month": 7,
+      "origin": "Canadian",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-21T19:43:47.612Z",
+      "updated": "2019-06-21T19:43:47.612Z",
+      "alias_names": [
+        "Canada Day"
+      ],
+      "country": [
+        "Canada"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Christmas",
+    "fields": {
+      "description": "Christmas, a Christian holiday honoring the birth of Jesus, has evolved into a worldwide religious and secular celebration, incorporating many pre-Christian and pagan traditions into the festivities.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 25,
+      "month": 12,
+      "origin": "Christian",
+      "is_official": true,
+      "is_birthday": true,
+      "is_religious": true,
+      "is_cultural": false,
+      "created": "2019-06-16T00:36:23.337Z",
+      "updated": "2019-06-21T07:50:16.299Z",
+      "alias_names": [
+        "Nativity"
+      ],
+      "country": [
+        "All"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Eid al Adha",
+    "fields": {
+      "description": "Eid al-Adha, also called the \"Festival of the Sacrifice\", is the second of two Islamic holidays celebrated worldwide each year, and considered the holier of the two. It honors the willingness of Ibrahim to sacrifice his son as an act of obedience to God's command.",
+      "hijri_day": 10,
+      "hijri_month": 12,
+      "day": null,
+      "month": null,
+      "origin": "Islamic",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": true,
+      "is_cultural": false,
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-21T07:50:34.399Z",
+      "alias_names": [
+        "Baqar Eid",
+        "Bari Eid",
+        "Eid ul Azha"
+      ],
+      "country": [
+        "All",
+        "India",
+        "Pakistan"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Eid al Fitr",
+    "fields": {
+      "description": "Eid al-Fitr, also called the \"Festival of Breaking the Fast\", is a religious holiday celebrated by Muslims worldwide that marks the end of Ramadan, the Islamic holy month of fasting. This religious Eid is the first and only day in the month of Shawwal during which Muslims are not permitted to fast.",
+      "hijri_day": 1,
+      "hijri_month": 10,
+      "day": null,
+      "month": null,
+      "origin": "Islamic",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": true,
+      "is_cultural": false,
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-21T07:49:37.202Z",
+      "alias_names": [
+        "Choti Eid",
+        "Eid ul Fitr",
+        "Meethi Eid"
+      ],
+      "country": [
+        "All",
+        "India",
+        "Pakistan"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Gandhi Jayanti",
+    "fields": {
+      "description": "Gandhi Jayanti is a national festival celebrated in India to mark the birth anniversary of Mohandas Karamchand Gandhi born 2 October 1869. It is celebrated annually on 2 October, and it is one of the three national holidays of India.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 2,
+      "month": 10,
+      "origin": "Indian",
+      "is_official": true,
+      "is_birthday": true,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-21T19:21:26.129Z",
+      "updated": "2019-06-21T19:21:26.129Z",
+      "alias_names": [
+        "Gandhi Jayanti"
+      ],
+      "country": [
+        "India"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Independence Day",
+    "fields": {
+      "description": "Independence Day, observed annually on 14 August, is a national holiday in Pakistan. It commemorates the day when Pakistan achieved independence and was declared a sovereign state following the end of the British Raj in 1947.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 14,
+      "month": 8,
+      "origin": "Pakistani",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-20T16:24:44.820Z",
+      "updated": "2019-06-21T07:47:05.493Z",
+      "alias_names": [
+        "Independence Day"
+      ],
+      "country": [
+        "Pakistan"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Independence Day (Bangladesh)",
+    "fields": {
+      "description": "The Independence Day of Bangladesh, taking place on 26 March, is a national holiday. It commemorates the country's declaration of independence from Pakistan in the late hours of 25 March 1971 by the undisputed leader of the Nation Sheikh Mujibur Rahman.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 26,
+      "month": 3,
+      "origin": "Bangladeshi",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-21T18:36:42.019Z",
+      "updated": "2019-06-21T18:36:42.019Z",
+      "alias_names": [
+        "Independence Day (Bangladesh)"
+      ],
+      "country": [
+        "Bangladesh"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Independence Day (India)",
+    "fields": {
+      "description": "Independence Day is annually celebrated on 15 August, as a national holiday in India commemorating the nation's independence from the United Kingdom on 15 August 1947, the UK Parliament passed the Indian Independence Act 1947 transferring legislative sovereignty to the Indian Constituent Assembly.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 15,
+      "month": 8,
+      "origin": "Indian",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-21T19:07:41.914Z",
+      "updated": "2019-06-21T19:07:41.914Z",
+      "alias_names": [
+        "Independence Day (India)"
+      ],
+      "country": [
+        "India"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Independence Day (Mexico)",
+    "fields": {
+      "description": "Mexicans celebrate their country\u2019s Independence Day with fireworks, parties (fiestas), food, dance and music on September 16. Flags, flowers and decorations in the colors of the Mexican flag \u2013 red, white and green \u2013 are seen in public areas in cities and towns in Mexico. Whistles and horns are blown and confetti is thrown to celebrate this festive occasion. \"Viva Mexico\" or \"Viva la independencia\u201d are shouted amidst the crowds on this day.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 16,
+      "month": 9,
+      "origin": "Mexican",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-21T19:54:39.453Z",
+      "updated": "2019-06-21T19:55:20.163Z",
+      "alias_names": [
+        "Independence Day (Mexico)"
+      ],
+      "country": [
+        "Mexico"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Kashmir Day",
+    "fields": {
+      "description": "Kashmir Solidarity Day or Kashmir Day, is a national holiday in Pakistan and also observed by Kashmiri nationalists on 5 February each year.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 5,
+      "month": 2,
+      "origin": "Pakistani",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-18T17:55:54.100Z",
+      "updated": "2019-06-18T17:55:54.100Z",
+      "alias_names": [],
+      "country": [
+        "Pakistan"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Labor Day",
+    "fields": {
+      "description": "Labor Day is an annual holiday to celebrate the achievements of workers.  Labor Day has its origins in the labor union movement, specifically the eight-hour day movement, which advocated eight hours for work, eight hours for recreation, and eight hours for rest.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 1,
+      "month": 5,
+      "origin": "American",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-17T19:54:07.344Z",
+      "updated": "2019-06-17T19:54:07.344Z",
+      "alias_names": [
+        "Labour Day"
+      ],
+      "country": [
+        "All"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Lok Mela",
+    "fields": {
+      "description": "The festival presents a unique opportunity to watch the culture and craft of the whole country at one place. This Folk Festival is held for one week at Islamabad. It includes Folk Music, songs, music contests, folk dances, craftsmen at work, exhibition and sale of handicrafts. It is celebrated in the 1st week of October, for one week.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 1,
+      "month": 10,
+      "origin": "Pakistani",
+      "is_official": false,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": true,
+      "created": "2019-06-21T07:56:49.610Z",
+      "updated": "2019-06-21T07:56:49.610Z",
+      "alias_names": [],
+      "country": [
+        "Pakistan"
+      ],
+      "region": [
+        "Islamabad"
+      ]
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Muharram",
+    "fields": {
+      "description": "Many Muslims in countries such as the United States observe the start of the Islamic New Year on the first day of Muharram, which is the first month in the Islamic calendar",
+      "hijri_day": 1,
+      "hijri_month": 1,
+      "day": null,
+      "month": null,
+      "origin": "Islamic",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": true,
+      "is_cultural": false,
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-21T07:46:37.939Z",
+      "alias_names": [],
+      "country": [
+        "All"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "National Horse & Cattle Show",
+    "fields": {
+      "description": "Held at Fortress Stadium, Lahore. Cattle races, cattle dances, tent-pegging, tattoo show, folk music, dances, bands, cultural floats and folk games.  \r\nThe show has been described as an eloquent expression of Pakistan's heritage and an authentic account of its agricultural and industrial achievement's. It is held in Lahore Fortress stadium at the end of February or at First week of March. The fortress stadium, the venue of the show is thronged by active participants, foreign visitors and peoples who watch the festival with great enthusiasm, verve and aplomb. \r\n\r\nA large number of them are interested in watching and appreciating the best breeds of livestock. Many derive pleasure by watching other activities such as display parade of animals, dances by horses and camels, polo matches, tent pegging, dog shows and their races, vaudeville acts of stuntmen, mass display of military band, rhythmically physical exercise by the children. \r\n\r\nTastefully decorated industrial floats and torch light tattoo shows. Additional attractions include a subtle interplay of lights to weave enticing patterns at night and breath taking acts by foreign groups. The show began as a modest exhibition organized by the army to project the cattle wealth of the country in the early fifties. \r\n\r\nToday it is an international event to which come dignitaries from abroad and visitors and foreign tourists. The organizing committee comprises representatives of a number of agencies including army, rangers, LMC schools, the police, industrialists and the art councils.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 21,
+      "month": 11,
+      "origin": null,
+      "is_official": false,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": true,
+      "created": "2019-06-21T07:59:02.689Z",
+      "updated": "2019-06-21T07:59:02.689Z",
+      "alias_names": [],
+      "country": [
+        "Pakistan"
+      ],
+      "region": [
+        "Punjab"
+      ]
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "National Mourning Day",
+    "fields": {
+      "description": "August 15 marks a black chapter in the history of this country\u2014a day when the Father of the Nation, Bangabandhu Sheikh Mujibur Rahman, along with almost his entire family, was killed by a despicable group of people.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 15,
+      "month": 8,
+      "origin": "Bangladeshi",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-21T18:55:42.262Z",
+      "updated": "2019-06-21T18:55:42.262Z",
+      "alias_names": [
+        "National Mourning Day"
+      ],
+      "country": [
+        "Bangladesh"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Quaid-e-Azam Day",
+    "fields": {
+      "description": "It commemorates the birthday of Muhammad Ali Jinnah, who was a notable politician, founder of Pakistan and Pakistan's first Governor-General.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 25,
+      "month": 12,
+      "origin": "Pakistani",
+      "is_official": true,
+      "is_birthday": true,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-16T00:33:58.510Z",
+      "updated": "2019-06-21T07:38:09.710Z",
+      "alias_names": [
+        "Mohammad Ali Jinnah Birthday"
+      ],
+      "country": [
+        "Pakistan"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Ramadan",
+    "fields": {
+      "description": "Ramadan is the ninth month of the Islamic calendar, observed by Muslims worldwide as a month of fasting, prayer, reflection and community.",
+      "hijri_day": 1,
+      "hijri_month": 9,
+      "day": null,
+      "month": null,
+      "origin": "Islamic",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": true,
+      "is_cultural": false,
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-21T07:52:52.585Z",
+      "alias_names": [
+        "Ramazan",
+        "Ramzan"
+      ],
+      "country": [
+        "All",
+        "India",
+        "Pakistan"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Republic Day",
+    "fields": {
+      "description": "Republic Day honours the date on which the Constitution of India came into effect on 26 January 1950 replacing the Government of India Act as the governing document of India.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 26,
+      "month": 1,
+      "origin": "Indian",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-21T19:04:29.150Z",
+      "updated": "2019-06-21T19:05:38.396Z",
+      "alias_names": [
+        "Republic Day"
+      ],
+      "country": [
+        "India"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Shab e Barat",
+    "fields": {
+      "description": "",
+      "hijri_day": 15,
+      "hijri_month": 8,
+      "day": null,
+      "month": null,
+      "origin": "Islamic",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": true,
+      "is_cultural": false,
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-21T07:54:55.573Z",
+      "alias_names": [],
+      "country": [
+        "All",
+        "India",
+        "Pakistan"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Shab e Meraj",
+    "fields": {
+      "description": "",
+      "hijri_day": 27,
+      "hijri_month": 7,
+      "day": null,
+      "month": null,
+      "origin": "Islamic",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": true,
+      "is_cultural": false,
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-21T07:47:25.951Z",
+      "alias_names": [
+        "Miraj Shareef"
+      ],
+      "country": [
+        "All",
+        "India",
+        "Pakistan"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Shaheed Day",
+    "fields": {
+      "description": "Shaheed Day is observed as a National Mourning Day for Bangladesh which is held in memory of the students of Dhaka University who were killed on their battle to protect Bangla as their National language. It is also known to the citizens as Martyrs\u2019 Day and it is one of the most solemnly celebrated holidays in Bangladesh.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 21,
+      "month": 2,
+      "origin": "Indian",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-21T18:33:31.576Z",
+      "updated": "2019-06-21T18:33:31.578Z",
+      "alias_names": [
+        "Shaheed Day"
+      ],
+      "country": [
+        "Bangladesh"
+      ],
+      "region": []
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holiday",
+    "pk": "Victory Day",
+    "fields": {
+      "description": "Victory day is a national holiday in Bangladesh celebrated on December 16 to commemorate the victory of the allied forces over the Pakistani forces in the Bangladesh Liberation War in 1971.",
+      "hijri_day": null,
+      "hijri_month": null,
+      "day": 16,
+      "month": 12,
+      "origin": "Bangladeshi",
+      "is_official": true,
+      "is_birthday": false,
+      "is_religious": false,
+      "is_cultural": false,
+      "created": "2019-06-21T18:59:20.080Z",
+      "updated": "2019-06-21T18:59:20.080Z",
+      "alias_names": [
+        "Victory Day"
+      ],
+      "country": [
+        "Bangladesh"
+      ],
+      "region": []
+    }
+  }
 ]

@@ -1,0 +1,56 @@
+[
+    {
+        "model": "hijri_calendar_app.holidayregionlist",
+        "pk": "Gujrat",
+        "fields": {
+            "country": "India",
+            "created": "2019-06-21T07:35:20.866Z",
+            "updated": "2019-06-21T07:35:20.866Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayregionlist",
+        "pk": "Indian Punjab",
+        "fields": {
+            "country": "India",
+            "created": "2019-06-21T07:35:01.469Z",
+            "updated": "2019-06-21T07:35:01.469Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayregionlist",
+        "pk": "Islamabad",
+        "fields": {
+            "country": "Pakistan",
+            "created": "2019-06-21T07:55:20.421Z",
+            "updated": "2019-06-21T07:55:20.421Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayregionlist",
+        "pk": "Punjab",
+        "fields": {
+            "country": "Pakistan",
+            "created": "2019-06-21T07:33:49.677Z",
+            "updated": "2019-06-21T07:33:49.677Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayregionlist",
+        "pk": "Sindh",
+        "fields": {
+            "country": "Pakistan",
+            "created": "2019-06-21T07:34:01.001Z",
+            "updated": "2019-06-21T07:34:01.001Z"
+        }
+    },
+    {
+        "model": "hijri_calendar_app.holidayregionlist",
+        "pk": "Tamil",
+        "fields": {
+            "country": "India",
+            "created": "2019-06-21T07:34:11.784Z",
+            "updated": "2019-06-21T07:34:11.784Z"
+        }
+    }
+]

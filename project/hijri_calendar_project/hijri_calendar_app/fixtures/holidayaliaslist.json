@@ -1,122 +1,218 @@
 [
-    {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Ashura-e-Moharram",
-        "fields": {
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Baqar Eid",
-        "fields": {
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Bari Eid",
-        "fields": {
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Choti Eid",
-        "fields": {
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Eid Milad-un-Nabi",
-        "fields": {
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Eid ul Azha",
-        "fields": {
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Eid ul Fitr",
-        "fields": {
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Meethi Eid",
-        "fields": {
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Miraj Shareef",
-        "fields": {
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Mohammad Ali Jinnah Birthday",
-        "fields": {
-          "created": "2019-06-16T00:33:49.217Z",
-          "updated": "2019-06-16T00:33:49.217Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Nativity",
-        "fields": {
-          "created": "2019-06-16T00:36:16.407Z",
-          "updated": "2019-06-16T00:36:16.407Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Ramazan",
-        "fields": {
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Ramzan",
-        "fields": {
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "Yom Ashura",
-        "fields": {
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z"
-        }
-      },
-      {
-        "model": "hijri_calendar_app.holidayaliaslist",
-        "pk": "\u0639\u0627\u0634\u0648\u0631\u0627\u0621",
-        "fields": {
-          "created": "2019-06-14T00:00:00Z",
-          "updated": "2019-06-14T00:00:00Z"
-        }
-      }    
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Ashura-e-Moharram",
+    "fields": {
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Baqar Eid",
+    "fields": {
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Bari Eid",
+    "fields": {
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Bengali New Year",
+    "fields": {
+      "created": "2019-06-21T18:39:13.969Z",
+      "updated": "2019-06-21T18:39:13.969Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Canada Day",
+    "fields": {
+      "created": "2019-06-21T19:42:43.522Z",
+      "updated": "2019-06-21T19:42:43.522Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Choti Eid",
+    "fields": {
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Eid Milad-un-Nabi",
+    "fields": {
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Eid ul Azha",
+    "fields": {
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Eid ul Fitr",
+    "fields": {
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Gandhi Jayanti",
+    "fields": {
+      "created": "2019-06-21T19:20:57.440Z",
+      "updated": "2019-06-21T19:20:57.440Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Independence Day",
+    "fields": {
+      "created": "2019-06-20T16:24:26.479Z",
+      "updated": "2019-06-20T16:24:26.480Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Independence Day (Bangladesh)",
+    "fields": {
+      "created": "2019-06-21T18:35:44.757Z",
+      "updated": "2019-06-21T18:35:44.757Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Independence Day (India)",
+    "fields": {
+      "created": "2019-06-21T19:07:27.173Z",
+      "updated": "2019-06-21T19:07:27.173Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Independence Day (Mexico)",
+    "fields": {
+      "created": "2019-06-21T19:54:14.701Z",
+      "updated": "2019-06-21T19:54:14.701Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Labour Day",
+    "fields": {
+      "created": "2019-06-17T19:53:47.056Z",
+      "updated": "2019-06-17T19:53:47.056Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Meethi Eid",
+    "fields": {
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Miraj Shareef",
+    "fields": {
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Mohammad Ali Jinnah Birthday",
+    "fields": {
+      "created": "2019-06-16T00:33:49.217Z",
+      "updated": "2019-06-16T00:33:49.217Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "National Mourning Day",
+    "fields": {
+      "created": "2019-06-21T18:55:26.747Z",
+      "updated": "2019-06-21T18:55:26.747Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Nativity",
+    "fields": {
+      "created": "2019-06-16T00:36:16.407Z",
+      "updated": "2019-06-16T00:36:16.407Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Ramazan",
+    "fields": {
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Ramzan",
+    "fields": {
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Republic Day",
+    "fields": {
+      "created": "2019-06-21T19:05:28.512Z",
+      "updated": "2019-06-21T19:05:28.512Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Shaheed Day",
+    "fields": {
+      "created": "2019-06-21T18:32:52.791Z",
+      "updated": "2019-06-21T18:32:52.791Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Victory Day",
+    "fields": {
+      "created": "2019-06-21T18:59:04.843Z",
+      "updated": "2019-06-21T18:59:04.843Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "Yom Ashura",
+    "fields": {
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "hijri_calendar_app.holidayaliaslist",
+    "pk": "\u0639\u0627\u0634\u0648\u0631\u0627\u0621",
+    "fields": {
+      "created": "2019-06-14T00:00:00Z",
+      "updated": "2019-06-14T00:00:00Z"
+    }
+  }
 ]

@@ -3,7 +3,7 @@
 echo You are running script from $(pwd)
 python manage.py sqlflush  #| python ./manage.py dbshell
 python manage.py makemigrations
-# python manage.py migrate
+python manage.py migrate
 
 echo -----------------------------------------
 echo creating superuser [$ADMIN_USER], please wait ..
@@ -36,6 +36,7 @@ python manage.py loaddata data_file;
 python manage.py loaddata holidayaliaslist;
 python manage.py loaddata holidaycountrylist;
 python manage.py loaddata holidayoriginlist;
+python manage.py loaddata holidayregionlist;
 python manage.py loaddata holiday;
 python manage.py loaddata hijri_calendar_Y2019
 python manage.py loaddata hijri_calendar_Y2020;
