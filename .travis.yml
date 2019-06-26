@@ -15,29 +15,10 @@ before_install:
   /opt/startup; ./init_container.sh;"
 - docker ps -a
 script: cd ./project/hijri_calendar_project/ && python manage.py test;
-# env:
-# - REDIS_HOST=localhost
-# - DATABASE_HOST=localhost
-# - DATABASE_ENGINE=django.db.backends.postgresql
-# - DATABASE_NAME=travis_ci_test
-# - DATABASE_USER=postgres
-# - DATABASE_PASSWORD=
-# - DATABASE_PORT=5432
-# - HOST_PROJECT_FOLDER=./project/hijri_calendar_project
-# - TARGET_PROJECT_FOLDER=/usr/local/project/hijri_calendar_project
-# - STATIC_URL=/static/
-# - DEBUG=True
-# - SERVER_PORT=5000
-# - iPYTHON_NOTEBOOK_PORT=8888
-# - PROJECT_ROOT=/usr/local/project
-# - PROJECT_NAME=hijri_calendar_project
-# - CONFIG_ROOT=/usr/local/project/config
-# - VIRTUAL_ENV=/usr/local/project/.virtualenvs/myproject_env
-# - SSH_PORT=2222
-# # - ADMIN_USER
-# - secure: gJd206xCTLpNdvK3gOWNscd7to5D4pyvC/NlbcgoT2390oN5+8L8mGM/G65w1Zw1H0dOortCzKC7t5MlyO0HeD1NLvz5Kbc1eQDioxeNXcyhSfrL7SO94stxAJ+GmyRrn9HE0rkrvctjYDz36zPG7F6V5nPEmgwufSFl8d8xadQsdDKWoq6o0JpcqWhOBJB8x2tB5BmQtbrzG1G0mo6IkplJr++pbBS1nTFXrvOCgTvOKm0rfZ/qqTjg3S5vl/rRgJjRqYYFN6xT/TYt2v2S9nsEIsRkXpfymHWYVPTrEEnUBwcK8nB5Qn/lXRKZpjCPh6u2H7HHIwbdWZW3jU+a73STH+zu/yTP7X881fbZFxz6cWNkFqYK1B/G/goAmtRT8i9xJG87XVd+FqAKuG8ukeXr3rib8hdj2rWeMnUHrXnV1ZLY2uEsXZ/kDfe0Puxi8GyMnD/4DxgYMkIKinTvdGXxrCB2yChxOpruKDfDfgQn2QQnbh0coWNq4niII/mXSla6CtrdzUmzuFn6zyZwF1/Vsdlf8CFBmWvCr7DgUvTyM2kvnv9E99L0J/a49g6+ALS3VRx4i4DwF1LDPOsyKdsMtzCDXCCOlR6sEG/gMeM/XdRAF3CNvw8K4HqEl/OIlxaQMDppz6e49qEdnaB189iNQ6BF4/keuTuA2wBMOy8=
-# # - ADMIN_PASSWD
-# - secure: jAIdQhhArZOzjWlzCIjRnNEUrDGs4ZNBLJ671Lrd1Kpt3vFS8XF7tJ0Hiwt9tX5IDa2g8+DS/PvrPlHsJHTpqXkYugsaOE/krG0f9drxgd5LCGvDG529spsynTOuIdkvO5cygmw9F377P0IfNtklU2UFPMpibPFigBM6unfIELbRl8lKt3dPX6bUt+9qvfWVDKp9pUq5npkjM/7PG4kYVlX8OIb3GkwcT3eF1Wi//8OzIItTn2NhrCRB3qr8bNtFaoAB70WeRbSgRD4Dv68rbZf24Pp8IXZBjUquRXVc4uof6mFxcXqpuYQMp2/ZVvMOHTcnIHdsO6bDb0dBkGNzucZ+qJ7MqxK5LobAd63+BkVebzAIdgctd4badA3oQMr6fRw2/inXfWLXp+aTSoaimrv5gddAUSadPgSq0p7hS9CX/5/C8VxoIoMlN+wb2Lnp1Au4dsxJVVDa9uZqZwYNqIfMOk1wp0LU2LTh6AZB/IBNVt+EMnLXcfKsSqQTnACVDJOhbuluF9CgyeBl8t4pqWTX7gQ0r4csHMYkISDd+0NfTE2k/PVLK4p5X7K+G2WSZDXMb3+bf4enckRZh8cPKJONz+5XeWtj+DYBF/iUS8/z5Y4PaZ7g1hwmxhvlK0eC3TyukNzmiIC1CJWp3kxbeaAPSnKBgS2uH1dTnqrexVo=
-# # - ADMIN_EMAIL
-# - secure: WKz3eO3iWSsXcHjcLaOAajViMnWgKUCyFYybXo9snapi6AFq9U8C6VV0MLMRSca1nl+eeUmlLs5jyIAtB6IWMLodmNE0TqH00QaMkEmdVIbClhhbfqQgE/1IX6P9uXWOlyjNW3DoHqyl9UVcbCmYyVanPl95rbjMjxuVblgd2ODv9Nhyv64GmRAnmLCL0+3ex0oqFcnOf/TENh45EGPtBSPuv/1OAjSKl86nx3zktDpwoueUmjH0Pje/frjboioJqlEcZxvEgvEvJQvKziDEQeeJezOgxxgrLrSsugmaqbPZYKq+i5Oiyh669cktnUljzj2D7FKBAN66rmjLmwCrG6NWTIJX8m/zux4IW4x9sQPjqmFLv/dmz8HNFZr0tIyr6MpQQKnuVJuRsO+RN0zErcIwamVPgJGY/jA9c036RgKvtg933jKXlgunXuWrc/ITyHeL5mxdwGokx/as6HBoOdBBjLmEY8M871O/7AuRXpvCMpSW+wsv0UJn9V4tgrggtsbo27A0c4bnktG3vDB9lCREYt46O/mbg3Dnaj5pxjLsNW9pjOWMypQ/AldLE9TjMM+iCEcrFcxLJW0rtACzU4oGMngKQIPMTOYhyJXTxn+tvdCb7vDjV0jLWJF57Pv+Kf4WZAMJuD/Dc4EOBh17rcHKVXNHpzla25C6G3y8mvs=
 
+deploy:
+  - provider: script
+    script: bash shell_scripts/docker-build-deploy.sh
+    on:
+      branch: master
+    skip_cleanup: true

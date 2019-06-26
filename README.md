@@ -107,7 +107,7 @@ You can host this website using Azure Web app.
 
 #### 1) Docker compose YAML files for hosting on Azure
 
-* Use [docker-compose-sqllite-db.yml] YAML to run the container on Azure with sqllite Db
+* Use [docker-compose-sqlite-db.yml] YAML to run the container on Azure with sqlite Db
 * Use [docker-compose-azure.yml] YAML to run the container on Azure with postgres Db
 
 #### 2) Azure container settings
@@ -221,5 +221,5 @@ Below is the list (ordered by priority)
 [Calendar API]: <https://mooncalendar.azurewebsites.net/api/v1/calendar/>
 [List of Holidays]: <https://mooncalendar.azurewebsites.net/holiday/>
 [Holiday API]: <http://mooncalendar.azurewebsites.net/api/v1/holiday/Christmas/?format=json>
-[docker-compose-sqllite-db.yml]: <docker-compose-sqllite-db.yml>
+[docker-compose-sqlite-db.yml]: <docker-compose-sqlite-db.yml>
 [docker-compose-azure.yml]: <docker-compose-azure.yml>
