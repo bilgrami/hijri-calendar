@@ -8,6 +8,7 @@ services:
 env:
   global:
     - IMAGE_NAME=bilgrami/hijricalendar
+    - PROJECT_FOLDER=./project/hijri_calendar_project/
 
 python:
 - '3.7'
@@ -21,7 +22,7 @@ before_install:
 - docker run -d -p 127.0.0.1:80:5000 ${IMAGE_NAME} /bin/sh -c "cd
   /opt/startup; ./init_container.sh;"
 - docker ps -a
-script: cd ./project/hijri_calendar_project/ && python manage.py test;
+script: cd $(PROJECT_FOLDER) && python manage.py test;
 after_script:
   - docker images
 
