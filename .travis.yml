@@ -13,6 +13,7 @@ python:
 - '3.7'
 before_script:
 - version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
+- echo Product version is ${version};
 - docker pull "$IMAGE_NAME" || true  
 - psql -c 'create database travis_ci_test;' -U postgres
 before_install:
@@ -22,9 +23,6 @@ before_install:
   /opt/startup; ./init_container.sh;"
 - docker ps -a
 script:
-- bash 'echo Product version ${version};'
-- echo Product version - ${version};
-- echo Product version -- $PRODUCT_VERSION;
 - cd ./project/hijri_calendar_project;
 - python manage.py test;
 after_script:
