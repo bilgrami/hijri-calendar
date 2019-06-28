@@ -7,6 +7,8 @@ Data is obtained from official [pakmoonsighting.com.pk] government website.
 ----
 [![Build Status](https://travis-ci.org/bilgrami/hijri-calendar.svg?branch=master)](https://travis-ci.org/bilgrami/hijri-calendar)
 
+[![Coverage Status](https://coveralls.io/repos/github/bilgrami/hijri-calendar/badge.svg?branch=master)](https://coveralls.io/github/bilgrami/hijri-calendar?branch=master)
+
 ----
 
 ## Important Links

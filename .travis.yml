@@ -25,9 +25,11 @@ before_install:
 script:
 - cd ./project/hijri_calendar_project;
 - python manage.py test;
+- coverage run --source=. manage.py test
 after_script:
   - docker images
-
+after_success:
+  - coveralls
 before_deploy:
 - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASS"
 - docker tag "$IMAGE_NAME" "${IMAGE_NAME}:latest"
