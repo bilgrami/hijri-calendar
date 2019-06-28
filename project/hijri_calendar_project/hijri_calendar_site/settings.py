@@ -160,6 +160,9 @@ STATICFILES_DIR = (
 )
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+# Media files
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 NOTEBOOK_ARGUMENTS = [
     # '--notebook-dir', 'notebooks',
@@ -203,11 +206,11 @@ ADMIN_SHELL_ONLY_FOR_SUPERUSER = True
 ADMIN_SHELL_ONLY_DEBUG_MODE = True
 
 # REDIS settings
-REDIS_HOST = env('REDIS_HOST', 'redis')
+REDIS_HOST = env('REDIS_HOST', 'localhost')
 REDIS_PORT = 6379
 REDIS_DB = 0
 # REDIS_CACHE_LOCATION = "redis://redis:6379/0",
-REDIS_CACHE_LOCATION = "redis://" + env('REDIS_HOST', 'redis') + ":6379/0"
+REDIS_CACHE_LOCATION = f"redis://{REDIS_HOST}:{REDIS_PORT}/0"
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",

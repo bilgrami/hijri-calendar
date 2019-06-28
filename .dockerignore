@@ -15,3 +15,4 @@ LICENSE
 __pycache__
 config/web_azuredb.env
 docker-compose-azure.yml
+docker/volumes/

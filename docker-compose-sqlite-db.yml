@@ -4,8 +4,9 @@ services:
   web:
     image: bilgrami/hijricalendar:latest
     volumes:
-      - ./project/hijri_calendar_project:/usr/local/project/hijri_calendar_project
+      - ${HOST_PROJECT_FOLDER}:${TARGET_PROJECT_FOLDER}
       - ${WEBAPP_STORAGE_HOME}/docker/volumes/webdata:/usr/local/project/hijri_calendar_project/data
+      - ${WEBAPP_STORAGE_HOME}/docker/volumes/media:/usr/local/project/hijri_calendar_project/media
 
     ports:
       - "5000:5000"

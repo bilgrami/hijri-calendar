@@ -5,6 +5,7 @@ services:
     image: bilgrami/hijricalendar:latest
     volumes:
       - ${WEBAPP_STORAGE_HOME}/docker/volumes/webdata:/usr/local/project/hijri_calendar_project/data
+      # - data:/usr/local/project/hijri_calendar_project/data
 
     ports:
       - "5000:5000"
@@ -51,6 +52,7 @@ services:
       - "6579:6379"
     volumes:
       - "${WEBAPP_STORAGE_HOME}/docker/volumes/redisdata:/data"
+      # - "data:/data"
 
 volumes:
   postgres:

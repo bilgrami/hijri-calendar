@@ -12,4 +12,6 @@ DROP TABLE hijri_calendar_app_hijricalendar CASCADE;
 DROP TABLE hijri_calendar_app_holiday_alias_names CASCADE;
 DROP TABLE hijri_calendar_app_holiday_country CASCADE;
 DROP TABLE hijri_calendar_app_hijricalendar_holiday_list CASCADE;
+DROP TABLE hijri_calendar_app_holiday_region CASCADE;
+DROP TABLE hijri_calendar_app_holidayregionlist CASCADE;
 */

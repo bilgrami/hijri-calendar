@@ -1,6 +1,9 @@
-from django.contrib.auth.models import User
+from datetime import datetime
+
+from django.conf import settings
 from django.db import models
 from django.utils import timezone
+
 # from django.urls import reverse
 from .managers import HolidayCalendarManager
 
@@ -35,15 +38,27 @@ month_choices = [
 ]
 
 
+def data_file_directory_path(instance, filename):
+    # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
+    folder = datetime.today().strftime('%Y')
+    file_prefix = datetime.today().strftime('%Y-%m-%d')
+    user = f'{instance.loaded_by.id}-{instance.loaded_by}'
+    file_name = f'{file_prefix}-{user}-{filename}'
+    return 'datafiles/{0}/{1}'.format(folder, file_name)
+
+
 class DataFile(models.Model):
     file_name = models.CharField(max_length=30, unique=True, primary_key=True)
     file_type = models.CharField(max_length=20)
     date_loaded = models.DateTimeField("File Load Date", default=timezone.now)
-    loaded_by = models.ForeignKey(User, related_name='loaded_data_files',
+    loaded_by = models.ForeignKey(settings.AUTH_USER_MODEL,
+                                  related_name='loaded_data_files',
                                   on_delete=models.SET_NULL,
                                   null=True, blank=True)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
+    upload = models.FileField(upload_to=data_file_directory_path,
+                              null=True, blank=True)
 
     def __str__(self):
         return self.file_name
