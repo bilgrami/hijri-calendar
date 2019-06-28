@@ -23,7 +23,7 @@ before_install:
   /opt/startup; ./init_container.sh;"
 - docker ps -a
 script:
-- echo Product version $(PRODUCT_VERSION);
+- echo Product version $PRODUCT_VERSION;
 - cd ./project/hijri_calendar_project;
 - python manage.py test;
 after_script:
