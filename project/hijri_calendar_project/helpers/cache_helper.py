@@ -2,13 +2,39 @@ import redis
 from django.conf import settings
 
 
+class DummyRedisCacheFactory(object):
+    def __init__(self, key_prefix):
+        self.key_prefix = key_prefix
+        print(f"{key_prefix} - Using Dummy Redis cache ..")
+
+    def incr(self, key):
+        pass
+
+    def delete(self, key):
+        pass
+
+    def flushdb(self):
+        pass
+
+    def keys(self, *args, **kwargs):
+        pass
+
+    def scan_iter(self, *args, **kwargs):
+        return []
+
+
 class CacheHelper(object):
 
     def __init__(self, key_prefix):
-        # connect to redis
-        self.r = redis.StrictRedis(host=settings.REDIS_HOST,
-                                   port=settings.REDIS_PORT,
-                                   db=settings.REDIS_DB)
+        if settings.USING_DUMMY_CACHE:
+            self.r = DummyRedisCacheFactory()
+        else:
+            # connect to redis
+            self.r = redis.StrictRedis(host=settings.REDIS_HOST,
+                                       port=settings.REDIS_PORT,
+                                       db=settings.REDIS_DB)
+            print(f"{key_prefix} - Using Redis cache ..")
+
         self.key_prefix = key_prefix
 
     def get_key(self, key):
