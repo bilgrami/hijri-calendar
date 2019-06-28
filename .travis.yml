@@ -13,6 +13,7 @@ python:
 - '3.7'
 before_script:
 - version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
+- echo 'Product version - ${version}'  
 - docker pull "$IMAGE_NAME" || true  
 - psql -c 'create database travis_ci_test;' -U postgres
 before_install:
@@ -31,7 +32,7 @@ before_deploy:
 - docker tag "$IMAGE_NAME" "${IMAGE_NAME}:${version}"
 deploy:
   provider: script
-  script: docker push "${IMAGE_NAME}:latest" && docker push "${IMAGE_NAME}:${version}"
+  script: docker push "${IMAGE_NAME}" && docker push "${IMAGE_NAME}:latest" && docker push "${IMAGE_NAME}:${version}"
   on:
       branch: master
   skip_cleanup: true

@@ -19,4 +19,8 @@ docker push "$image_full_name";
 echo "Push finished!";
 
 exit 0;
+
+# docker build --rm -f "Dockerfile" -t bilgrami/hijricalendar:latest .
+# docker push bilgrami/hijricalendar:latest
 # docker run --rm -it -p 5000:5000/tcp $image_full_name
+# docker run -it --entrypoint bash -p 5000:5000/tcp bilgrami/hijricalendar:latest
