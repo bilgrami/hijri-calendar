@@ -27,7 +27,7 @@ class CacheHelper(object):
 
     def __init__(self, key_prefix):
         if settings.USING_DUMMY_CACHE:
-            self.r = DummyRedisCacheFactory()
+            self.r = DummyRedisCacheFactory(key_prefix)
         else:
             # connect to redis
             self.r = redis.StrictRedis(host=settings.REDIS_HOST,

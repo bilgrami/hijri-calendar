@@ -210,12 +210,13 @@ if DATABASES['default']['ENGINE'] == 'django.db.backends.sqlite3':
     USING_DUMMY_CACHE = True
     CACHES = {
         'default': {
-            'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+            # 'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+            'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
             }
     }
 else:
     USING_DUMMY_CACHE = False
-    
+
     # REDIS settings
     REDIS_HOST = env('REDIS_HOST', 'localhost')
     REDIS_PORT = 6379
