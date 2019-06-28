@@ -16,14 +16,15 @@ before_script:
 - docker pull "$IMAGE_NAME" || true  
 - psql -c 'create database travis_ci_test;' -U postgres
 before_install:
-- echo 'Product version - $(PRODUCT_VERSION)'  
 - docker --version
 - docker build -t ${IMAGE_NAME} .
 - docker run -d -p 127.0.0.1:80:5000 ${IMAGE_NAME} /bin/sh -c "cd
   /opt/startup; ./init_container.sh;"
 - docker ps -a
 script:
-- echo Product version $PRODUCT_VERSION;
+- bash 'echo Product version ${version};'
+- echo Product version - ${version};
+- echo Product version -- $PRODUCT_VERSION;
 - cd ./project/hijri_calendar_project;
 - python manage.py test;
 after_script:
