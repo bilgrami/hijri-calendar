@@ -13,10 +13,11 @@ python:
 - '3.7'
 before_script:
 - version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
-- echo 'Product version - ${version}'  
+- echo 'Product version - $(PRODUCT_VERSION)'  
 - docker pull "$IMAGE_NAME" || true  
 - psql -c 'create database travis_ci_test;' -U postgres
 before_install:
+- echo 'Product version - $(PRODUCT_VERSION)'  
 - docker --version
 - docker build -t ${IMAGE_NAME} .
 - docker run -d -p 127.0.0.1:80:5000 ${IMAGE_NAME} /bin/sh -c "cd
