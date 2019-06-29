@@ -48,12 +48,14 @@ jobs:
           username: $DOCKER_USERNAME
           password: $DOCKER_PASSWORD 
     steps:
+     - checkout
      - run:
           name: Deploy to docker hub
           environment:
             IMAGE_NAME: bilgrami/hijricalendar
           command: |      
             set -x
+            ls -al
             version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
             echo Product version is ${version};
             docker tag "$IMAGE_NAME" "${IMAGE_NAME}:latest"
