@@ -14,9 +14,9 @@ jobs:
           name: Start containers and run tests
           environment:
             IMAGE_NAME: bilgrami/hijricalendar
-            version: 0.1.3
           command: |      
             set -x
+            version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
             echo Product version is ${version};
             docker version # detailed version info for docker
             docker-compose version # detailed version info for docker-compose
