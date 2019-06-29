@@ -16,8 +16,6 @@ jobs:
             IMAGE_REPO: bilgrami/hijricalendar
           command: |      
             set -x
-            version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
-            echo Product version is ${version};
             docker version # detailed version info for docker
             docker-compose version # detailed version info for docker-compose
             docker pull "$IMAGE_REPO" || true
@@ -31,6 +29,9 @@ jobs:
           environment:
             IMAGE_REPO: bilgrami/hijricalendar
           command: | 
+            set -x
+            version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
+            echo Product version is ${version};
             docker tag "$IMAGE_REPO" "${IMAGE_REPO}:latest"
             docker tag "$IMAGE_REPO" "${IMAGE_REPO}:${version}"
             docker push "${IMAGE_REPO}:latest"
