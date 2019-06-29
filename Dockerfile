@@ -1,5 +1,5 @@
 FROM bilgrami/python-base:latest
-LABEL Name=hijricalendar Version=0.1.4 maintainer="Syed Bilgrami <bilgrami@gmail.com>"
+LABEL Name=hijricalendar Version=0.1.4.1 maintainer="Syed Bilgrami <bilgrami@gmail.com>"
 
 
 ARG PROJECT_ROOT=/usr/local/project
@@ -55,6 +55,6 @@ RUN chmod -R +x /opt/startup \
 
 ENV SSH_PORT 2222
 EXPOSE 80 2222
-ENV PRODUCT_VERSION 0.1.4
+ENV PRODUCT_VERSION 0.1.4.1
 
 ENTRYPOINT ["/opt/startup/init_container.sh"]
