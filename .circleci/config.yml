@@ -28,6 +28,8 @@ jobs:
             docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && coverage run --source=. manage.py test'
       - run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
       - run:
+          environment:
+            IMAGE_REPO: bilgrami/hijricalendar
           command: | 
             docker tag "$IMAGE_REPO" "${IMAGE_REPO}:latest"
             docker tag "$IMAGE_REPO" "${IMAGE_REPO}:${version}"
