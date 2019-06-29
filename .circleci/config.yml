@@ -34,11 +34,12 @@ jobs:
           command: |      
             set -x
             echo Product version is ${version};
+            docker version
             docker pull "$IMAGE_NAME" || true
-            docker --versiondocker build -t ${IMAGE_NAME} .
+            docker build -t ${IMAGE_NAME} .
             docker compose up -d
             docker ps -a
             docker run -d -p 127.0.0.1:80:5000 ${IMAGE_NAME} /bin/sh -c "cd /opt/startup; ./init_container.sh;"
             cd ./project/hijri_calendar_project;
             python manage.py test;
-            # - coverage run --source=. manage.py test
+            coverage run --source=. manage.py test
