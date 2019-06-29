@@ -34,7 +34,7 @@ commands:
       - run: docker push "${IMAGE_NAME}:${version}"
       - run: docker images
       - run: echo Goodbye
-
+ 
 executors:
   my-executor:
     docker:
@@ -45,6 +45,8 @@ executors:
 
 jobs:
   build:
+    -machine:
+      image: ubuntu-1604:201903-01
     executor: my-executor
     environment:
       IMAGE_NAME: bilgrami/hijricalendar
