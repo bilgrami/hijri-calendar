@@ -30,13 +30,13 @@ after_script:
   - docker images
 after_success:
   - coveralls
-before_deploy:
-- docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASS"
-- docker tag "$IMAGE_NAME" "${IMAGE_NAME}:latest"
-- docker tag "$IMAGE_NAME" "${IMAGE_NAME}:${version}"
-deploy:
-  provider: script
-  script: docker push "${IMAGE_NAME}:latest" && docker push "${IMAGE_NAME}:${version}"
-  on:
-      branch: master
-  skip_cleanup: true
+# before_deploy:
+# - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASS"
+# - docker tag "$IMAGE_NAME" "${IMAGE_NAME}:latest"
+# - docker tag "$IMAGE_NAME" "${IMAGE_NAME}:${version}"
+# deploy:
+#   provider: script
+#   script: docker push "${IMAGE_NAME}:latest" && docker push "${IMAGE_NAME}:${version}"
+#   on:
+#       branch: master
+  # skip_cleanup: true
