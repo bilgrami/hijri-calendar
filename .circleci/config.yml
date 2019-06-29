@@ -41,7 +41,7 @@ executors:
           password: $DOCKER_PASSWORD 
 
 jobs:
-  build-job:
+  build:
     executor: my-executor
     environment:
       IMAGE_NAME: bilgrami/hijricalendar
