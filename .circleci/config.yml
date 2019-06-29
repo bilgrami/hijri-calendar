@@ -1,0 +1,38 @@
+version: 2.0
+jobs:
+  build:
+    working_directory: ~/project/hijri_calendar_project
+    docker:
+      - image: bilgrami/hijricalendar # primary container for the build job
+    steps:
+      - run:
+          name: Getting code
+          command: |
+            - checkout
+            - echo '^^^ Files ^^^            
+            - ls -al
+      - run:
+          name: Install Docker Compose
+          command: |
+            curl -L https://github.com/docker/compose/releases/download/1.19.0/docker-compose-`uname -s`-`uname -m` > ~/docker-compose
+            chmod +x ~/docker-compose
+            sudo mv ~/docker-compose /usr/local/bin/docker-compose
+      - setup_remote_docker
+      - run:
+          name: Start container and verify it is working
+          environment:
+            IMAGE_NAME: bilgrami/hijricalendar
+            version: 0.1.3
+          command: |      
+            - echo Product version is ${version};
+            - docker pull "$IMAGE_NAME" || true  
+            - psql -c 'create database travis_ci_test;' -U postgres
+            - docker --version
+            - docker build -t ${IMAGE_NAME} .
+            - docker compose up -d
+            - docker ps -a
+            - docker run -d -p 127.0.0.1:80:5000 ${IMAGE_NAME} /bin/sh -c "cd
+              /opt/startup; ./init_container.sh;"
+            - cd ./project/hijri_calendar_project;
+            - python manage.py test;
+            # - coverage run --source=. manage.py test
