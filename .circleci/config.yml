@@ -42,9 +42,6 @@ jobs:
   #           docker images
   #           echo Goodbye
   deploy:
-    machine:
-        enabled: true
-        image: ubuntu-1604:201903-01
     docker:
       - image: bilgrami/hijricalendar
         auth:
