@@ -1,70 +1,37 @@
-version: 2.1
-commands: 
-  build-command:
-    steps:
-      - checkout
-      - run: set -x
-      - run: version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
-      - run: echo Product version is ${version};
-      - run: docker version # detailed version info for docker
-      - run: docker-compose version # detailed version info for docker-compose
-      - run: docker pull "$IMAGE_NAME" || true
-      - run: docker build -t ${IMAGE_NAME} .
-      - run: docker-compose up -d
-      - run: docker ps
-  runtest-command:
-    steps:
-      - checkout
-      - run: set -x
-      - run: version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
-      - run: echo Product version is ${version};
-      - run: docker ps
-      - run: docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && python manage.py test'
-      - run: docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && coverage run --source=. manage.py test'
-  deploy-command:
-    steps:
-      - checkout
-      - run: set -x
-      - run: version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
-      - run: echo Product version is ${version};
-      - run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-      - run: docker tag "$IMAGE_NAME" "${IMAGE_NAME}:latest"
-      - run: docker tag "$IMAGE_NAME" "${IMAGE_NAME}:${version}"
-      - run: docker push "${IMAGE_NAME}:latest"
-      - run: docker push "${IMAGE_NAME}:${version}"
-      - run: docker images
-      - run: echo Goodbye
- 
-executors:
-  my-executor:
-    docker:
-      - image: bilgrami/hijricalendar
-        auth:
-          username: $DOCKER_USERNAME
-          password: $DOCKER_PASSWORD 
-
+version: 2.0
 jobs:
   build:
-    -machine:
+    machine:
       image: ubuntu-1604:201903-01
-    executor: my-executor
-    environment:
-      IMAGE_NAME: bilgrami/hijricalendar
     steps:
-      - build-command
-      - runtest-command
-      - deploy-command
-
- 
-# workflows:
-#   version: 2
-#   build-and-deploy:
-#     jobs:
-#       - build
-#       - deploy:
-#           requires:
-#             - build
-#           filters:
-#             branches:
-#               only: master
- 
+      - checkout
+      - run:
+          name: Getting code
+          command: |
+            echo '^^^ Code Files ^^^'
+            ls -al
+      - run:
+          name: Start containers and run tests
+          environment:
+            IMAGE_REPO: bilgrami/hijricalendar
+          command: |      
+            set -x
+            version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
+            echo Product version is ${version};
+            docker version # detailed version info for docker
+            docker-compose version # detailed version info for docker-compose
+            docker pull "$IMAGE_REPO" || true
+            docker build -t ${IMAGE_REPO} .
+            docker-compose up -d
+            docker ps
+            docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && python manage.py test'
+            docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && coverage run --source=. manage.py test'
+      - run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+      - run:
+          command: | 
+            docker tag "$IMAGE_REPO" "${IMAGE_REPO}:latest"
+            docker tag "$IMAGE_REPO" "${IMAGE_REPO}:${version}"
+            docker push "${IMAGE_REPO}:latest"
+            docker push "${IMAGE_REPO}:${version}"
+            docker images
+      - run: echo Goodbye
