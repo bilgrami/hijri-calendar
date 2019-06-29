@@ -2,6 +2,7 @@ version: 2.1
 commands: 
   build-command:
     steps:
+      - checkout
       - run: set -x
       - run: version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
       - run: echo Product version is ${version};
@@ -13,6 +14,7 @@ commands:
       - run: docker ps
   runtest-command:
     steps:
+      - checkout
       - run: set -x
       - run: version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
       - run: echo Product version is ${version};
@@ -21,6 +23,7 @@ commands:
       - run: docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && coverage run --source=. manage.py test'
   deploy-command:
     steps:
+      - checkout
       - run: set -x
       - run: version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
       - run: echo Product version is ${version};
@@ -62,3 +65,4 @@ jobs:
 #           filters:
 #             branches:
 #               only: master
+ 
