@@ -11,6 +11,7 @@ omit =
     .vscode/*
     env/*
     env*
+    helpers/*
 [report]
 exclude_lines =
     pragma: no cover

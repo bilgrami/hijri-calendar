@@ -8,7 +8,8 @@ from hijri_calendar_app.models import (DataFile, HijriCalendar, Holiday,
 class DataFileSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = DataFile
-        fields = ('url', 'file_name', 'file_type')
+        fields = ('url', 'file_name', 'file_type', 'loaded_by',
+                  'date_loaded', 'upload', 'created', 'updated')
 
 
 class HolidayAliasListSerializer(serializers.HyperlinkedModelSerializer):
