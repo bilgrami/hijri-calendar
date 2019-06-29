@@ -1,8 +1,6 @@
 version: 2.1
 commands: 
   build-command:
-    environment:
-      IMAGE_NAME: bilgrami/hijricalendar
     steps:
       - run: set -x
       - run: version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
@@ -14,8 +12,6 @@ commands:
       - run: docker-compose up -d
       - run: docker ps
   runtest-command:
-    environment:
-      IMAGE_NAME: bilgrami/hijricalendar
     steps:
       - run: set -x
       - run: version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
@@ -24,8 +20,6 @@ commands:
       - run: docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && python manage.py test'
       - run: docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && coverage run --source=. manage.py test'
   deploy-command:
-    environment:
-      IMAGE_NAME: bilgrami/hijricalendar
     steps:
       - run: set -x
       - run: version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
@@ -49,6 +43,8 @@ executors:
 jobs:
   build-job:
     executor: my-executor
+    environment:
+      IMAGE_NAME: bilgrami/hijricalendar
     steps:
       - build-command
       - runtest-command
