@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.envFile": "${workspaceFolder}/.virtualenvs",
+		"workbench.colorTheme": "Kimbie Dark",
+		"git.postCommitCommand": "push",
+		"editor.tabCompletion": "on"
+	}
+}
