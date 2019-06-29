@@ -9,7 +9,7 @@ jobs:
           name: Getting code
           command: |
             - checkout
-            - echo '^^^ Files ^^^            
+            - echo '^^^ Files ^^^'
             - ls -al
       - run:
           name: Install Docker Compose
