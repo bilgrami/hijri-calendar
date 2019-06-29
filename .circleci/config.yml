@@ -24,8 +24,10 @@ jobs:
             docker ps
             docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && python manage.py test'
             docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && coverage run --source=. manage.py test'
+            docker-compose down
       - run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
       - run:
+          name: Deploy to docker hub
           environment:
             IMAGE_REPO: bilgrami/hijricalendar
           command: | 
