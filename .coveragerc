@@ -11,7 +11,8 @@ omit =
     .vscode/*
     env/*
     env*
-    helpers/*
+    project/hijri_calendar_project/helpers/*
+
 [report]
 exclude_lines =
     pragma: no cover
