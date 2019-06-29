@@ -5,10 +5,10 @@ jobs:
     docker:
       - image: bilgrami/hijricalendar # primary container for the build job
     steps:
+      - checkout
       - run:
           name: Getting code
           command: |
-            checkout
             echo '^^^ Files ^^^'
             ls -al
       - run:
