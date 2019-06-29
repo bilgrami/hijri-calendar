@@ -26,7 +26,29 @@ jobs:
             docker ps
             docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && python manage.py test'
             docker-compose exec web bash -c 'cd /usr/local/project/hijri_calendar_project && coverage run --source=. manage.py test'
-      - run:
+  #     - run:
+  #         name: Deploy to docker hub
+  #         environment:
+  #           IMAGE_NAME: bilgrami/hijricalendar
+  #         command: |      
+  #           set -x
+  #           version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
+  #           echo Product version is ${version};
+  #           echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  #           docker tag "$IMAGE_NAME" "${IMAGE_NAME}:latest"
+  #           docker tag "$IMAGE_NAME" "${IMAGE_NAME}:${version}"
+  #           docker push "${IMAGE_NAME}:latest"
+  #           docker push "${IMAGE_NAME}:${version}"
+  #           docker images
+  #           echo Goodbye
+  deploy:
+    docker:
+      - image: bilgrami/hijricalendar
+        auth:
+          username: $DOCKER_USERNAME
+          password: $DOCKER_PASSWORD 
+    steps:
+     - run:
           name: Deploy to docker hub
           environment:
             IMAGE_NAME: bilgrami/hijricalendar
@@ -34,10 +56,10 @@ jobs:
             set -x
             version="$(awk '$2 == "PRODUCT_VERSION" { print $3; exit }' Dockerfile)"
             echo Product version is ${version};
-            echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
             docker tag "$IMAGE_NAME" "${IMAGE_NAME}:latest"
             docker tag "$IMAGE_NAME" "${IMAGE_NAME}:${version}"
             docker push "${IMAGE_NAME}:latest"
             docker push "${IMAGE_NAME}:${version}"
             docker images
             echo Goodbye
+ 
