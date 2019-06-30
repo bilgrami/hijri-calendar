@@ -86,6 +86,7 @@ class HolidayCountryList(models.Model):
 
     class Meta:
         verbose_name = "Holiday Country"
+        verbose_name_plural = "Holiday Countries"
 
 
 class HolidayRegionList(models.Model):
@@ -114,6 +115,7 @@ class HolidayAliasList(models.Model):
 
     class Meta:
         verbose_name = "Holiday Alias"
+        verbose_name_plural = "Holiday Aliases"
 
 
 class Holiday(models.Model):
